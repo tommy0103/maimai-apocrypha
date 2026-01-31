@@ -1,0 +1,99 @@
+{
+  "id": "kawaii2",
+  "name": "可爱区域2",
+  "comment": "这次遇到的Mixer们，似乎居住在深海，甚至高高的山顶上。",
+  "area": "这是一个关于为了逃离大海啸而与其他种族混合，幸存下来的种族所居住的世界的故事。",
+  "youtubeID": "tUQgCgVjZ0c",
+  "characters": [
+    {
+      "name": "Suzume",
+      "summary": "与色彩斑斓的鱼类基因融合的Mixer。他毕生致力于从被视为禁忌的海中都市遗迹中，寻找与时尚相关的遗物。",
+      "title1": "喜欢",
+      "item1": "色彩鲜艳的漂亮物品",
+      "title2": "讨厌",
+      "item2": "规矩",
+      "title3": "兴趣",
+      "item3": ":探索禁忌地带",
+      "serif": "漂亮的条纹披风可是我的标志哟～♪",
+      "team": "改造双鱼座",
+      "illustrator": "gaogao",
+      "img": "01"
+    },
+    {
+      "name": "Padozar",
+      "summary": "随着海平面上升，与机械融合并将住所迁移到高山或岩山而幸存下来的一族。他作为山脉向导，自由自在地穿梭于山中，并以能比任何人更有力地攀登陡峭悬崖的双腿为傲。",
+      "title1": "喜欢",
+      "item1": "日出时喝的茶",
+      "title2": "讨厌",
+      "item2": "雨天",
+      "title3": "兴趣",
+      "item3": "地图绘制",
+      "serif": "这一带的观察完毕……下一个！",
+      "team": "纳米机械电子学",
+      "illustrator": "織平",
+      "img": "02"
+    },
+    {
+      "name": "Okuto",
+      "summary": "与灯笼章鱼基因融合，在受大海啸影响较小的黑暗深海中幸存下来的种族。他虽胆小但擅长捉迷藏，来到如游乐园般欢乐的浅滩玩耍。",
+      "title1": "喜欢",
+      "item1": "Paparapara Beach",
+      "title2": "讨厌",
+      "item2": "长老的说教",
+      "title3": "兴趣",
+      "item3": "在遗迹中拾取【闪闪发光】的物品来装饰衣服",
+      "serif": "闪闪发光～好棒～哦！☆",
+      "team": "改造双鱼座",
+      "illustrator": "寺田てら",
+      "img": "03"
+    },
+    {
+      "name": "Amo",
+      "summary": "山顶常年覆盖着如棉花糖般的雪……Amo的一族就居住在那里。他们融入了不怕寒冷的萨摩耶犬基因，本该都又大又毛茸茸！……但事实似乎并非如此？",
+      "title1": "喜欢",
+      "item1": "冰雪节",
+      "title2": "讨厌",
+      "item2": "辣椒",
+      "title3": "兴趣",
+      "item3": "唱歌跳舞！",
+      "serif": "虽然我是最小的～，但梦想比谁都大哟～♪",
+      "team": "改造动物",
+      "illustrator": "上倉エク",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "真空都市",
+      "artist": "Nanatsukaze",
+      "movie": "Akame, Dappii",
+      "illustrator": "gaogao",
+      "songsummary": "拥有漂亮颜色和条纹的Suzume。偶然间，她误入了沉没着灭亡过去文明的海域，得知古时曾有“时尚”这种想法，并产生了憧憬。对于妈妈说海洋中拥有漂亮颜色是“生存战略”的话，她无法认同。Suzume决心将遥远过去的“时尚”这种想法和文化，传播给大家。",
+      "thumbnail": "kawaii2-01"
+    },
+    {
+      "songtitle": "Eternal Return",
+      "artist": "Tatsunoshin & Aira Arere",
+      "movie": "Akame, Dappii",
+      "illustrator": "織平",
+      "songsummary": "在荒凉岩壁连绵的山脊上，朝阳挥洒着朱红色的画笔。Padozar喜欢这黑色岩场被染成一片橙色的瞬间。作为山脉向导，他攀登过许多山，但这里是族中无人曾登顶的精灵山山顶。唯有这冰封岩山闪耀的景色，一定从大海啸之前就未曾改变。他在手边的平板电脑上写下新的路线，深深地吸了一口气。",
+      "thumbnail": "kawaii2-02"
+    },
+    {
+      "songtitle": "Paparapara Beach",
+      "artist": "Paparapara Beach",
+      "movie": "yksb(KAZE Lab)",
+      "illustrator": "寺田てら",
+      "songsummary": "比谁都胆小，却超喜欢快乐的事情！对于这样的自己，Okuto曾感到困扰。没错，直到遇见了那个【Paparapara Beach】！在因与深海鱼玩捉迷藏而误入的浅滩上，那个闪闪发光的地方，玻璃工艺的灯光照亮鱼影，低音炮的重低音振动着周围。Okuto在与舞者一起随着节奏舞动时，不知不觉就乘着海流隧道飞出了海面。",
+      "thumbnail": "kawaii2-03"
+    },
+    {
+      "songtitle": "Get U ♭ack",
+      "artist": "Ryo Fukuda",
+      "movie": "Waffue",
+      "illustrator": "上倉エク",
+      "songsummary": "村里的人们都非常巨大，大家都毛茸茸的！……本该如此，但Amo是个瘦小的小女孩（虽然也是毛茸茸的啦）。但是，村里的祭典少不了她。毕竟，她是用歌舞让大家快乐的高手。村里留下的玻璃塔闪耀着，覆盖着白雪的广场上施了魔法。旋转不停的奇妙乘坐工具，以及五颜六色的圆形物体飞上天空的景象，让村民们欢呼起来。在这无法触及的景色中，Amo轻快地踏着舞步。",
+      "thumbnail": "kawaii2-04"
+    }
+  ]
+}

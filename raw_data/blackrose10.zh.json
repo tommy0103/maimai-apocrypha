@@ -1,0 +1,105 @@
+{
+  "id": "blackrose10",
+  "name": "BLACK ROSE 区域10",
+  "comment": "在拉佩尔特斯医疗院接连发生的离奇事件。\nOwl 他们能否解开谜团？",
+  "area": "Jack 在追查黑蔷薇病痊愈的传闻时失踪了。接着，医疗院内发生了坠亡事件。然后，还有 Eleonora 的过去。这些看似无关的事件，逐渐汇集于某个意图之下。",
+  "youtubeID": "0eNvp2ZLiIs",
+  "characters": [
+    {
+      "name": "Fossanoah",
+      "summary": "拉佩尔特斯医疗院的院长。他委托自己曾经的学生 Clemence，希望其调查朋友的死，以及那位可能与之有关的失踪者的去向。",
+      "title1": "身高",
+      "item1": "173.5cm",
+      "title2": "生日",
+      "item2": "12月24日",
+      "title3": "血型",
+      "item3": "A",
+      "serif": "我必须保持『院长』的身份才行。",
+      "team": "拉佩尔特斯医疗院",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "Dio Tis Tiffany",
+      "summary": "医疗院附属学校的学生，隶属于细胞研究科，对人体构造抱有超乎寻常的浓厚兴趣。由于语速极快，与他对话相当费劲。",
+      "title1": "身高",
+      "item1": "178cm",
+      "title2": "生日",
+      "item2": "6月8日",
+      "title3": "血型",
+      "item3": "AB",
+      "serif": "你、你希望……被塑造成什么样子呢？",
+      "team": "拉佩尔特斯医疗院",
+      "illustrator": "しきみ",
+      "img": "02"
+    },
+    {
+      "name": "Clemence（Agent）",
+      "summary": "应曾经的学生 Fossanoah 之托，前来拉佩尔特斯医疗院进行调查。然而，面对接连发生的诡异事件，他向 Owl 请求了协助。",
+      "title1": "身高",
+      "item1": "182cm",
+      "title2": "生日",
+      "item2": "2月14日",
+      "title3": "血型",
+      "item3": "AB",
+      "serif": "喜欢吗？这种『暗号』。",
+      "team": "？",
+      "illustrator": "しきみ",
+      "img": "03"
+    },
+    {
+      "name": "Eleonora（Agent）",
+      "summary": "对 Owl 收到的委托产生了兴趣，决定一同前往。在 Owl 侦探事务所里，她被视为『狂野的修女』，但事实真是如此吗？",
+      "title1": "身高",
+      "item1": "158cm",
+      "title2": "生日",
+      "item2": "7月7日",
+      "title3": "血型",
+      "item3": "A",
+      "serif": "不需要一位临时助手吗ー？",
+      "team": "Owl 侦探事务所（暂定）",
+      "illustrator": "しきみ",
+      "img": "04"
+    },
+    {
+      "name": "Dios（天使）",
+      "summary": "据说是创立了拉佩尔特斯医疗院的有翼之人。传说祂在各个时代借用人形现身于院内，为人们传授智慧。",
+      "title1": "身高",
+      "item1": "188cm",
+      "title2": "生日",
+      "item2": "5月21日",
+      "title3": "血型",
+      "item3": "不明",
+      "serif": "果然，要构筑名为『心』的东西，真是困难啊。",
+      "team": "？",
+      "illustrator": "しきみ",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "地狱",
+      "artist": "164 feat.ELISA・小林太郎",
+      "movie": "ツツミヒデアキ",
+      "illustrator": "しきみ",
+      "songsummary": "在宣称能治愈黑蔷薇病的拉佩尔特斯医疗院，发生了一系列猎奇事件。\n\n开始调查的 Owl 一行人面前，接连出现了身上长出石头的受害者们。而每次现场留下的不可思议的计数与镜子碎片，不知为何让 Owl 想起了小时候 Tristan 设下的那个『游戏』。\n\n有所隐瞒的院长、在院内消失的职员，以及个性鲜明的学生们。\n犯人是谁？目的又是什么？",
+      "thumbnail": "blackrose10-1"
+    },
+    {
+      "songtitle": "Sister Sister",
+      "artist": "せきこみごはん",
+      "movie": "kotose",
+      "illustrator": "しきみ",
+      "songsummary": "出现在年幼的 Eleonora 面前的，是一位美貌的青年。\n\n她有时会想，或许他的出现，正是改变那个平凡村庄生活的契机。也曾想过，他是不是预见到了那无法逃脱的悲剧，才现身的呢……但至今从未说出口。\n明明就在身边，却都在某处恐惧着去真正理解彼此。\n\n凝视着镜中已与『姐姐』同龄的自己，Eleonora 回想起了过去。",
+      "thumbnail": "blackrose10-2"
+    },
+    {
+      "songtitle": "有明/Ariake",
+      "artist": "SIINCA",
+      "movie": "kotose",
+      "illustrator": "しきみ",
+      "songsummary": "这是一段绝不会被传颂的神话物语。\n\n在厌恶中长大的孩子，为了将一切奉献给唯一善待自己的人，挑起了战争。漫长的战争中，众多神灵受伤、倒下、消失无踪。\n\n多么可怕、令人毛骨悚然的荒凉景象。\n一个洋溢着黑色喜悦的男人，在其中悠然前行。\n\n在那神殿深处，他所看见的，究竟是什么呢？",
+      "thumbnail": "blackrose10-3"
+    }
+  ]
+}

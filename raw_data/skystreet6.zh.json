@@ -1,0 +1,99 @@
+{
+  "id": "skystreet6",
+  "name": "Sky Street 区域6",
+  "comment": "现在与未来。在遥远隔绝的世界尽头，他们终于直面彼此。",
+  "area": "Sky Street 的新篇章，Episode 0。",
+  "youtubeID": "zqzV9aY62Uw",
+  "characters": [
+    {
+      "name": "Akatsuki",
+      "summary": "Akatsuki 得知世界曾多次重复『不同的世界线』。然而，当他理解到追寻多条时间之线的并非只有自己一人时，他开始思考事件的根源。",
+      "title1": "身高",
+      "item1": "174cm",
+      "title2": "生日",
+      "item2": "12月8日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "从这里开始才是故事的序章吧？",
+      "team": "Sky Street",
+      "illustrator": "らくちー",
+      "img": "01"
+    },
+    {
+      "name": "Kohaku",
+      "summary": "刻在容易被人忽视的小小墓碑上的，是晓家的纹章。看到这个的Noah说道：『这个纹章，我知道。』『Akatsuki曾经告诉过我……这是』",
+      "title1": "身高",
+      "item1": "163cm",
+      "title2": "生日",
+      "item2": "9月7日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "不顾一切地前进吧……\r\nNoah",
+      "team": "Sky Street",
+      "illustrator": "らくちー",
+      "img": "02"
+    },
+    {
+      "name": "天空之王",
+      "summary": "司掌风暴的双子兄长。他是继承了金属秘术和族长之名的优秀人物，却憎恨着深得民心的弟弟。",
+      "title1": "身高",
+      "item1": "不明",
+      "title2": "生日",
+      "item2": "不明",
+      "title3": "年龄",
+      "item3": "不明",
+      "serif": "就告诉民众，他是利用了秘石的力量，发动了谋反……这样就好。",
+      "team": "Yama",
+      "illustrator": "fzwrAym",
+      "img": "03"
+    },
+    {
+      "name": "大地之王",
+      "summary": "司掌丰饶的双子弟弟。他继承了聆听神谕之血。自幼仰慕兄长，誓言要支持他。",
+      "title1": "身高",
+      "item1": "不明",
+      "title2": "生日",
+      "item2": "不明",
+      "title3": "年龄",
+      "item3": "不明",
+      "serif": "不要悲伤。在后世，轮回时光的尽头，我们定会再会。",
+      "team": "Yama",
+      "illustrator": "fzwrAym",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "悖论前夕",
+      "artist": "Teary Planet",
+      "movie": "しょうけい",
+      "illustrator": "しょくむら",
+      "songsummary": "『你傻吗？敌众我寡，悬殊太大了。Akatsuki你……就是这样的人。』\r\n『……别说了，我已经不能再时间移动了。』\r\n\r\nC204的基础理论已经扩散到全世界，但王牌『时之沙』依然在这里。\r\n真是的，究竟是哪个家伙创造出这么麻烦的东西。真想抱怨几句。都怪这个，我现在被迫做出选择。是给他施加诅咒，还是不施加。\r\n\r\n身体流失了太多血。时间不多了。在无法说话之前，我下定了决心。\r\n『答应我。无论出于什么理由，使用了C204穿越时间的Akatsuki，有义务见证这个世界直到最后。一定要，直到最后，亲眼见证，这该死的，诅……』\r\n这无异于诅咒。一个让他孤独一人，满身悔恨，无论多么渴望都无法再次追寻我的诅咒。\r\n\r\n最后，我想把他的面容烙印在眼中，却未能如愿，坠入了黑暗。",
+      "thumbnail": "skystreet6-1"
+    },
+    {
+      "songtitle": "YKWTD",
+      "artist": "r-906",
+      "movie": "安倉、K島",
+      "illustrator": "fzwrAym",
+      "songsummary": "在遥远的过去，一个名为Yama的国家诞生了一对双胞胎。\r\n\r\n兄长拥有加工金属的智慧，弟弟则具备与神对话的力量。\r\n这正是继承领导一族『血统』的证明。",
+      "thumbnail": "skystreet6-2"
+    },
+    {
+      "songtitle": "184亿次的多调性",
+      "artist": "Pizuya's Cell feat.中村さん",
+      "movie": "桜井貴志",
+      "illustrator": "らくちー",
+      "songsummary": "我们应该寻找的，是不辜负彼此试图拯救的『自我』的方法。\r\n是将错误的过去逐一确实地抹去的方法。\r\n像能干的特工一样，再次向着最美好的结局进发吧！",
+      "thumbnail": "skystreet6-3"
+    },
+    {
+      "songtitle": "尽头之空，我们所见之光。",
+      "artist": "TAKU1175 ft.駄々子",
+      "movie": "aco、SkyStreet Stories",
+      "illustrator": "萩森じあ、SkyStreet Stories",
+      "songsummary": "将逆行的时钟打碎，\r\n再次相逢，紧紧拥抱，我想说出口。\r\n\r\n『谢谢你』。",
+      "thumbnail": "skystreet6-4"
+    }
+  ]
+}
