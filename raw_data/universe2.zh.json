@@ -1,0 +1,111 @@
+{
+  "id": "universe2",
+  "name": "宇宙站2",
+  "area": "Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发光的姿态，Milk每天都梦想着能和她一起唱歌喵～…但是，Milk突然注意到了实现那个梦想的方法。…那就是（如果Milk也成为偶像，就能和Shama站在同一个舞台上了喵！）既然这么决定了，那就特训特训！即使面对严酷的考验，Milk也凭借牛奶力量克服了。而今天，终于站上了出道舞台。但是，在满场观众面前，却无法像平时一样表演了…？",
+  "youtubeID": "LRouvsVKsE0",
+  "characters": [
+    {
+      "name": "Chibi Milk",
+      "summary": "憧憬着Shama的小猫。她带着Shama的官方商品，黑色猫猫包上挂着Shama钥匙扣，在宇宙站区域蹦蹦跳跳地散步。她是个为了梦想能一直线努力的前进者，相信只要喝牛奶就能快快长大。",
+      "title1": "身高",
+      "item1": "100cm",
+      "title2": "生日",
+      "item2": "6月25日",
+      "title3": "年龄",
+      "item3": "5岁",
+      "serif": "Milk也要成为超级偶像喵～☆",
+      "team": "Shama牛奶",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "SD『Shama』",
+      "summary": "超级偶像『Shama』的官方商品角色。有钥匙扣、星空色包包等多种商品展开，Milk也爱用着。",
+      "title1": "",
+      "item1": "",
+      "title2": "",
+      "item2": "",
+      "title3": "",
+      "item3": "",
+      "serif": "",
+      "team": "Shama牛奶",
+      "illustrator": "SEGA",
+      "img": "02",
+      "class": "SDshama"
+    },
+    {
+      "name": "SD『Milk』",
+      "summary": "新人偶像『Milk』的官方商品角色。有钥匙扣、喵喵钥匙饰品等，据说那位超级偶像Shama也爱用？",
+      "title1": "",
+      "item1": "",
+      "title2": "",
+      "item2": "",
+      "title3": "",
+      "item3": "",
+      "serif": "",
+      "team": "Shama牛奶",
+      "illustrator": "SEGA",
+      "img": "03",
+      "class": "SDmilk"
+    },
+    {
+      "name": "金色牛奶瓶",
+      "summary": "宇宙站牧场据说罕见出产的幻之稀有牛奶。能获得绝佳美味和成长效果的高级品。如果找到了就是幸运，建议立刻购买。",
+      "title1": "",
+      "item1": "",
+      "title2": "",
+      "item2": "",
+      "title3": "",
+      "item3": "",
+      "serif": "",
+      "team": "宇宙站牧场",
+      "illustrator": "SEGA",
+      "img": "04",
+      "class": "goldmilk"
+    },
+    {
+      "name": "Joker",
+      "summary": "随着哀愁的旋律出现，但回过神来就会被其内藏的狡猾而硬核的角色所玩弄。擅长与纤细身体相称的超高速移动和扑克魔术。",
+      "title1": "身高",
+      "item1": "秘密",
+      "title2": "生日",
+      "item2": "秘密",
+      "title3": "年龄",
+      "item3": "秘密",
+      "serif": "オーマイガー！",
+      "team": "maimaiGreeN",
+      "illustrator": "SEGA",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "银河星・流星",
+      "artist": "烏屋茶房 feat. 利香",
+      "movie": "ツツミヒデアキ（STUDIO KAIBA）",
+      "songsummary": "『今晚让我们前往银河的彼岸吧♪』在这个会场粉丝摇晃的光芒比星空更加闪闪发光的地方，Milk决定要和Shama一起站在这里的那天喵！旁边唱歌的Shama好像只有Milk能理解一样，偷偷地眯起眼睛微笑。仿佛她也一直在等待这个瞬间似的，Milk开心起来。直到刚才还因为紧张而无法跟上音符的声音，现在和Shama一起的话，感觉能传达到银河的尽头，Milk向星星许愿，希望就这样一直歌唱下去。",
+      "thumbnail": "universe2-1"
+    },
+    {
+      "songtitle": "ｉｓｏｐｈｏｔｅ",
+      "artist": "パソコン音楽クラブ feat.ぷにぷに電機",
+      "movie": "サム・yozba",
+      "songsummary": "",
+      "thumbnail": "universe2-2"
+    },
+    {
+      "songtitle": "巅峰☆秀时间！！",
+      "artist": "翡乃イスカ",
+      "movie": "マスティ",
+      "songsummary": "",
+      "thumbnail": "universe2-3"
+    },
+    {
+      "songtitle": "Strive against fate",
+      "artist": "Noah",
+      "movie": "あるし",
+      "songsummary": "",
+      "thumbnail": "universe2-4"
+    }
+  ]
+}

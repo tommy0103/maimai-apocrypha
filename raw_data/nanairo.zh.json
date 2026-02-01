@@ -1,0 +1,125 @@
+{
+  "id": "nanairo",
+  "name": "七色区域",
+  "comment": "闪耀着七色光芒的宝石，\r\n点缀得区域闪闪发亮、美丽无比！",
+  "area": "在误入的门扉之中……？ Milk 和 Salt 能平安逃脱吗？",
+  "youtubeID": "NXc5t41G6-I",
+  "characters": [
+    {
+      "name": "Salt（Prism）",
+      "summary": "Shama 为 Salt 换上了魔法少女的服装。可是，在陪伴 Milk 练习魔法的过程中，Salt 不小心闯入了一个陌生的地方。",
+      "title1": "喜欢的东西",
+      "item1": "CAFÉ MiLK、鱼、面包",
+      "title2": "特技",
+      "item2": "无论在哪儿都能入睡",
+      "title3": "梦想",
+      "item3": "用苍之小麦粉烤面包",
+      "serif": "这扇门连接着各种各样的地方",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Milk（Prism）",
+      "summary": "Milk 被 Shama 变成了魔法少女的装扮，她干劲满满！ 在努力用魔法降下鲭鱼雨时，却误入了一个奇怪的地方。",
+      "title1": "喜欢的东西",
+      "item1": "牛奶、鲭鱼",
+      "title2": "特技",
+      "item2": "借助牛奶的力量变成大人！",
+      "title3": "梦想",
+      "item3": "想成为魔法师！",
+      "serif": "希望下一扇门后面，\r\n是个有很多鱼的国家喵！",
+      "team": "Oshama Milk",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Shama（歌姬夜风暴）",
+      "summary": "夜风暴的夜晚，其魅力在于演唱会随时随地从各处开始。因为整个城市都是舞台！ 热情的粉丝们，今晚也为了寻找演唱会场地而聚集在夜间的街道上。",
+      "title1": "喜欢的东西",
+      "item1": "让女孩子变得可爱！",
+      "title2": "特技",
+      "item2": "什么事都能办到的实力派",
+      "title3": "梦想",
+      "item3": "将 Oshama 牛乳推广至全宇宙",
+      "serif": "笑着冲过去吧！",
+      "team": "Oshama Milk",
+      "illustrator": "丸千代",
+      "img": "03"
+    },
+    {
+      "name": "Milk（歌姬夜风暴）",
+      "summary": "只需放大器和吉他，再加上两人的歌声，那里便是最棒的演唱会场地。今晚，从台阶上传来的歌声，也响彻云霄，不输给巨大的风暴。",
+      "title1": "喜欢的东西",
+      "item1": "和 Shama 酱一起唱歌！",
+      "title2": "特技",
+      "item2": "多亏牛奶，精力100%",
+      "title3": "梦想",
+      "item3": "拥有好身材",
+      "serif": "歌姬大人驾到！",
+      "team": "Oshama Milk",
+      "illustrator": "丸千代",
+      "img": "04"
+    },
+    {
+      "name": "Salt（Prism Plus）",
+      "summary": "Salt 和 Milk 接连穿过神奇的门扉和环状的窗户，不断前进。不久，他们听到了各种人的低语，两人侧耳倾听，但……？",
+      "title1": "身高",
+      "item1": "142cm",
+      "title2": "生日",
+      "item2": "8月23日",
+      "title3": "年龄",
+      "item3": "12岁",
+      "serif": "……好像有谁遇到困难了",
+      "team": "CAFÉ MiLK",
+      "illustrator": "やみや",
+      "img": "05"
+    },
+    {
+      "name": "Milk（Prism Plus）",
+      "summary": "Milk 和 Salt 一起穿过彩色门扉，继续冒险。打开最后一扇门时，那里站着一位身穿黑色天鹅绒礼服的美丽少女。",
+      "title1": "身高",
+      "item1": "157cm",
+      "title2": "生日",
+      "item2": "6月25日",
+      "title3": "年龄",
+      "item3": "10岁",
+      "serif": "遇到困难的话，\r\n就交给魔法师喵！",
+      "team": "Oshama Milk",
+      "illustrator": "やみや",
+      "img": "06"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Fraq",
+      "artist": "owl＊tree feat. Benz",
+      "movie": "aco",
+      "illustrator": "やみや",
+      "songsummary": "每次在家玩 maimai 时，总会遇到一些熟悉的面孔。年龄相仿，Rating 也差不多，挑战课题曲的时机也相近。长时间在同一个空间里，进行着同样的战斗。因此，不知不觉间就产生了亲近感。排队等待游玩时（这次，究竟谁会第一个打开钥匙，赢得“Clear”的标志呢？）……不禁这样想着。",
+      "thumbnail": "nanairo-1"
+    },
+    {
+      "songtitle": "歌姬夜风暴",
+      "artist": "yowanecity feat.Eye",
+      "movie": "淘々",
+      "illustrator": "丸千代",
+      "songsummary": "『暴风警报中！』最接近你的心。沉迷于警戒中。即使播音员高声警告，我们的脚步还是朝着风暴正中心的歌姬风暴前进。因为心早已被那闪闪发光的势力卷入，早已无法自拔。",
+      "thumbnail": "nanairo-2"
+    },
+    {
+      "songtitle": "Feel The Luv",
+      "artist": "EmoCosine",
+      "movie": "misokabocha",
+      "songsummary": "『开心♪』『悲伤↓』『喜欢♡』『讨厌！』无论何时，这个地方都因各种骰子的点数而热闹非凡。你发现的是从未知晓的新骰子点数。系上丝带，作为礼物送给重要的自己。",
+      "thumbnail": "nanairo-3"
+    },
+    {
+      "songtitle": "Åntinomiε",
+      "artist": "ああ…翡翠茶漬け…",
+      "movie": "マスティ",
+      "songsummary": "Deluxekuma 打开门扉，跳进去后看到的是……？",
+      "thumbnail": "nanairo-4"
+    }
+  ]
+}

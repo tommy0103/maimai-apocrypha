@@ -1,0 +1,147 @@
+[
+  {
+    "id": "hapifes2",
+    "text": "ハピフェスちほー2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "blackrose8",
+    "text": "BLACK ROSEちほー8",
+    "version": "festivalplus"
+  },
+  {
+    "id": "skystreet4",
+    "text": "スカイストリートちほー4",
+    "version": "festivalplus"
+  },
+  {
+    "id": "dragon2",
+    "text": "ドラゴンちほー2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "hapifes",
+    "text": "ハピフェスちほー",
+    "version": "festival"
+  },
+  {
+    "id": "blackrose7",
+    "text": "BLACK ROSEちほー7",
+    "version": "festival"
+  },
+  {
+    "id": "metropolis6",
+    "text": "メトロポリスちほー6",
+    "version": "festival"
+  },
+  {
+    "id": "skystreet3",
+    "text": "スカイストリートちほー3",
+    "version": "festival"
+  },
+  {
+    "id": "heaven6",
+    "text": "天界ちほー6",
+    "version": "festival"
+  },
+  {
+    "id": "universe2",
+    "text": "宇宙すてーしょんちほー2",
+    "version": "universeplus"
+  },
+  {
+    "id": "blackrose6",
+    "text": "BLACK ROSEちほー6",
+    "version": "universeplus"
+  },
+  {
+    "id": "metropolis5",
+    "text": "メトロポリスちほー5",
+    "version": "universeplus"
+  },
+  {
+    "id": "heaven5",
+    "text": "天界ちほー5",
+    "version": "universeplus"
+  },
+  {
+    "id": "7sref2",
+    "text": "7sRefちほー2",
+    "version": "universeplus"
+  },
+  {
+    "id": "universe",
+    "text": "宇宙すてーしょんちほー",
+    "version": "universe"
+  },
+  {
+    "id": "blackrose5",
+    "text": "BLACK ROSEちほー5",
+    "version": "universe"
+  },
+  {
+    "id": "heaven4",
+    "text": "天界ちほー4",
+    "version": "universe"
+  },
+  {
+    "id": "metropolis4",
+    "text": "メトロポリスちほー4",
+    "version": "universe"
+  },
+  {
+    "id": "7sref",
+    "text": "7sRefちほー",
+    "version": "universe"
+  },
+  {
+    "id": "shuwa-shuwa2",
+    "text": "しゅわしゅわちほー2",
+    "version": "splashplus"
+  },
+  {
+    "id": "blackrose4",
+    "text": "BLACK ROSEちほー4",
+    "version": "splashplus"
+  },
+  {
+    "id": "skystreet2",
+    "text": "スカイストリートちほー2",
+    "version": "splashplus"
+  },
+  {
+    "id": "takamagahara",
+    "text": "高天原ちほー",
+    "version": "splashplus"
+  },
+  {
+    "id": "kawaii",
+    "text": "kawaiiちほー",
+    "version": "splashplus"
+  },
+  {
+    "id": "shuwa-shuwa",
+    "text": "しゅわしゅわちほー",
+    "version": "splash"
+  },
+  {
+    "id": "metropolis3",
+    "text": "メトロポリスちほー3",
+    "version": "splash"
+  },
+  {
+    "id": "blackrose3",
+    "text": "BLACK ROSEちほー3",
+    "version": "splash"
+  },
+  {
+    "id": "skystreet",
+    "text": "スカイストリートちほー",
+    "version": "splash"
+  },
+  {
+    "id": "heaven3",
+    "text": "天界ちほー3",
+    "version": "splash"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "id": "hapifes2",
+  "name": "HAPIFES 区域 2",
+  "area": "距上次星辰诞生祭已过去十年，盛会虽已落幕，但 CAFÉ MiLK 三人组的兴奋劲儿似乎还没过去。在等待开往达捷林的宇宙列车时，她们仍在七嘴八舌地聊着庆典上的种种见闻：那些小小的厉害向导们，意想不到的重逢，还有许愿星的事。在 Ras 的行李中，一小片许愿星的碎片正闪闪发光。",
+  "youtubeID": "l5xctyPVrg4",
+  "characters": [
+    {
+      "name": "Ras（TSUMUGIBOSHI）",
+      "summary": "“我以前是不是说过，小时候在一家魔法咖啡店被‘梦幻菜单’打动，正是创办 CAFÉ MiLK 的契机？大丰收祭之后我才知道，那家店原来是 Eliza 陛下的祖母退位后偷偷开的呢！……不过，梦幻菜单的风味配方，最后还是没能搞清楚呢～。希望十年后，在下一届星辰诞生祭到来时，我能够完成那道能让大家都幸福的‘梦幻菜单’！”",
+      "title1": "喜欢",
+      "item1": "风味茶、草莓",
+      "title2": "兴趣",
+      "item2": "探店咖啡馆、收集茶叶复古罐、调配混合茶",
+      "title3": "不擅长",
+      "item3": "安静待着",
+      "serif": "下次大家还要一起来哦！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "小奈きなこ",
+      "img": "01"
+    },
+    {
+      "name": "Chiffon（TSUMUGIBOSHI）",
+      "summary": "“我出生的家族，向来对个人的‘愿望’这种东西不甚在意。从小就被教导，贵族应有的姿态是完成被赋予的职责。所以，如果那天没有在后院遇见 Ras 小姐，今晚想必也看不到如此璀璨的星空了吧。”",
+      "title1": "喜欢",
+      "item1": "各种水果、糖点",
+      "title2": "兴趣",
+      "item2": "点心制作的科学实验、制作以 Ras 小姐为灵感的点心",
+      "title3": "不擅长",
+      "item3": "高温潮湿",
+      "serif": "能让 Ras 小姐展露笑颜的茶吗？\r\n我也想做出那样的\r\n点心来呢！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "小奈きなこ",
+      "img": "02"
+    },
+    {
+      "name": "Salt（TSUMUGIBOSHI）",
+      "summary": "“Dandy Dan 是谁，吗？……嗯，是我小时候别人送我的玩偶。但是，在爷爷去世后，我正准备踏上旅程时，它突然坐起来，开口说道：‘且慢，我亲爱的，怎么可能让你一个人去呢’。说起来，它说话的口吻有点像我爷爷呢。”",
+      "title1": "喜欢",
+      "item1": "鱼类料理、肉桂卷",
+      "title2": "兴趣",
+      "item2": "午睡、捏来捏去",
+      "title3": "不擅长",
+      "item3": "熬夜",
+      "serif": "去各处旅行也好，\r\n留在达捷林也好，\r\n我都很喜欢哦",
+      "team": "CAFÉ MiLK",
+      "illustrator": "小奈きなこ",
+      "img": "03"
+    },
+    {
+      "name": "Dandy Dan（TSUMUGIBOSHI）",
+      "summary": "“我是小淑女 Salt 公主的骑士。她的家族喜欢冒险，淑女在成为孤身一人后说要踏上旅途，所以我就跟着一起来了。她的家人吗？她有一位冒险家爷爷哦。不知是真是假，据说他以前在遗迹里和魔人做过交易？……抱歉，详细情况我也不清楚。”",
+      "title1": "喜欢",
+      "item1": "Salt、蔷薇花",
+      "title2": "兴趣",
+      "item2": "与淑女们聊天",
+      "title3": "不擅长",
+      "item3": "清洗",
+      "serif": "找我的淑女有何贵干？",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Eliza（TSUMUGIBOSHI）",
+      "summary": "“我是达捷林的年轻女王 Eliza。结束了四年一度的大丰收祭这项首次公务，正在宇宙中稍作休憩。大丰收祭上获奖的 Mouffle 餐厅虽然美味，但宇宙料理也有好多好吃……咳哼。不，没什么！真是一场美妙的星辰祭典啊！”",
+      "title1": "喜欢",
+      "item1": "边走边吃",
+      "title2": "兴趣",
+      "item2": "搜索美食资讯",
+      "title3": "不擅长",
+      "item3": "鲭鱼牛奶",
+      "serif": "下一届大丰收祭，\r\n一定要办得不输给\r\n星辰诞生祭那般华丽！",
+      "team": "达捷林",
+      "illustrator": "小奈きなこ",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "殿下光束",
+      "artist": "Botchi Boromaru",
+      "movie": "Mastea",
+      "illustrator": "Ranitoni~",
+      "songsummary": "",
+      "thumbnail": "hapifes2-1"
+    },
+    {
+      "songtitle": "enchanted wanderer",
+      "artist": "linear ring",
+      "movie": "misokabocha",
+      "songsummary": "",
+      "thumbnail": "hapifes2-2"
+    },
+    {
+      "songtitle": "Comet Panto Men!",
+      "artist": "MYUKKE.",
+      "movie": "Demae",
+      "songsummary": "",
+      "thumbnail": "hapifes2-3"
+    },
+    {
+      "songtitle": "TSUMUGIBOSHI",
+      "artist": "大国奏音 feat.timao",
+      "movie": "群青リコリス",
+      "illustrator": "小奈きなこ、にもし、Masako Wada",
+      "songsummary": "仰望宇宙，群星闪烁，仿佛在诉说着故事。\r\nCAFÉ MiLK 的三人各自将心愿寄托于那道划过深蓝天际、留下一缕金光的流星。\r\n她们仰望着从遥远天际驶来的宇宙列车，约定好一定要再次看到这番风景。",
+      "thumbnail": "hapifes2-4"
+    }
+  ]
+}

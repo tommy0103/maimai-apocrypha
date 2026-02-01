@@ -1,0 +1,99 @@
+{
+  "id": "heaven8",
+  "name": "天界区域8",
+  "comment": "Rag 是天界的实力派人物。\r\n这是她不为人知的过去一幕。",
+  "area": "因果循环的过去与现在。少女曾经所见之物是什么？",
+  "youtubeID": "TUclJpfVp3E",
+  "characters": [
+    {
+      "name": "Vilius",
+      "summary": "对于无法触及的天界，恶魔们盲目地行使力量。……但他有些不同。唯有「解明」之事，才是这位恶魔贵族唯一的欲望和喜悦。如今他正在研究天使。",
+      "title1": "身長",
+      "item1": "187cm",
+      "title2": "誕生日",
+      "item2": "1月28日",
+      "title3": "年齢",
+      "item3": "不明",
+      "serif": "我接受了 Lete 的力量，手持枪 Biesfera。\r\n天使将如何凋零，试炼之日似乎临近了。",
+      "team": "Lete",
+      "illustrator": "小路さこ",
+      "img": "01"
+    },
+    {
+      "name": "Monverde",
+      "summary": "作为从长年囚禁的迷宫中出来的代价，他臣服于 Lucifer 的麾下。能够窥见对方的过去与未来，给人们带来混乱。持有一把名为 Raven 的枪。",
+      "title1": "身長",
+      "item1": "202cm",
+      "title2": "誕生日",
+      "item2": "3月31日",
+      "title3": "年齢",
+      "item3": "不明",
+      "serif": "将混沌带给世界！\r\n终于变得有趣起来了不是吗！",
+      "team": "地下迷宫",
+      "illustrator": "lack",
+      "img": "02"
+    },
+    {
+      "name": "Arma",
+      "summary": "喜欢读书、内向害羞的天使。憧憬着青梅竹马。然而，她拥有与外表不相称的敏锐头脑。",
+      "title1": "身長",
+      "item1": "152cm",
+      "title2": "誕生日",
+      "item2": "6月20日",
+      "title3": "年齢",
+      "item3": "不明",
+      "serif": "我也能像 Rag 一样吗……？",
+      "team": "天界",
+      "illustrator": "michele",
+      "img": "03"
+    },
+    {
+      "name": "Rag",
+      "summary": "活泼好动、无所畏惧的优等生。很了解青梅竹马 Arma 的真正能力。觉得体弱的妹妹有点碍事。",
+      "title1": "身長",
+      "item1": "158cm",
+      "title2": "誕生日",
+      "item2": "12月7日",
+      "title3": "年齢",
+      "item3": "不明",
+      "serif": "喂！最近森林里发生奇怪事情\r\n的传闻，你知道吗？",
+      "team": "天界",
+      "illustrator": "藤ちょこ",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Ourania",
+      "artist": "satella feat.藍月なくる",
+      "movie": "cell",
+      "illustrator": "michele、藤ちょこ",
+      "songsummary": "Arma 从小就是个书虫。\r\n说话时，声音会变得怯懦细小，所以在班里也是被孤立的存在，但只有青梅竹马的 Rag 从未嘲笑过 Arma。\r\nRag 从小就拥有强大的力量，成绩优秀，总是众人瞩目的焦点。但 Arma 却羡慕着不顾这些、行为奔放的青梅竹马。\r\n\r\n她之所以完全改变，是因为那场可憎的事件。\r\nArma 站在冰冷紧绷、如冰一般的 Rag 身旁，成为了初代骑士。",
+      "thumbnail": "heaven8-1"
+    },
+    {
+      "songtitle": "天盖",
+      "artist": "花徒めと（Metomate）",
+      "movie": "yoshimo",
+      "illustrator": "藤ちょこ、michele",
+      "songsummary": "森林那边传来了奇怪的声音。那是至今从未听过的、融化般温柔的声音───\r\n同学们的谈话声。\r\n\r\nArma 预想到 Rag 会说「去确认一下吧！」，便从书本中抬起头来。\r\n「……真不愧是 Arma。不用我说就懂了吗？」\r\n「森林不是被告知不能去吗？」\r\n说着，Arma 半是放弃地站了起来。\r\n大概，Rag 现在不想回家吧。\r\n之前 Rag 说过，家里体弱的小妹妹总是黏着她，叫着「姐姐！姐姐！」。\r\nRag 只是渴望片刻的小小自由。仅此而已。\r\n\r\n我们不知道。离开学校的我们，被小小的脚印悄悄跟踪着。\r\n我们不知道。在这封闭的城镇里听不到的恶魔之声，竟是如此甜美而可怕。\r\n\r\n在森林深处沉淀的那东西，为了寻找力量而呼唤着天使。为了将其作为可怜的食粮。\r\n两人甩开声音逃跑了，但 Rag 的妹妹没有回来。\r\n发现她以面目全非的姿态倒在森林里，是在那个夜晚。\r\n\r\n在天盖之下，Rag 握着小鞋子哭泣。自那以后，Arma 再也没有见过她的眼泪。",
+      "thumbnail": "heaven8-2"
+    },
+    {
+      "songtitle": "Deicide",
+      "artist": "void (Mournfinale) feat. 古泉葉月",
+      "movie": "わっふゑ",
+      "illustrator": "lack、小路さこ",
+      "songsummary": "号令之下，恶魔们开始集结成军势。\r\nMonverde 和 Vilius 对着眼前的狂乱，以及事态启动前的狂热，露出了笑容。\r\n长久以来，天界与地狱的泥沼之战。如今，它将被原大天使、且曾是「骑士」的少女改写，拉开新的帷幕。\r\n\r\n堕天的她名为 Lucifer。黎明之星。\r\n如今已是地狱之灯。\r\n恶魔们对天界渴望不已。\r\n因为既渴求那光辉，又唤起永远无法得到的憎恨。\r\n神的乐园。充满喜悦之地。从那样的地方竟诞生了 Lucifer，这是何等的讽刺。\r\n\r\nLucifer 将乌合之众整编为军势，演讲仍在继续。\r\n何不暂且享受这状况呢？\r\n因为混沌正是我等的喜悦。",
+      "thumbnail": "heaven8-3"
+    },
+    {
+      "songtitle": "冰灭的135小节",
+      "artist": "大国奏音",
+      "movie": "Hanamori Hiro、Tenkai Stories",
+      "illustrator": "Tenkai Stories",
+      "songsummary": "如同冰与火般绝不相容的两个阵营\r\n那悠久的故事。",
+      "thumbnail": "heaven8-4"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "blackrose9",
+  "name": "BLACK ROSE区域9",
+  "comment": "追逐恶魔游行的见习侦探及其伙伴的区域",
+  "area": "身为女警察官的Ritz。由于不被周围认可，她心中产生了空隙，而某个人甜美的〈话语〉乘虚而入。在Ellie的陪伴下，Owl无法追查案件时，Nick能否找到被委托寻找的失踪者？这是一个关于雾之城中出现的游行所引导的故事。",
+  "youtubeID": "bkCyOlYPaBI",
+  "characters": [
+    {
+      "name": "Fitz公爵",
+      "summary": "Fitz家族是祖先来自Teos岛的家系之一。他们妄信天使信仰，并遵照〈预言〉收集Azoth。这个家族的女性在达到一定年龄后，很可能被转化为Azoth。",
+      "title1": "身高",
+      "item1": "178.6cm",
+      "title2": "体重",
+      "item2": "64kg",
+      "title3": "生日",
+      "item3": "11月3日",
+      "serif": "在我这一代能够献上最上等的宝石，是无上的喜悦。",
+      "team": "Fitz公爵家",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "Matilda",
+      "summary": "她在禁止与外界接触的环境中长大，但以母亲的死为契机，与天使信仰决裂。与烟囱清扫工心意相通后私奔。在父亲的追兵追赶下藏身郊外，但Mastima注意到她强大的Azoth资质，为了放大她的〈感情〉，杀害了她的丈夫，并夺走了遗物怀表。",
+      "title1": "身高",
+      "item1": "164.2cm",
+      "title2": "体重",
+      "item2": "58kg",
+      "title3": "生日",
+      "item3": "2月28日",
+      "serif": "这股气息，和那个天使类似的存在但更可怕……但是，不追的话就拿不回〈怀表〉了。",
+      "team": "Fitz公爵家",
+      "illustrator": "しきみ",
+      "img": "02"
+    },
+    {
+      "name": "Krinos",
+      "summary": "女性专用沙龙的所有者。也是一位优秀的咨询师，保护走投无路的人们在沙龙中，并促进他们自立。只是，该设施的一切信息都未公开，只有一部分人知道其存在。",
+      "title1": "身高",
+      "item1": "172cm",
+      "title2": "体重",
+      "item2": "52kg",
+      "title3": "生日",
+      "item3": "6月4日",
+      "serif": "来吧，将你的心交给我。",
+      "team": "沙龙",
+      "illustrator": "しきみ",
+      "img": "03"
+    },
+    {
+      "name": "Krinos（天使）",
+      "summary": "四大天使之一。为了将人们作为Azoth回收而降临地上。无法忍受人类的气味，用白百合装饰周围来掩饰。对〈感情〉兴趣淡薄，其行动非常机械。",
+      "title1": "身高",
+      "item1": "不明",
+      "title2": "体重",
+      "item2": "不明",
+      "title3": "生日",
+      "item3": "不明",
+      "serif": "我是遵循天意者，一切都只是琐事。",
+      "team": "天界",
+      "illustrator": "しきみ",
+      "img": "04"
+    },
+    {
+      "name": "Ritz（恶魔）",
+      "summary": "附身在Ritz身上的恶魔是名为〈Leviathan〉、被天派遣的海兽。拥有非常坚硬的身体和心脏，能弹开一切攻击。还能操纵水，自由操控。也有说是献给末日的供物。",
+      "title1": "身高",
+      "item1": "不明",
+      "title2": "体重",
+      "item2": "不明",
+      "title3": "生日",
+      "item3": "不明",
+      "serif": "谁说我是菜鸟——————!!!!",
+      "team": "政府、警察机关",
+      "illustrator": "しきみ",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Mystic Parade",
+      "artist": "Hitoshizuku x Yama△ feat. Yuyu & Naiko (Iris)",
+      "movie": "Tsutsumi Hideaki",
+      "illustrator": "しきみ",
+      "songsummary": "母亲遗物的怀表被天使夺走的Matilda，追寻其气息到达的是一栋大洋馆。然而，标榜为沙龙的这个地方，隐藏着可怕的秘密。同时期，在Owl侦探事务所，Nick忙于失踪案件的调查。这时带来新的搜查委托的是一位年轻银发的大学生。他自称是房主Byron的〈家人〉————。这是一个追寻雾中、以沙龙为中心布下的阴谋的故事。",
+      "thumbnail": "blackrose9-1"
+    },
+    {
+      "songtitle": "Cry Cry Cry",
+      "artist": "FLG4 feat.Flower",
+      "movie": "MiRA",
+      "illustrator": "Masako Wada",
+      "songsummary": "因是女性而不被认可为正式警察官而消沉的Ritz。这时，一个声称“家人被恶魔游行带走”的男人跑进署内。〈恶魔的游行〉是近来在街上流行的传闻，Ritz被指派负责调查这种可疑案件，但……？这是Mystic Parade的前日谈故事。",
+      "thumbnail": "blackrose9-2"
+    }
+  ]
+}

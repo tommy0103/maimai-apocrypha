@@ -1,0 +1,108 @@
+{
+  "id": "shuwa-shuwa",
+  "name": "泡泡滋滋区域",
+  "area": "这里遍布着青柠绿色碳酸气泡的泳池和温泉，形成了泡泡滋滋区域。这是一个有趣的游乐场，可以通过巨大的水上滑梯在城市里自由自在地穿梭飞翔！乙姬殿下似乎也很中意，每天都在这里滋滋地游来游去，并称赞道：“地上的这片水洼，倒也颇为有趣嘛！”",
+  "youtubeID": "hy8BPe31Bvw",
+  "characters": [
+    {
+      "name": "Lime-kkuma",
+      "summary": "泡泡滋滋区域的名人导游。是一只擅长歌舞的拉丁系小熊。驾驶小船的技巧也是超一流，会用欢快的节奏为你介绍整个区域！口癖是“啦啦啦～Lime！”",
+      "title1": "身高",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg ",
+      "title3": "特长",
+      "item3": "火烈鸟小船激流勇进",
+      "serif": "这整个城镇都充满了泡泡滋滋的快乐气息！",
+      "team": "泡泡滋滋导游协会",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Lemon-kkuma",
+      "summary": "泡泡滋滋区域的名人导游。虽然有点慢性子，但导游技术可是超一流！会用轻快的解说带你领略泡泡滋滋区域的各处美景！口癖是“Lemon的节奏感可不差哟！”",
+      "title1": "身高",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg ",
+      "title3": "特长",
+      "item3": "高速探索导览",
+      "serif": "这里的特产和碳酸绝配，就是青柠和柠檬哟！",
+      "team": "泡泡滋滋导游协会",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Delakkuma",
+      "summary": "它离开了 Lion Mama，正在各个区域旅行。看到泡泡滋滋区域的小熊们这么娇小，它吃了一惊。对于今后还会遇到什么样的朋友，它既紧张又兴奋。",
+      "title1": "身高",
+      "item1": "130cm",
+      "title2": "体重",
+      "item2": "130kg",
+      "title3": "特长",
+      "item3": "和大家一起Deluxe地快乐游玩 maimai",
+      "serif": "我要给 Lion Mama 写信，告诉她原来有这么多不同的「区域」哦！",
+      "team": "Ran & Dory",
+      "illustrator": "SEGA",
+      "img": "03"
+    },
+    {
+      "name": "Ran",
+      "summary": "与偶然相遇的 Delakkuma 一同旅行的箱子。到了晚上，似乎依旧充当着 Delakkuma 的睡床。它和双胞胎兄弟 Dory 是同心同体、心灵相通的灵魂伴侣。",
+      "title1": "身高",
+      "item1": "2.2m",
+      "title2": "体重",
+      "item2": "338kg",
+      "title3": "特长",
+      "item3": "在各个区域广交朋友",
+      "serif": "好想去泡泡滋滋泳池玩呀！",
+      "team": "Delakkuma & Dory",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Dory",
+      "summary": "与偶然相遇的 Delakkuma 一同旅行的箱子。它相当享受和 Ran 以及 Delakkuma 在各个区域旅行的过程。和双胞胎兄弟 Ran 是同心同体、心灵相通的灵魂伴侣。",
+      "title1": "身高",
+      "item1": "2.2m",
+      "title2": "体重",
+      "item2": "338kg",
+      "title3": "特长",
+      "item3": "和 Ran 一起为大家带来欢乐",
+      "serif": "泡泡滋滋温泉，泡起来暖暖的呀！",
+      "team": "Delakkuma & Ran",
+      "illustrator": "SEGA",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "我们无论何时都 泡泡滋滋！ ",
+      "artist": "Higedriver feat. Lime-kkuma (CV: 村川梨衣) & Lemon-kkuma (CV: MoeMi) ",
+      "movie": "Tutsumi Hideaki",
+      "songsummary": "这里的名产，便是由咕嘟咕嘟涌出青柠绿色碳酸的泳池和温泉构成的整个泡泡滋滋区域！各个景点之间通过水上滑梯相连，可以“咻——”地一下滑行移动。真是既惊险刺激，又泡泡滋滋！碳酸效果让肌肤也变得光滑细嫩，美容效果绝佳。快和当地的明星导游“Lime-kkuma & Lemon-kkuma”一起去玩吧！",
+      "thumbnail": "syuwa01"
+    },
+    {
+      "songtitle": "Boys O’Clock",
+      "artist": "technoplanet",
+      "movie": "KAZARI",
+      "songsummary": "",
+      "thumbnail": "syuwa02"
+    },
+    {
+      "songtitle": "居並ぶ穀物と溜息まじりの運送屋",
+      "artist": "hanzo",
+      "movie": "ZIMMA & Sajikagen & GODTAIL.Inc ",
+      "songsummary": "",
+      "thumbnail": "syuwa03"
+    },
+    {
+      "songtitle": "ARAIS",
+      "artist": "Sembommatsu Jin",
+      "movie": "suckerpunch ",
+      "songsummary": "",
+      "thumbnail": "syuwa04"
+    }
+  ]
+}

@@ -4,11 +4,13 @@ import time
 from openai import OpenAI
 from pathlib import Path
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def translate_json(data):
     # 直接让 LLM 翻译整个 JSON
     response = client.chat.completions.create(
         model="deepseek-reasoner",
+        # model="kimi-k2-thinking",
         messages=[
         {"role" : "system", "content": """
     # Role
@@ -82,6 +84,9 @@ def translate_json(data):
     return json.loads(result_text)
 
 def translate_from_to(input_file, output_file):
+    if output_file.exists():
+        print(f"{output_file} exists. Skip >")
+        return
     # 读取 JSON
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -94,21 +99,55 @@ def translate_from_to(input_file, output_file):
 
 client = OpenAI(
     api_key=os.environ.get("DEEPSEEK_API_KEY"),
+    # api_key=os.environ.get("QWEN_API_KEY"),
     base_url="https://api.deepseek.com"
+    # base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 
-# files = list(Path("./raw_data").rglob("*.json"))
+files = list(Path("../raw_data").rglob("*.json")) # todo
+
+
 # files = list(Path("./raw_data").rglob("7sref[1-4].json"))
-files =[Path("../raw_data/7sref.json"), Path("../raw_data/7sref4.json"),
-        Path("../raw_data/7sref2.json"), Path("../raw_data/7sref3.json")]
+# files =[Path("../raw_data/7sref.json"), Path("../raw_data/7sref4.json"),
+        # Path("../raw_data/7sref2.json"), Path("../raw_data/7sref3.json")]
 start = time.time()
 
 # translate_from_to("input.json", "output.json")
-for input_file in tqdm(files, desc="Translateing..."):
-    # print(input_file.__str__())
-    output_file = input_file.with_suffix(".zh.json")
-    # print(input_file, output_file)
-    # output_file = 
-    translate_from_to(input_file, output_file)
 
-print(f"Finished! Total: {time.time() - start:.2f}s")
+all_files = []
+# json_pattern = re.compile(r"")
+
+for input_file in files:
+    if ".zh" in input_file.name:
+        continue
+    output_file = input_file.with_suffix(".zh.json")
+    # output_file = input_file.with_suffix(".zh.parallel.json")
+    all_files.append((input_file, output_file))
+
+with ThreadPoolExecutor(max_workers=10) as executor:
+    # 提交所有任务到线程池
+    futures = [executor.submit(translate_from_to, f1, f2) for (f1, f2) in all_files]
+        
+    # 等待所有任务完成
+    for future in as_completed(futures):
+         result = future.result()
+
+files = list(Path("../raw_data").rglob("*.zh.json"))
+writen_data = []
+
+for input_file in files:
+    with open(input_file, encoding="utf-8") as f:
+        data = json.load(f)
+        writen_data.append({"id": data['id'], "name": data['name']})
+
+with open("../docs/public/area_index.json", "w", encoding="utf-8") as f:
+    json.dump(writen_data, f, ensure_ascii=False)
+            # print(result) # 可选：打印结果
+# for input_file in tqdm(files, desc="Translateing..."):
+#     # print(input_file.__str__())
+#     output_file = input_file.with_suffix(".zh.kimi.json")
+#     # print(input_file, output_file)
+#     # output_file = 
+#     translate_from_to(input_file, output_file)
+
+# print(f"Finished! Total: {time.time() - start:.2f}s")

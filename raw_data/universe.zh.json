@@ -1,0 +1,108 @@
+{
+  "id": "universe",
+  "name": "宇宙站",
+  "area": "作为新店铺宣传的一部分，Shama和Milk将在宇宙站区域举办直播！她们乘坐宇宙船Shama牛奶号飞向宇宙，口中说着「好期待直播呢！」「真的呢！」。面对袭来的种种困难、混乱和麻烦，她们能否凭借爱、魔法和牛奶的力量克服呢？敬请期待！",
+  "youtubeID": "5dyoxEvm-04",
+  "characters": [
+    {
+      "name": "Shama",
+      "summary": "Shama是一位能干的企业家兼魔法师。为了让所有人幸福，她开设了牛奶店，并在大吉岭等城镇取得了巨大成功。她宣布「今后的商业将迈向宇宙规模，我们要进军宇宙！」，并决定与Milk一同举办宇宙站直播，兼作店铺宣传。",
+      "title1": "身長",
+      "item1": "157cm",
+      "title2": "誕生日",
+      "item2": "3月19日",
+      "title3": "年齢",
+      "item3": "18歳",
+      "serif": "现在，就让我们展示两人共同施展的魔法吧。",
+      "team": "Shama牛奶",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Milk",
+      "summary": "Milk憧憬着Shama，为了成为出色的大人，她正全力以赴地修行。不知不觉中，她已成为了Shama的商业伙伴，并为了宇宙站区域的直播一同飞向宇宙。虽然她总被当作孩子，但在紧要关头，或许会显露出她可靠的一面？",
+      "title1": "身長",
+      "item1": "157cm",
+      "title2": "誕生日",
+      "item2": "6月25日",
+      "title3": "年齢",
+      "item3": "10歳",
+      "serif": "两人齐聚的话，就没什么好怕的喵！",
+      "team": "Shama牛奶",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Delakuma",
+      "summary": "Delakuma的旅程超越了各个区域，终于迈向宇宙！他与Lemonkuma和Limekuma意气相投，机缘巧合下，决定协助Shama和Milk的直播活动！",
+      "title1": "身長",
+      "item1": "130cm",
+      "title2": "体重",
+      "item2": "130kg",
+      "title3": "特技",
+      "item3": "宇宙せんぱく免許取得済(優秀)",
+      "serif": "就连宇宙船的操纵，也交给我吧～！",
+      "team": "Ran & Dream",
+      "illustrator": "SEGA",
+      "img": "03"
+    },
+    {
+      "name": "Lemonkuma",
+      "summary": "Lemonkuma为了提升导游技能，离开了咕噜咕噜区域，并叩响了宇宙站导游协会的大门。协会告诉他：『想在宇宙当导游，没有宇宙船驾驶经验可不行哦☆ピポパポ』。于是，他为了修行，决定参与协助Shama和Milk的直播。",
+      "title1": "身長",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg",
+      "title3": "特技",
+      "item3": "トラブルでもあわてない～",
+      "serif": "以成为柠檬宇宙第一的导游为目标努力哦！",
+      "team": "宇宙站导游协会(临时所属)",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Limekuma",
+      "summary": "Limekuma为了磨练导游技巧，离开了咕噜咕噜区域，并敲响了宇宙站导游协会的大门。协会问他：『特长是？没有氧气也行吗？能耐受零下多少度？☆』，这让他体会到了宇宙导游的严苛。于是，他决定以协助Shama和Milk的直播作为修行的第一步。",
+      "title1": "身長",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg",
+      "title3": "特技",
+      "item3": "トラブルでもノリの良さを忘れない",
+      "serif": "宇宙第一的导游～那是～？啦啦啦～Lime！",
+      "team": "宇宙站导游协会(临时所属)",
+      "illustrator": "SEGA",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "飞出去！TO THE COSMIC!!",
+      "artist": "t+pazolite feat. しゃま(CV:種﨑 敦美) & みるく(CV:伊藤 あすか)",
+      "movie": "ツツミヒデアキ",
+      "songsummary": "宇宙船Shama牛奶号发生了巨大变形！两人降落在出现的闪耀中央舞台上。当她们用魔法麦克风开始歌唱时，宇宙站观众的幸福度瞬间爆表！宇宙直播就此拉开帷幕！然而，就在这欢乐的直播过程中，突然发生了宇宙船失控的重大事件！Shama和Milk能否安然度过这场直播呢？",
+      "thumbnail": "universe1"
+    },
+    {
+      "songtitle": "咬合系",
+      "artist": "さつき が てんこもり feat.96猫",
+      "movie": "Yazhirushi",
+      "songsummary": "",
+      "thumbnail": "universe2"
+    },
+    {
+      "songtitle": "分诊",
+      "artist": "niki feat.noire",
+      "movie": "桜井貴志",
+      "songsummary": "",
+      "thumbnail": "universe3"
+    },
+    {
+      "songtitle": "流星☆火箭",
+      "artist": "梅干茶漬け",
+      "movie": "マスティ",
+      "songsummary": "",
+      "thumbnail": "universe4"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "shuwa-shuwa2",
+  "name": "噗呲噗呲区域2",
+  "area": "噗呲噗呲区域的名产除了碳酸饮料还有另一个！那就是由双胞胎DJ（兼导游）「Lime熊 & Lemon熊」举办的、令人心跳加速的夜泳池派对！当太阳沉入地平线后，就在璀璨的灯光下，沉醉于美妙的音乐和Diva们之中吧！",
+  "youtubeID": "sQMkebzw1KA",
+  "characters": [
+    {
+      "name": "乙姫",
+      "summary": "龙宫的公主。虽然在龙宫茶馆顺利存够了城堡建设资金，但回程途中顺路去了噗呲噗呲区域，结果把钱花光了。正在夜泳池派对上与Lime熊 & Lemon熊每夜跳舞到天亮，尽情享受假期！",
+      "title1": "身高",
+      "item1": "152cm",
+      "title2": "生日",
+      "item2": "8月22日",
+      "title3": "年龄",
+      "item3": "10015岁",
+      "serif": "地上的「宴会」也相当不错嘛。",
+      "team": "龙宫城",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Ras",
+      "summary": "大收获祭结束后，借着CAFE MiLK的慰劳旅行来到噗呲噗呲区域游玩。噼啪作响的奇特红茶等，一切都让她兴奋不已！但一不留神就会晃悠不见，所以被Chiffon责备着。",
+      "title1": "身高",
+      "item1": "158cm",
+      "title2": "生日",
+      "item2": "12月7日",
+      "title3": "年龄",
+      "item3": "15岁",
+      "serif": "哇～会噗呲噗呲的红茶还是第一次喝呢！",
+      "team": "CAFE MiLK",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Chiffon",
+      "summary": "因为是CAFE MiLK的第一次旅行，她原本很期待，但Ras总是「啊哇哇～」地说着就立刻不见踪影，让她没法放松。不过，她似乎也在享受假期，比如在泳池边构思特产柠檬和莱姆的新点心食谱。",
+      "title1": "身高",
+      "item1": "160cm",
+      "title2": "生日",
+      "item2": "5月4日",
+      "title3": "年龄",
+      "item3": "16岁",
+      "serif": "两位的泳装打扮都非常可爱呢♪",
+      "team": "CAFE MiLK",
+      "illustrator": "SEGA",
+      "img": "03"
+    },
+    {
+      "name": "Salt",
+      "summary": "她原本闹着说「讨厌水！」，但被Chiffon以「说不定有传说中的苍之小麦粉呢」说服，不情不愿地跟来了。然而，吃过用碳酸水培育的美味鱼料理后，她完全开心起来了！似乎也习惯了水，喜欢用游泳圈漂浮着。",
+      "title1": "身高",
+      "item1": "142cm",
+      "title2": "生日",
+      "item2": "8月23日",
+      "title3": "年龄",
+      "item3": "12岁",
+      "serif": "这个区域直到夜晚都一直像在过节呢。",
+      "team": "CAFE MiLK",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Shama",
+      "summary": "大收获祭后，为了寻找新商机，她来到噗呲噗呲区域视察。由于这里平时就是泳装区域，她构思着（比如能丰胸的魔法噗呲噗呲牛奶摊，说不定会流行呢…）这样的点子。",
+      "title1": "身高",
+      "item1": "157cm",
+      "title2": "生日",
+      "item2": "3月19日",
+      "title3": "年龄",
+      "item3": "18岁",
+      "serif": "用这个「魔法牛奶」让大家绽放笑容就是我的梦想哦。",
+      "team": "涩味牛奶",
+      "illustrator": "SEGA",
+      "img": "05"
+    },
+    {
+      "name": "Milk",
+      "summary": "作为一只猫，她难得地在水滑梯上玩了一整天，在噗呲噗呲区域飞来飞去。和双胞胎导游也变得非常要好，偷偷打听城市的优惠信息。听说用碳酸培育的鲭鱼是绝品，她兴趣盎然。",
+      "title1": "身高",
+      "item1": "157cm",
+      "title2": "生日",
+      "item2": "6月25日",
+      "title3": "年龄",
+      "item3": "10岁",
+      "serif": "Shama酱也一起来游泳喵～！",
+      "team": "涩味牛奶",
+      "illustrator": "SEGA",
+      "img": "06"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Paradisoda",
+      "artist": "魂音泉",
+      "movie": "ツツミヒデアキ",
+      "songsummary": "在Paradisoda，大家转眼间都变成了掌声喝彩的舞者和歌手。当太阳沉入地平线后，派对开始！抛开害羞的心情，和Lime熊 & Lemon熊一起high起来吧！即使跳累了，在噼啪作响的碳酸泳池或温泉里游一圈就能立刻恢复精神。向无聊的日子说再见，手拿漂浮着柠檬和莱姆的饮料，今晚的派对也将持续一整夜。",
+      "thumbnail": "syuwa2-1"
+    },
+    {
+      "songtitle": "VANTABLACK RAVER",
+      "artist": "DIVELA feat.桐谷こむぎ",
+      "movie": "yama_ko",
+      "songsummary": "",
+      "thumbnail": "syuwa2-2"
+    },
+    {
+      "songtitle": "時計の国のジェミニ",
+      "artist": "黒魔",
+      "movie": "Fiz",
+      "songsummary": "",
+      "thumbnail": "syuwa2-3"
+    },
+    {
+      "songtitle": "Xenovcipher",
+      "artist": "Juggernaut.",
+      "movie": "HDLV",
+      "songsummary": "",
+      "thumbnail": "syuwa2-4"
+    }
+  ]
+}

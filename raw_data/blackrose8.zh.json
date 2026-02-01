@@ -1,0 +1,94 @@
+{
+  "id": "blackrose8",
+  "name": "BLACK ROSE区域8",
+  "area": "围绕着Owl侦探事务所的多样人际关系。伙伴、养父、往昔的友人……以及宿敌。与Owl相关的两位人物——『搭档Nick』与『怪盗Hugh·Rue』。这是关于他们的一段小小往事。",
+  "youtubeID": "P5nSuVtfbTE",
+  "characters": [
+    {
+      "name": "Louie（幼年时期）",
+      "summary": "生活在不知何处的白色房间里的银发少年。他总是梦见夜空中漂浮着的『颠倒之街』。梦中陌生街道的风景，以及曾与某人共度时光的记忆，这些片段一直令他心驰神往。",
+      "title1": "喜欢",
+      "item1": "睡觉",
+      "title2": "兴趣",
+      "item2": "炼金术",
+      "title3": "不擅长",
+      "item3": "无聊",
+      "serif": "我会梦见『颠倒之街』哦。",
+      "team": "Eden",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "SD Nick",
+      "summary": "生活在伦敦街头的孤儿。搭档猫Bratt告诉他，贫民窟的孩子想成为“有钱人”就必须去“学校”学习，于是他潜入皇家大学。在那里，他对一个古怪的学生搞起了恶作剧，却没想到引发了一场大事件。",
+      "title1": "喜欢",
+      "item1": "Bratt、点心",
+      "title2": "兴趣",
+      "item2": "观察人和动物",
+      "title3": "不擅长",
+      "item3": "安静待着",
+      "serif": "我们要一直一直在一起哦！☆",
+      "team": "游击队",
+      "illustrator": "Masako Wada",
+      "img": "02"
+    },
+    {
+      "name": "SD Bratt",
+      "summary": "在还是小猫时被Nick捡到的、有着袜子花纹的猫咪。它自豪于自己光泽油亮的黑色皮毛与优雅的白手套白袜子。与Nick情同手足，每天都一同寻找乐子。然而，为了捉弄Owl，它偷偷钻进了红色手提包，结果被卷入事件之中。",
+      "title1": "喜欢",
+      "item1": "Nick、鸡胸肉果冻",
+      "title2": "兴趣",
+      "item2": "淘好货",
+      "title3": "不擅长",
+      "item3": "香水",
+      "serif": "那个头发蓬蓬的学生，总是板着同一张脸，好无聊喵~",
+      "team": "游击队",
+      "illustrator": "Masako Wada",
+      "img": "03"
+    },
+    {
+      "name": "SD Owl",
+      "summary": "以侦探为目标的大学生。因仅凭一眼就能看穿对方的底细等行为，在校内被视为怪人。正在思考某件事时，被一个在校内徘徊的神秘少年怀疑成猫咪绑架犯。两人在寻找猫咪的过程中，被卷入了更大的事件。",
+      "title1": "喜欢",
+      "item1": "炼金术",
+      "title2": "兴趣",
+      "item2": "推理",
+      "title3": "不擅长",
+      "item3": "揣摩他人情绪",
+      "serif": "……去找吧？搭档。",
+      "team": "皇家大学",
+      "illustrator": "Masako Wada",
+      "img": "04"
+    },
+    {
+      "name": "Nick & Bratt",
+      "summary": "贫民窟孩子们的首领般的存在。身手敏捷，喜欢恶作剧。是不向严酷环境低头、总能找到乐趣的二人组。通过Bratt的失踪事件，他们开始正面接纳与生俱来的“异能”，并以此为契机开启了情报屋的工作。",
+      "title1": "喜欢",
+      "item1": "恶作剧",
+      "title2": "兴趣",
+      "item2": "城市散步",
+      "title3": "不擅长",
+      "item3": "无聊",
+      "serif": "我们是搭档，也是家人！",
+      "team": "Nick & Bratt信息屋",
+      "illustrator": "Masako Wada",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Eden",
+      "artist": "koyori(電ポルP)",
+      "movie": "群青リコリス",
+      "songsummary": "向往着『颠倒之街』的银色少年。某个夜晚，他决心展开人生第一次的冒险。\r\n——那是一片无边无际的奇异纯白世界『Eden』。这个故事，将窥见他遥远过去记忆的一隅。",
+      "thumbnail": "blackrose8-1"
+    },
+    {
+      "songtitle": "喵喵冒险谭",
+      "artist": "黑魔",
+      "movie": "YORUZI",
+      "songsummary": "从出生起就相伴左右的搭档猫Bratt失踪了，这下可糟了！\r\nNick在寻找Owl和Bratt的过程中，卷入了一场出乎意料的事态。这是两人初次遭遇的事件物语。",
+      "thumbnail": "blackrose8-2"
+    }
+  ]
+}

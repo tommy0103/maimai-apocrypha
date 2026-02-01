@@ -1,0 +1,99 @@
+{
+  "id": "metropolis9",
+  "name": "Metropolis区域9",
+  "comment": "白与黑两军的战力，起初看似势均力敌。\r\n这场战斗的走向将如何？",
+  "area": "读取过去的记忆，Kurohime在思考什么？",
+  "youtubeID": "k1DFcnOKhuA",
+  "characters": [
+    {
+      "name": "Rigel",
+      "summary": "在Andreas指挥下的高级机型。常因释放光芒而闪耀，其机体群神圣庄严。为协助巨大Andreas的机动和部署，拥有“Thrones”的别名。",
+      "title1": "体长",
+      "item1": "402cm",
+      "title2": "制造年份",
+      "item2": "Diosa历847年",
+      "title3": "特征",
+      "item3": "由Andreas统制的机体",
+      "serif": "……",
+      "team": "帝国军",
+      "illustrator": "えすてぃお",
+      "img": "01"
+    },
+    {
+      "name": "Shuten Douji",
+      "summary": "BEN_KEI的部下。冠以传说之鬼之名的单独机体，通常兵器难以破坏其厚重装甲。擅长近战，但也能通过从巨剑释放的渐压进行中距离攻击。",
+      "title1": "体长",
+      "item1": "13m",
+      "title2": "制造年份",
+      "item2": "2025年",
+      "title3": "特征",
+      "item3": "可进行最多五刀流攻击",
+      "serif": "“鬼神无旁道乎？”\r\n高潮部分就必须如此！咔咔咔！",
+      "team": "Metropolis",
+      "illustrator": "えすてぃお",
+      "img": "02"
+    },
+    {
+      "name": "Nureha",
+      "summary": "她用巨型光束步枪瞄准的是Ishu的主舰。为此，必须等待Goryeo的黑客解除屏障，但她绝不会错过那一瞬间。",
+      "title1": "体长",
+      "item1": "170cm",
+      "title2": "制造年份",
+      "item2": "2021年",
+      "title3": "特征",
+      "item3": "作为机械执行目的",
+      "serif": "目标，捕捉",
+      "team": "Metropolis",
+      "illustrator": "miya*ki",
+      "img": "03"
+    },
+    {
+      "name": "Kurohime",
+      "summary": "一种未知能量，维持着世界的生命。人类知晓其存在的一鳞半爪，却因它而灭亡的Neut。分析如河流般在地底流动的它们，并使其复苏。这正是Toya子的愿望，也是“Kurohime”存在的理由。",
+      "title1": "体长",
+      "item1": "165cm(人型部分)",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "部分使用人类的细胞组织",
+      "serif": "重复着，这就是历史吗",
+      "team": "Metropolis",
+      "illustrator": "尾崎ドミノ",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Flashback",
+      "artist": "RiraN",
+      "movie": "cell、Kazuma Enta、SEGA",
+      "illustrator": "miya*ki",
+      "songsummary": "从宇宙飞来的光芒割裂黑云，照亮黑夜。\r\n如果人类还活着并目睹这一景象，或许会想起一幅名为《最后的审判》的画作。\r\n\r\n“风速40，距离目标约6000。误差修正……没有问题”\r\n然而，执行任务的她的眼睛，只凝视着一点。",
+      "thumbnail": "metropolis9-1"
+    },
+    {
+      "songtitle": "Colorfull:Encounter",
+      "artist": "Reku Mochizuki",
+      "movie": "cell、Kazuma Enta、SEGA",
+      "illustrator": "尾崎ドミノ",
+      "songsummary": "“人类”舍弃了大地，如今又回到了充满黑暗的星球。\r\n\r\nKurohime瞬间闭眼，唤起了遥远的过去记忆。\r\n树木随风摇曳，光芒溢满大地。水流经所有物质，循环着能量。\r\n那是无法理解所带来之物价值、即将失去一切前的世界。\r\n\r\n无论多少次，重复着同样的错误，即便如此，我们必须向前迈进。",
+      "thumbnail": "metropolis9-2"
+    },
+    {
+      "songtitle": "雨露霜雪",
+      "artist": "かねこちはる vs t+pazolite",
+      "movie": "Kazuma Enta、cell、SEGA",
+      "illustrator": "えすてぃお",
+      "songsummary": "宇宙中漂浮着无数净化的白色。\r\n与之相对的是黑暗中的一粒光芒。Metropolis。\r\n从空中一字排开的Rigel的剑尖，如无数枪矛般倾泻而下的光芒，\r\n“嚯～，真是漂亮啊！”\r\n一挥之下便被横扫，伴随轰鸣声，如烟花般爆散。\r\n『Shuten Douji』\r\n这机体名岂不是有着不吉利的由来吗？诚然，正适合宣告这场大戏的开幕。",
+      "thumbnail": "metropolis9-3"
+    },
+    {
+      "songtitle": "宙天",
+      "artist": "t+pazolite vs かねこちはる",
+      "movie": "川崎ヒロミツ (SIKAKU Inc.)",
+      "illustrator": "Metropolis Stories",
+      "songsummary": "最后浮现在眼帘深处的，是遥远过去，在Metropolis起始之地建设的能量门户。\r\n参与建设的人类数据被保留下来。\r\n『Kurohashi Saiki』\r\n『Kurohashi Toyako』\r\n创造了我们的你们，究竟期望什么。虽然不明白……。\r\n\r\nKurohime睁开眼睛，仰望着相互碰撞、升起火焰的两军。",
+      "thumbnail": "metropolis9-4"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "party2",
+  "name": "派对区域2",
+  "comment": "在宴会上获胜的乙姫和Ras，决定在解散前观光这个星球，但是…？",
+  "area": "乙姫和Ras来到的是一家外观相当复古的游戏中心。但那里陈列着一种最新锐的格斗游戏，能将自身的参数反映到游戏角色上进行对战。在各星猛者聚集的这般情境下，乙姫的胜负心熊熊燃烧起来。她不听Ras的制止，毅然报名，但是……？",
+  "youtubeID": "bBDMPwcHuag",
+  "characters": [
+    {
+      "name": "乙姫（Badges Plus）",
+      "summary": "乙姫非常喜欢像热闹宴会般的游戏中心。平时她常和亀鯛玩音游，但这次是第一次挑战格斗游戏！",
+      "title1": "身高",
+      "item1": "152cm",
+      "title2": "生日",
+      "item2": "8月22日",
+      "title3": "年龄",
+      "item3": "10015岁",
+      "serif": "正在找较量的对手呢！\r\n来得正好！",
+      "team": "竜宮城",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Ras（Badges Plus）",
+      "summary": "Ras虽然喜欢在游戏中心开心地玩，但聚集在这里的大家都眼神锐利，非常可怕！与其说是游戏，不如说是比赛般的紧张气氛，让她吓得缩手缩脚。",
+      "title1": "身高",
+      "item1": "158cm",
+      "title2": "生日",
+      "item2": "12月7日",
+      "title3": "年龄",
+      "item3": "15岁",
+      "serif": "乙姫酱～等一下这里……\r\n真是的，别拉我啦～！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "乙姫（Noja Lolic）",
+      "summary": "在后夜祭上，被要求“教教你们星球的舞蹈吧！”的两人，表演了可爱的狐狸舞！",
+      "title1": "喜欢的舞蹈",
+      "item1": "宴",
+      "title2": "",
+      "item2": "",
+      "title3": "",
+      "item3": "",
+      "serif": "Noja Lolic要开始啦！",
+      "team": "竜宮城",
+      "illustrator": "間明田",
+      "img": "03"
+    },
+    {
+      "name": "Ras（Noja Lolic）",
+      "summary": "“我们星球有‘夏祭’哦～”，Ras讲述了Salt在东方国度旅行时的故事。",
+      "title1": "喜欢的舞蹈",
+      "item1": "大收获祭广场上的舞蹈",
+      "title2": "",
+      "item2": "",
+      "title3": "",
+      "item3": "",
+      "serif": "起舞 被舞\r\n一起来跳舞吧～，哟♪",
+      "team": "CAFÉ MiLK",
+      "illustrator": "間明田",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "SOS",
+      "artist": "Calonz Becaraz",
+      "movie": "Nihe",
+      "illustrator": "Masako Wada、高出力",
+      "songsummary": "一个像猫一样的外星人，用带刺的球棒打飞了一个莫西干头。虽然穿着世纪末风格的服装，但似乎是个杂鱼。\r\n‘啊、大哥～!!!’ 喊着跑过来的是体格相差悬殊的两人组。这三人是专门找格斗游戏新手挑战、骗取零钱的小混混，但今天似乎找错了欺负对象。\r\n\r\n‘汝，欺凌弱者可不值得称赞呐。’\r\n声音传来，猫型外星人BOUBOU回头一看，那里站着一位笑眯眯的长发少女，以及她身后一脸害怕的兔耳少女。‘有意见的话，就坐那儿吧。’ BOUBOU指着对面的游戏机说道。‘正合我意！’ 少女比着V字手势回答。",
+      "thumbnail": "party2-1"
+    },
+    {
+      "songtitle": "Noja Lolic",
+      "artist": "Namiguru feat. Choko 桃寝ちのい",
+      "movie": "Namiguru",
+      "illustrator": "間明田、nekomo",
+      "songsummary": "",
+      "thumbnail": "party2-2"
+    },
+    {
+      "songtitle": "Edelweiss",
+      "artist": "やどりぎ",
+      "movie": "TOYCAT",
+      "illustrator": "おゆざき",
+      "songsummary": "",
+      "thumbnail": "party2-3"
+    },
+    {
+      "songtitle": "QuiQ",
+      "artist": "owl＊tree feat.nie＊tree",
+      "movie": "Samu",
+      "songsummary": "",
+      "thumbnail": "party2-4"
+    }
+  ]
+}

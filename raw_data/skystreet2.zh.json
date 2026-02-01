@@ -1,0 +1,108 @@
+{
+  "id": "skystreet2",
+  "name": "Sky Street 区域 2",
+  "area": "为了调查在 Sky Street 流行的蝴蝶传闻，Akatsuki 委托了青梅竹马的 Kohaku 进行调查。两人追踪加密在蝴蝶翅膀上的地址，最终到达了 Noah 的网站。然而，在接触 Noah 后，Sky Street 附近开始发生离奇的失踪事件。追逐蝶羽而逐渐改变的各自过去，以及最终抵达的未来会是…？",
+  "youtubeID": "cEfvlFvz2kI",
+  "characters": [
+    {
+      "name": "Momo",
+      "summary": "时间跳跃的 Momo 醒来时，发现自己身处最后一次与 Tokiya 分别的车站广场。在那里，她第一次从 Tokiya 口中得知，他因家庭原因一直苦恼着必须放弃音乐，以及他递给 Momo CD-ROM 的真相。",
+      "title1": "身高",
+      "item1": "152cm",
+      "title2": "生日",
+      "item2": "4月1日",
+      "title3": "年龄",
+      "item3": "15岁",
+      "serif": "这个记忆（旅程）将由你我共同编织，直到永远。",
+      "team": "REAL VOICE",
+      "illustrator": "Wada Masako",
+      "img": "01"
+    },
+    {
+      "name": "Tokiya",
+      "summary": "他从小喜欢音乐并作曲。但当因家庭原因差点放弃音乐时，他在车站广场听到了自己创作的旋律。在捡起被父母说不要的东西的少女请求下，Tokiya 重新开始作曲，并在升学之际再次被迫决定未来。",
+      "title1": "身高",
+      "item1": "171cm",
+      "title2": "生日",
+      "item2": "4月30日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "向前进吧，既然已经决定，就不会犹豫。",
+      "team": "REAL VOICE",
+      "illustrator": "Wada Masako",
+      "img": "02"
+    },
+    {
+      "name": "Kohaku",
+      "summary": "他是 Akatsuki 的青梅竹马，也是 Sky Street 的隐藏领袖之一。擅长编程，宅在家里从事类似情报商的活动，Akatsuki 委托他调查“蝶”的传闻真相。然而，委托后 Kohaku 行为变得古怪，最终消失了。",
+      "title1": "身高",
+      "item1": "163cm",
+      "title2": "生日",
+      "item2": "9月7日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "…讨厌，好麻烦。",
+      "team": "无所属",
+      "illustrator": "Wada Masako",
+      "img": "03"
+    },
+    {
+      "name": "Noah",
+      "summary": "网络上知名的人物。甚至不清楚他是否真实存在，是组织还是个人。唯一确定的是有“追逐蝴蝶就能实现愿望”的传闻。Sky Street 连续发生失踪事件，警方公布失踪者疑似与 Noah 有过接触。",
+      "title1": "身高",
+      "item1": "?",
+      "title2": "生日",
+      "item2": "?",
+      "title3": "年龄",
+      "item3": "?",
+      "serif": "能实现任何愿望的“魔法师”？我是你的…",
+      "team": "未知",
+      "illustrator": "Wada Masako",
+      "img": "04"
+    },
+    {
+      "name": "Akatsuki",
+      "summary": "在 Kohaku 的帮助下，终于找到了 Noah 的网站。但点击屏幕上出现的蝴蝶瞬间，出现了一条消息：“如果想回到过去，我来告诉你方法。”之后再也无法访问该网站。紧接着，街上开始出现失踪者，伙伴 Kohaku 和 Sou 也行踪不明。",
+      "title1": "身高",
+      "item1": "174cm",
+      "title2": "生日",
+      "item2": "12月8日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "我从什么时候开始自以为是的？以为知道那家伙的一切。",
+      "team": "Roto Team",
+      "illustrator": "Wada Masako",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "星巡，致终焉的你。",
+      "artist": "TAKU1175 ft.駄々子",
+      "movie": "tomo（株式会社ナノグラム） / らくちー",
+      "songsummary": "樱花如雪般飞舞的三月末。Momo 眼前出现了熟悉的身影。Tokiya 用手指拭去 Momo 眼角的泪水，开口说道：“对 Momo…有件事一直没能说出口。”关于因家庭原因想放弃音乐之路的事。但希望有人能了解自己真实的想法，所以只上传了一首歌到网上，却被父母发现，从网络删除了。…然后，某天一直想忘记的自己的曲子，在广场上听到了。如果收下这张 CD-ROM，这次一定要自己选择道路，Tokiya 如此告诉 Momo。",
+      "thumbnail": "skystreet2-1"
+    },
+    {
+      "songtitle": "Slow Arise",
+      "artist": "Endorfin.",
+      "movie": "群青リコリス / 野崎つばた",
+      "songsummary": "起初 Kohaku 以为那只是梦。从小反复做的那个梦，声音最后总会这样说：“不要忘记。一定要—做—”某个夜晚，一直听不清的部分清晰起来，想起那声音是 Kohaku 自己的“记忆”。对于不想回忆起的庞大记忆，Kohaku 变得消沉，Akatsuki 在某晚带他出去散步。看着默默走在前面的背影，Kohaku 回忆起小时候第一次看到 Akatsuki 跳舞的情景。（跳神乐的 Akatsuki 就像神明一样。我的神明…已经没有时间了。）",
+      "thumbnail": "skystreet2-2"
+    },
+    {
+      "songtitle": "生命不详",
+      "artist": "蜂屋ななし",
+      "movie": "松田綿雪（株式会社ナノグラム）",
+      "songsummary": "“两名行踪依然不明，但根据信息显示两人都有与自称‘Noah’的人物接触的痕迹…”从 Sky Hall 的大型屏幕反复播放着某企业高管和政治家的面孔，Akatsuki 凝视着。从昨晚开始就联系不上 Kohaku 和 Sou。这个新闻有什么关联…？因沉迷思考，察觉背后气息的瞬间迟了一步。转身朝向传来沙沙脚步声的方向，一个戴兜帽的人影在常夜灯下浮现。白色的脸狞笑着，将冰冷的枪口对准了 Akatsuki。",
+      "thumbnail": "skystreet2-4"
+    },
+    {
+      "songtitle": "Chieruka / Esoterica",
+      "artist": "ツミキ × 宮下遊",
+      "movie": "りゅうせー",
+      "songsummary": "31 第一次看到外面的世界时，瞬间感到失望，接着发现自己抱有“期待”这种感情，觉得可笑。在红色月光下，远眺下方大地，尽是压扁崩塌的钢骨和废料的轮廓。31 轻轻从建筑顶端踏出一步，头朝下坠向黑色大地。他的身体被黑蝶覆盖，渐渐消失不见。",
+      "thumbnail": "skystreet2-3"
+    }
+  ]
+}

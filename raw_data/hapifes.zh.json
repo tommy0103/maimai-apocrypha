@@ -1,0 +1,124 @@
+{
+  "id": "hapifes",
+  "name": "欢乐祭典区域",
+  "area": "那是在大吉岭的收获祭结束之后。Ras买完东西回来，在街上听到一个惊人的消息，兴奋地开始说道：「喂喂！Chiffon、Salt！你们知道能实现愿望的星星吗！？」「哎呀，是童话故事吗？呵呵，这样的Ras也很可爱呢。」「就像个小孩子一样呢。」Ras鼓起脸颊说：「真是的！我在说正经话啦！」但两人道歉后，她便开始讲述每十年举办一次、庆祝星星诞生的节日——『星之生诞祭』。",
+  "youtubeID": "kK8wxlnYyJI",
+  "characters": [
+    {
+      "name": "Ras",
+      "summary": "Ras邀请Chiffon和Salt参加星之生诞祭。在车站的候车椅上，她想着的是『愿之星』。据说每十年重生一次的神秘矿石，人们将自己的愿望寄托于它。回想起在大吉岭听到的故事，怀着希望三人能一直继续经营CAFÉ MiLK的愿望，Ras抬头仰望天上的星星。",
+      "title1": "身高",
+      "item1": "158cm",
+      "title2": "生日",
+      "item2": "12月7日",
+      "title3": "年龄",
+      "item3": "15岁",
+      "serif": "我们三个，\r\n十年后再来这颗星星吧！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Chiffon",
+      "summary": "受Ras邀请参加「星之生诞祭」。她开心地说：「自从离开大吉岭后，我们三人去了各种地方，但没想到会来到这么远的地方呢！」凭着与生俱来的研究者气质，她沉迷于收集节日摊位上糖果的信息。",
+      "title1": "身高",
+      "item1": "160cm",
+      "title2": "生日",
+      "item2": "5月4日",
+      "title3": "年龄",
+      "item3": "16岁",
+      "serif": "能够实现Ras梦想的存在，\r\n就是我的梦想呢。",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Salt",
+      "summary": "Salt长年以来一直想实现的梦想，那就是得到她最喜欢的爷爷在睡前故事中讲述的传说『苍之小麦粉』！继承了「一次就好，真想用苍之小麦粉做面包呢～」这个愿望的Salt，为了向『愿之星』许愿而来到节日。",
+      "title1": "身高",
+      "item1": "142cm",
+      "title2": "生日",
+      "item2": "8月23日",
+      "title3": "年龄",
+      "item3": "12岁",
+      "serif": "如果做出了蓝色的面包，\r\n大家要一起吃的哦！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "03"
+    },
+    {
+      "name": "Derakkuma",
+      "summary": "十年一次的祭典真是太棒了喵！要给大家都拍照片送过去喵～！来到星之生诞祭会场的Derakkuma，发现那里有很多熟悉的面孔……？祭典高潮，被闪耀矿石照亮的大家的笑容也闪闪发光，看起来很开心。",
+      "title1": "身高",
+      "item1": "130cm",
+      "title2": "体重",
+      "item2": "130kg",
+      "title3": "特长",
+      "item3": "拍照也很拿手喵！（但光线暗的话会抖，该怎么办呢……？）",
+      "serif": "和Ran与Dorie也要\r\n一直在一起喵～！",
+      "team": "Ran & Dorie",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Limekkuma",
+      "summary": "来自各个银河的客人蜂拥而至的星之生诞祭。「简直是导游的荣耀事件！啦啦啦～Lime！」干劲十足的Lime，将这里作为展示导游本领的舞台，为游客举办导览游。从Deluxe区域来的人也很多，她努力让大家玩得开心。",
+      "title1": "身高",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg",
+      "title3": "特长",
+      "item3": "导览游行程就交给我吧",
+      "serif": "嗨！『用气球与愿之星一起飞的导览游』一位客人，这边请～！",
+      "team": "宇宙车站导游协会(临时所属)",
+      "illustrator": "SEGA",
+      "img": "05"
+    },
+    {
+      "name": "Lemonkkuma",
+      "summary": "和Lime一起来进行导游修行的星之生诞祭。Lemon干劲十足地出发进行城市观光调查。绝佳的观景点、美味的店铺、漂亮的酒店。「任何信息都准备得万无一失呢！」和Lime进行最后的作战会议。为了明天的祭典正式举行，准备万全。",
+      "title1": "身高",
+      "item1": "65cm",
+      "title2": "体重",
+      "item2": "10kg",
+      "title3": "特长",
+      "item3": "城市信息收集就交给我吧",
+      "serif": "大家～，右手边看到的就是有名的『愿之星』呢！",
+      "team": "宇宙车站导游协会(临时所属)",
+      "illustrator": "SEGA",
+      "img": "06"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "星之水滴",
+      "artist": "森罗万象",
+      "movie": "Tsutsumi Hideaki",
+      "songsummary": "星之生诞祭。那是庆祝被人们寄托愿望的『愿之星』每十年重生一次的节日。镶嵌马赛克瓷砖的美丽广场被发光的矿石照亮，宛如移动游乐园。人们在堆满彩色糖果和食物的摊位、表演有趣节目的大道艺人和演奏家之间开心地穿梭。Ras、Chiffon和Salt也一边用空中漂浮的许多星星创造喜欢的星座一边走着，突然欢呼声响起。烟花绽放，从聚集在会场的人们手中的灯笼里，矿石一齐升上天空。Ras也取下手中灯笼的金属扣，里面的矿石染成红色，轻轻飘上天空。中央巨大的『愿之星』也从花环中释放，为了新的十年升向天际。",
+      "thumbnail": "hapifes-1"
+    },
+    {
+      "songtitle": "Rainbow Rush Story",
+      "artist": "Iruka Ice feat. Choco",
+      "movie": "aco",
+      "illustrator": "Nimoshi",
+      "songsummary": "",
+      "thumbnail": "hapifes-2"
+    },
+    {
+      "songtitle": "Tricolor⁂circuS",
+      "artist": "ああ…翡翠茶渍…",
+      "movie": "TOYCAT",
+      "illustrator": "Murata Muuta",
+      "songsummary": "",
+      "thumbnail": "hapifes-3"
+    },
+    {
+      "songtitle": "[X]",
+      "artist": "Blacklolita",
+      "movie": "Aru Shi",
+      "songsummary": "",
+      "thumbnail": "hapifes-4"
+    }
+  ]
+}

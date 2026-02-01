@@ -1,0 +1,108 @@
+{
+  "id": "metropolis3",
+  "name": "Metropolis区域3",
+  "area": "『你们能选择的道路只有一条。那就是在24小时内交出这个星球。我们是奉「主之命」的正当回归者。』突然，覆盖Metropolis全回线和天空的屏幕上出现了一名少女，她宣告道。与之相对的是继承了灭亡「人类」细胞的唯一仿生人「黑姬」。在24小时后的总攻之前，提出的投降条件就是交出「黑姬」。\r\n选择的是投降，还是残酷的大战。\r\n",
+  "youtubeID": "W0zJbHlMp0U",
+  "characters": [
+    {
+      "name": "黑姬",
+      "summary": "这个世界上仅存的、拥有失落「人类」记忆和细胞的仿生人。防御机构「红丸」让人联想到无数日本刀，在战斗时觉醒后会形态变化为龙形。",
+      "title1": "体长",
+      "item1": "163cm（人形部分）",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "每秒可进行1万5千种轨道演算",
+      "serif": "作为最后的执行者，执行程序。",
+      "team": "Metropolis",
+      "illustrator": "cell",
+      "img": "01"
+    },
+    {
+      "name": "壹王",
+      "summary": "Metropolis天守阁右大门的守护者。紧急防卫装置之一，仅在有事时觉醒。索敌能力优秀，用金刚杵和掌心发出的冲击波击退敌人。沉默寡言。",
+      "title1": "体长",
+      "item1": "8.4m",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "自动索敌系统",
+      "serif": "……",
+      "team": "Metropolis",
+      "illustrator": "ヨシモト",
+      "img": "02"
+    },
+    {
+      "name": "仁王",
+      "summary": "Metropolis天守阁左大门的守护者。紧急防卫装置之一，仅在有事时觉醒。索敌能力优秀，用双手掌心发出的冲击波击退敌人。怕生。",
+      "title1": "体长",
+      "item1": "8.4m",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "自动索敌系统",
+      "serif": "……",
+      "team": "Metropolis",
+      "illustrator": "ヨシモト",
+      "img": "03"
+    },
+    {
+      "name": "雷天",
+      "summary": "仅在有事时觉醒的对战斗用机体。两侧装备60毫米火神炮，用包裹特殊电磁波的狮子头使对方行动无力化。冷酷且像偶像一样的存在。击破后的招牌台词会引起欢呼。",
+      "title1": "体长",
+      "item1": "16m",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "中型战专用",
+      "serif": "雉鸟若不啼，则杀之……",
+      "team": "Metropolis",
+      "illustrator": "ヨシモト",
+      "img": "04"
+    },
+    {
+      "name": "焰天",
+      "summary": "仅在有事时觉醒的对战斗用机体。双肩装备光束步枪和榴弹发射器。缠绕着从高输出引擎发出的火焰。喜欢华丽，总想从高处登场，这是美中不足。",
+      "title1": "体长",
+      "item1": "18m",
+      "title2": "制造年份",
+      "item2": "2019年",
+      "title3": "特征",
+      "item3": "中型战专用",
+      "serif": "绝景啊绝景啊！",
+      "team": "Metropolis",
+      "illustrator": "ヨシモト",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Aetheric Energy",
+      "artist": "aran",
+      "movie": "群青利口酒",
+      "songsummary": "Metropolis的天空被厚厚的云层覆盖。自从阳光不再照耀大地以来，已经过去了多久，连在意的人类也已不复存在。这里只有黑暗中独自闪耀的如宝石箱般的城市和机器人。这个被称为「Metropolis」的地区以地热为电力源，所有能量都蓄积在城市中央天守阁的中核，并供应给整个区域。何时谁设计了这里并建设，一切记录都没有留下。",
+      "thumbnail": "metropolis3-01"
+    },
+    {
+      "songtitle": "Komplexe",
+      "artist": "雄之助 feat. Sennzai",
+      "movie": "群青利口酒",
+      "songsummary": "突然，所有回线出现杂音，不夜城Metropolis的全电源消失了。待命的SAM_RAI和BEN_KEI拔刀，包围了黑姬。在诡异的寂静中，城市依然被黑暗笼罩。黑姬尝试访问主核【NIRAIKANAI】，察觉到黑客入侵的迹象，猛然抬头看向天空。Metropolis暗云密布的天空投影出的屏幕上，映出了一名少女型的白色机器人。包围她的白色军队。那景象神圣得如同古老记忆中天使降临的绘画。",
+      "thumbnail": "metropolis3-02"
+    },
+    {
+      "songtitle": "Beautiful Future",
+      "artist": "PSYQUI",
+      "movie": "群青利口酒",
+      "songsummary": "『METROPOLIS AREA:MAINCORE-SYSTEM EMERGENCY DEFENSE MODE』宣布紧急事态的瞬间，中央主核的能量质量膨胀，将空间涂成白色。热量逐渐卷入大气并开始向中心收缩，面对Metropolis有史以来的敌袭，城外壁张开了护盾。天守阁的格纳库中，防卫系统「雷天」和「焰天」睁开了眼睛，大门处，不动的门卫发出地鸣开始行动。",
+      "thumbnail": "metropolis3-03"
+    },
+    {
+      "songtitle": "Mutation",
+      "artist": "Laur",
+      "movie": "群青利口酒",
+      "songsummary": "被黑客入侵的监控器上，映出无数白色少女型机器人，自称「イーシュ」。『交出黑姬还是破坏』响彻Metropolis的声音逼迫着选择。在屏蔽被劫持的表层系统、监控器上イーシュ的脸消失的瞬间，残存的回线中，イーシュ只对黑姬说道：『我们的主已掌握尼赖卡奈计划——』认识到这句话的瞬间，黑姬的系统中断断续续流入了本不该存在于记忆中的不可思议影像。",
+      "thumbnail": "metropolis3-04"
+    }
+  ]
+}

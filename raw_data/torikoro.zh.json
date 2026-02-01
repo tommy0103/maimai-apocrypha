@@ -1,0 +1,142 @@
+{
+  "id": "torikoro",
+  "name": "三色区域",
+  "comment": "电子世界中漂浮的三色『Circle』。\r\n你属于哪一色呢？",
+  "area": "在这个三色区域里，大家可以开心地玩耍，\r\n分成三色团队，互相争夺阵地吧！",
+  "youtubeID": "YnZ-60MBz8U",
+  "characters": [
+    {
+      "name": "Mai Pad",
+      "summary": "【本周也要快速向大家传递信息！与同伴合作并掌握信息是胜利的关键？】",
+      "title1": "喜欢的东西",
+      "item1": "-)",
+      "title2": "特点",
+      "item2": "D",
+      "title3": "梦想",
+      "item3": ";)",
+      "serif": ":)",
+      "team": "三色区域",
+      "illustrator": "SEGA",
+      "img": "01"
+    },
+    {
+      "name": "Limekuma（Circle）",
+      "summary": "这次的导览目的地竟然是元宇宙～！",
+      "title1": "喜欢的东西",
+      "item1": "Key Lime Pie",
+      "title2": "特长",
+      "item2": "让大家开心！",
+      "title3": "梦想",
+      "item3": "成为区域第一的向导！",
+      "serif": "大家的笑容就是我的宝物啦～Lime！",
+      "team": "三色向导协会（临时所属）",
+      "illustrator": "SEGA",
+      "img": "02"
+    },
+    {
+      "name": "Lemonkuma（Circle）",
+      "summary": "时髦的向导才不会挑导览地点呢。",
+      "title1": "喜欢的东西",
+      "item1": "Lemon Meringue Pie",
+      "title2": "特长",
+      "item2": "发现隐藏的店铺！",
+      "title3": "梦想",
+      "item3": "成为区域第一的观光规划师！",
+      "serif": "这可是导航姐姐推荐的店哦！",
+      "team": "三色向导协会（临时所属）",
+      "illustrator": "SEGA",
+      "img": "03"
+    },
+    {
+      "name": "Deluxekuma（Circle）",
+      "summary": "这次来到三色区域的Deluxekuma。由于在Ran & Dorie身边长大的经验，对机械很擅长，所以也能完美适应这个区域。",
+      "title1": "喜欢的东西",
+      "item1": "Lion Mama",
+      "title2": "特长",
+      "item2": "maimai",
+      "title3": "梦想",
+      "item3": "成为帅气的狮子",
+      "serif": "Mai Pad真是方便呢～！",
+      "team": "Ran & Dorie",
+      "illustrator": "SEGA",
+      "img": "04"
+    },
+    {
+      "name": "Chiffon（Circle）",
+      "summary": "在三色区域为用户提供支持的温婉美人姐姐。\r\n特点是细致、舒心的支持。",
+      "title1": "喜欢的东西",
+      "item1": "公主蛋糕～for Ras～",
+      "title2": "特长",
+      "item2": "糖艺",
+      "title3": "梦想",
+      "item3": "制作代表CAFÉ MiLK的蛋糕",
+      "serif": "你好。\r\n哎呀呀，有什么困扰吗？",
+      "team": "CAFÉ MiLK",
+      "illustrator": "SEGA",
+      "img": "05"
+    },
+    {
+      "name": "Shama（Circle）",
+      "summary": "在三色区域为用户提供支持的干练美人姐姐。\r\n特点是准确、专业的支持。",
+      "title1": "喜欢的东西",
+      "item1": "Shama牛奶、蛤蜊浓汤",
+      "title2": "特长",
+      "item2": "经营咨询",
+      "title3": "梦想",
+      "item3": "让全世界女孩子幸福的事业获得成功",
+      "serif": "哎呀？有什么困难吗？\r\n如果不介意的话，可以跟我说说看？",
+      "team": "Oshama牛奶",
+      "illustrator": "SEGA",
+      "img": "06"
+    },
+    {
+      "name": "乙姬（废墟存在活动）",
+      "summary": "乙姬又没钱了。如果告诉龟鲷，会被二话不说带回家（龙宫城），因此她应聘了号称【相当安全！啥都没有！】的高额打工，但……？",
+      "title1": "喜欢的东西",
+      "item1": "和果子",
+      "title2": "特长",
+      "item2": "舞蹈",
+      "title3": "梦想",
+      "item3": "建造上様乐园或乙姬乐园",
+      "serif": "这种一看就是Flag的招聘……谁会傻傻上当啊～（东张西望）",
+      "team": "龙宫城",
+      "illustrator": "淘々",
+      "img": "07"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "CiRCLE CAMPAiGN",
+      "artist": "Satsuki feat. Amane Kanata",
+      "movie": "Production : eureka inc.\r\nProducer, Planner, Project Manager : G2\r\nDirection, 3DCG, Animation, Composite : POhL\r\nGraphic Design : Minami Fuji (CARAVAN)",
+      "illustrator": "Masako Wada",
+      "songsummary": "这里是充满情感相互连接、逐渐成形的Circle中心。\r\n\r\n如果分别进入三股势力的圆形Circle，各团队就齐心协力创造出精彩的舞台吧！\r\n能干的向导和支持的姐姐们会提供帮助。",
+      "thumbnail": "torikoro-1"
+    },
+    {
+      "songtitle": "Magical Paradox",
+      "artist": "Mr.Asyu",
+      "movie": "TOYCAT",
+      "illustrator": "おゆざき",
+      "songsummary": "少年长年寻找的【ARCHANGEL NIBOSI】卡片成为大赛的优胜奖品―――。\r\n\r\n终于到达的优胜者决定战。以为好不容易打败了众多强敌，就在这时，从虚无空间中伸出的黑手，抓住了少年的【MAGICAL-G-KNIGHT】拖入黑暗……？\r\n在电脑世界展开的热血战斗！胜利的去向，以及这个世界的结局是？",
+      "thumbnail": "torikoro-2"
+    },
+    {
+      "songtitle": "主公！？您疯了吗！？",
+      "artist": "Shu feat. Amaha Shiroppu",
+      "movie": "ばやちゃお",
+      "illustrator": "ばやちゃお",
+      "songsummary": "温暖、温柔，有时严厉。\r\n今天，迈迈们也在猫女仆充满爱的鼓励下迎接挑战。",
+      "thumbnail": "torikoro-3"
+    },
+    {
+      "songtitle": "废墟存在活动",
+      "artist": "Yoshida Yosei feat. Chikku.",
+      "movie": "淘々",
+      "illustrator": "淘々",
+      "songsummary": "【废墟存在活动\r\n这是偶然！只邀请你！\r\n只需短期停留\r\n你的人生就会改变！】\r\n过于可疑的打工招聘广告。在废墟？只是停留？高额报酬……？\r\n乙姬，从贴着传单的电线杆前走过……看似如此但迅速返回，撕下那张纸离开了。\r\n\r\n※此乐曲将在「Circle Festa Season 1」的胜利队伍中先行解禁。",
+      "thumbnail": "torikoro-4",
+      "link": "https://info-maimai.sega.jp/7616/"
+    }
+  ]
+}

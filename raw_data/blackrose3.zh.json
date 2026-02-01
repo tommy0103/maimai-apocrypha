@@ -1,0 +1,87 @@
+{
+  "id": "blackrose3",
+  "name": "BLACK ROSE区域3",
+  "area": "Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷薇病专科医生遗体消失的奇怪事件。事件背后，隐藏着一位医生将健康人伪装成黑蔷薇病患者，以此勒索巨额住院费的欺诈和恐吓行为。而受害者，也在这趟列车中……扮成车掌的Hudloo也现身，事件最终迎来了意想不到的结局。",
+  "youtubeID": "Ivksru6e1Co",
+  "characters": [
+    {
+      "name": "Rou",
+      "summary": "他因传闻感染黑蔷薇病而被强制收容到专科医院。在封闭的“治疗”环境中，由于性格懦弱，逐渐对院长夫人Marie产生了精神依赖。",
+      "title1": "身高",
+      "item1": "178cm",
+      "title2": "体重",
+      "item2": "66kg",
+      "title3": "生日",
+      "item3": "7月21日",
+      "serif": "你背叛了我……我的爱",
+      "team": "黑蔷薇病专科医院",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "Marie",
+      "summary": "作为稀世恶女，她假借治疗黑蔷薇病之名监禁心仪的男性。一旦对方沦为她的顺从信徒，她便失去兴趣，进而将其感染黑蔷薇病并转卖给教会。",
+      "title1": "身高",
+      "item1": "168cm",
+      "title2": "体重",
+      "item2": "52kg ",
+      "title3": "生日",
+      "item3": "1月31日",
+      "serif": "你们这些母子，早就该被卖掉了哟。",
+      "team": "黑蔷薇病专科医院",
+      "illustrator": "しきみ",
+      "img": "02"
+    },
+    {
+      "name": "Hanna",
+      "summary": "作为Tristan家的女仆，因Aul学生时代屡次炼金术实验失败给她添了不少麻烦，她在他面前总是抬不起头。但她暗地里收集着关于Aul活跃事迹的新闻剪报。",
+      "title1": "身高",
+      "item1": "154cm",
+      "title2": "体重",
+      "item2": "43kg",
+      "title3": "生日",
+      "item3": "9月2日",
+      "serif": "如果您的事情办完了，就请快点回去吧，Aul大人。",
+      "team": "Tristan家",
+      "illustrator": "しきみ",
+      "img": "03"
+    },
+    {
+      "name": "Tristan",
+      "summary": "作为在孤儿院长大的Aul的监护人兼炼金术导师，他虽未公开与教会敌对，但彼此素有渊源。多年来，他一直致力于调查黑蔷薇病及Azoth之谜等内情。",
+      "title1": "身高",
+      "item1": "176m",
+      "title2": "体重",
+      "item2": "70kg",
+      "title3": "生日",
+      "item3": "5月2日",
+      "serif": "Aul拥有的天赋之才。炼金术正是解开你追寻之谜的关键吧。",
+      "team": "政府/国家炼金术协会Schlein",
+      "illustrator": "しきみ",
+      "img": "04"
+    },
+    {
+      "name": "Clemens（恶魔）",
+      "summary": "他化为吸血鬼的恶魔附身已有多年，如今知情者寥寥无几。作为吸食同伴血液的交换，他会赋予对方青春永驻的容颜与寿命。",
+      "title1": "身高",
+      "item1": "182cm",
+      "title2": "体重",
+      "item2": "70kg",
+      "title3": "生日",
+      "item3": "2月14日",
+      "serif": "想要理解这世上的一切，真是自负呢。",
+      "team": "教会/Aul侦探事务所",
+      "illustrator": "しきみ",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "戏剧性事件",
+      "artist": "Yuri Canon feat. Walpiscarter & Mahiru",
+      "movie": "Tsutsumi Hideaki",
+      "songsummary": "Aul一行人接受宝石商委托，登上了卧铺列车，却遭遇离奇的遗体消失事件。房间内留下的文件清单记载了侍者目击医生遗体的证词。Aul从中确认了Rou的存在，进而揭开围绕他的诡谲人伦关系，以及一位为守护儿子不惜犯下谋杀的母亲Michelle的悲壮结局。在Michelle茫然失措之际，Rou将痴缠的Marie吞噬，化身为黑色地狱的守门犬——Orthrus的恶魔附身。",
+      "thumbnail": "blackrose3-01"
+    }
+  ]
+}

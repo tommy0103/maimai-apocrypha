@@ -1,0 +1,6 @@
+area_id,path,text,note
+skystreet6,name,天空街道区域6,示例
+skystreet6,area,天空街道的新篇章，Episode 0。,示例
+skystreet6,comment,现在与未来。在相隔遥远的世界彼端，他们终于直面彼此。,示例
+skystreet6,characters[0].summary,这里是译文,这是 Akatsuki 的简介
+skystreet6,songs[0].songsummary,这里是译文,这是 パラドクスイヴ 的简介

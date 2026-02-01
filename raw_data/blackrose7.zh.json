@@ -1,0 +1,87 @@
+{
+  "id": "blackrose7",
+  "name": "BLACK ROSE区域7",
+  "area": "为了追踪现出天使本性并带走Ellie的Mastima，Aul一行人前往留存着天使传说的Teos岛。与此同时，养父Byron得知Louis正在调查天使和Makurīchi家的事情，于是追着他拜访了Makurīchi家。被各自的命运引导而聚集的他们，将会知晓怎样的真相？",
+  "youtubeID": "D24U7NS1NzY",
+  "characters": [
+    {
+      "name": "Aul",
+      "summary": "Aul在Teos岛找到了教会。昏暗的教会内部散落着看似是小孩子的骨头，变色的炼成阵被执拗地描绘着。当他停下脚步，对祭坛上的徽章感到奇妙的既视感时，目光停留在了脚边滚落的带锁链的徽章上。Aul很熟悉那个徽章。但为什么它会在这个岛上呢？它的主人应该在很久以前就去世了。",
+      "title1": "身高",
+      "item1": "175cm",
+      "title2": "体重",
+      "item2": "58kg",
+      "title3": "生日",
+      "item3": "4月1日",
+      "serif": "这是……Holly曾经拥有的\r\n吊坠吗？",
+      "team": "Aul侦探事务所",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "Hyd Lou",
+      "summary": "在Makurīchi家得到天使线索的Hyd Lou，决定追踪带走了Ellie的Mastima的行踪。多年来一直追寻的“Azoth”……这块石头真正的价值至今仍未知。但是，既然这块从恶魔身体中产生的石头，仿佛引导着谜题的答案般指向了天使的存在，现在已经没有时间畏缩了。",
+      "title1": "身高",
+      "item1": "未知",
+      "title2": "体重",
+      "item2": "未知",
+      "title3": "生日",
+      "item3": "未知",
+      "serif": "——这样啊，原来是这么回事",
+      "team": "未知",
+      "illustrator": "しきみ",
+      "img": "02"
+    },
+    {
+      "name": "Ellie",
+      "summary": "黑暗中浮现的影像，如同放映机般切换着无数场景，只是在眼前流动着。刚觉得一位初老男性正在向这边献花，下一刻就变成了一个小男孩坐在树上搭话的场景。（我在这里做什么呢……？）她突然这样想，感觉远处有谁在呼唤她的名字。",
+      "title1": "身高",
+      "item1": "143cm",
+      "title2": "体重",
+      "item2": "33kg",
+      "title3": "生日",
+      "item3": "未知",
+      "serif": "很久以前……在遇到Aul之前，\r\n好像也待过这样的地方",
+      "team": "Aul侦探事务所",
+      "illustrator": "しきみ",
+      "img": "03"
+    },
+    {
+      "name": "Mastima",
+      "summary": "创造主某一天命令道：“赐予炼金术的智慧，让地上的人手成就烧瓶。”花费漫长时间培育的计划之芽，在开花之前就变得模糊不清，但在Makurīchi家看到Ellie的Mastima，知道了自己的计划已经成就。",
+      "title1": "身高",
+      "item1": "179cm",
+      "title2": "体重",
+      "item2": "67kg",
+      "title3": "生日",
+      "item3": "1月20日",
+      "serif": "啊，很快你的愿望就会实现",
+      "team": "政府/教会",
+      "illustrator": "しきみ",
+      "img": "04"
+    },
+    {
+      "name": "Byron (堕天使)",
+      "summary": "通过从Louis实验室的秘密小房间找到的备忘录，得知他前往了Makurīchi家的Byron追了上去。在那里，他得知一行人前往了Teos，以及Ellie被现出天使姿态的Mastima掳走的事。",
+      "title1": "身高",
+      "item1": "185cm",
+      "title2": "体重",
+      "item2": "73kg",
+      "title3": "生日",
+      "item3": "11月28日",
+      "serif": "终于要开始了……\r\n不，是能结束吗",
+      "team": "Pubmistortin",
+      "illustrator": "しきみ",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "分解收敛之尾",
+      "artist": "un:c・konoco×cosMo＠暴走P",
+      "movie": "ツツミヒデアキ",
+      "songsummary": "以Makurīchi家为首，据说炼金术师始祖的家系诞生的Teos岛。那个岛上流传着传说：天使降临到受黑蔷薇病困扰的人们身边，赐予了各种奇迹的技艺。为了夺回Ellie并知晓Mastima的真正意图，Aul他们闯入了Teos岛。但是，从荒废的教会遗迹的痕迹中，Aul所分解的事实太过残酷。人们的命运是从何时起，又被谁所操纵的呢？Teos岛事件与黑翼的真相，不过是更大动荡的开始。",
+      "thumbnail": "blackrose7-1"
+    }
+  ]
+}

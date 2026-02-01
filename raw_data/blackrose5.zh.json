@@ -1,0 +1,87 @@
+{
+  "id": "blackrose5",
+  "name": "BLACK ROSE区域5",
+  "area": "Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家族的宅邸。这座奇特的宅邸中央有一个圆形大厅，里面摆放着天球仪和占星盘，每个房间都装饰着美丽的星座符号。当月蚀的光芒透过天窗时，事件骤然发生。在各方意图交织的谜团中，Owl能否平安抵达所有真相的尽头？",
+  "youtubeID": "cTfeVzAGQqs",
+  "characters": [
+    {
+      "name": "Eliza",
+      "summary": "她是Arby MacLeach的长女。在与青梅竹马Jack的新婚之夜，Jack因Cain的阴谋被杀，导致她恶魔化。人类恶魔化后会形成名为Azoth的核心，而MacLeach家族的女性尤其能产生强魔力的Azoth，因此容易成为追求者的目标。",
+      "title1": "身高",
+      "item1": "160cm",
+      "title2": "体重",
+      "item2": "48.5kg",
+      "title3": "生日",
+      "item3": "12月24日",
+      "serif": "我必须坚强起来。\r\n为了MacLeach家族嘛。",
+      "team": "MacLeach家族",
+      "illustrator": "Shikimi",
+      "img": "01"
+    },
+    {
+      "name": "Cain",
+      "summary": "拥有强大魔力的MacLeach家族世代经营炼金术道具工坊，但长子Cain天生魔力薄弱，因此由弟弟继承家业，这成了自尊心强的他走向犯罪的原因。被Mastema告知“在月蚀时结婚的新娘能获得强大魔力”的Cain启动了宅邸的机关，但这其实是想要得到Azoth的Mastema的阴谋。",
+      "title1": "身高",
+      "item1": "186cm",
+      "title2": "体重",
+      "item2": "62kg",
+      "title3": "生日",
+      "item3": "7月25日",
+      "serif": "明明有更多赚钱的方法，\r\n为什么？是脑子不好使吗？",
+      "team": "MacLeach家族",
+      "illustrator": "Shikimi",
+      "img": "02"
+    },
+    {
+      "name": "Jack",
+      "summary": "Frost家族世代与MacLeach家族关系密切，这与出身有关。Jack是使用炼金术的特殊医疗专家。在与Eliza订婚后，他一直暗中监视行为可疑的Cain，但为了保护被假信叫来的养父Arby，一同卷入了宅邸的机关。",
+      "title1": "身高",
+      "item1": "178.3cm",
+      "title2": "体重",
+      "item2": "57kg",
+      "title3": "生日",
+      "item3": "10月20日",
+      "serif": "因为她总想独自承担，\r\n所以我想在她身边支持她。",
+      "team": "Frost家族",
+      "illustrator": "Shikimi",
+      "img": "03"
+    },
+    {
+      "name": "Anastasia",
+      "summary": "她与姐姐Eliza关系很好，但随着成长，她感觉姐姐有事瞒着她。但这其实是Eliza为了不让妹妹卷入危险的炼金术世界，因家族事务而疏远妹妹所产生的误解。她魔力虽弱，但直觉敏锐，擅长占星。事件后，她似乎决定帮助姐姐，协助家族事业。",
+      "title1": "身高",
+      "item1": "142cm",
+      "title2": "体重",
+      "item2": "34kg",
+      "title3": "生日",
+      "item3": "3月21日",
+      "serif": "我总是被排除在外，\r\n但我想帮上姐姐的忙！",
+      "team": "MacLeach家族",
+      "illustrator": "Shikimi",
+      "img": "04"
+    },
+    {
+      "name": "Ralph (Demon-Possessed)",
+      "summary": "他因狼人恶魔附身，幼年时失去自我并狂暴化，在被教会处理前被Tristan救下并收养。要制止他的暴走，只需抓住他脖子上的锁链并下令，但只有Hanna能做到这一点。",
+      "title1": "身高",
+      "item1": "183.5cm",
+      "title2": "体重",
+      "item2": "67kg",
+      "title3": "生日",
+      "item3": "10月10日",
+      "serif": "能驯服这股冲动的\r\n只有你",
+      "team": "Tristan家族",
+      "illustrator": "Shikimi",
+      "img": "05"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Ambivalence",
+      "artist": "Three × Aizawa",
+      "movie": "Tsutsumi Hideaki",
+      "songsummary": "围绕如液体般柔软、又如宝石般坚硬的神秘物质“Azoth”，事件发生了。被复仇心蒙蔽双眼的男人听信甜言蜜语实施犯罪计划，怪盗为了自己的目的盗走了新娘的头冠。故事在多方意图下推进，主角是被Cain给予黑色液体的悲剧新娘。Owl察觉到利用宅邸发动炼金术的征兆并奔走阻止，但目睹挚爱之死的新娘如天空之月般逐渐染上黑色。",
+      "thumbnail": "blackrose5-1"
+    }
+  ]
+}
