@@ -152,7 +152,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -178,7 +178,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -204,7 +204,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

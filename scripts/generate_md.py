@@ -235,9 +235,10 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
             story_jp = safe_html_text(song_jp.get('songsummary', ''))
                 
                 # 如果没剧情就跳过
-            # if not story_jp:
-            #     md_content.append("> *该歌曲暂无背景故事*")
-            #     continue
+            if not story_jp:
+                story_zh = safe_html_text('（这首歌没有收录背景故事哦 >_<）')
+                # md_content.append("> *该歌曲暂无背景故事*")
+                # continue
 
             thumb_filename = song_jp.get('thumbnail', '')
             jacket_url = f"/src/images/{area_jp['id']}/{thumb_filename}.png"

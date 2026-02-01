@@ -247,7 +247,7 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -273,7 +273,7 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -299,7 +299,7 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

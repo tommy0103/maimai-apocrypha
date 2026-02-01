@@ -166,7 +166,7 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -192,7 +192,7 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -218,7 +218,7 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-
+（这首歌没有收录背景故事哦 &gt;_&lt;）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
