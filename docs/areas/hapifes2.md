@@ -138,9 +138,84 @@ editLink: true
 
 
 ## 楽曲ストーリー (Stories)
-> *该歌曲暂无背景故事*
-> *该歌曲暂无背景故事*
-> *该歌曲暂无背景故事*
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes2/hapifes2-1.png" alt="トノサマビーム" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">トノサマビーム</h3>
+<Badge type="tip" text="ぼっちぼろまる" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
+
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes2/hapifes2-2.png" alt="enchanted wanderer" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">enchanted wanderer</h3>
+<Badge type="tip" text="linear ring" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
+
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes2/hapifes2-3.png" alt="Comet Panto Men!" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">Comet Panto Men!</h3>
+<Badge type="tip" text="MYUKKE." style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
+
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     

@@ -187,6 +187,80 @@ editLink: true
 </div>
 </div>
 
-> *该歌曲暂无背景故事*
-> *该歌曲暂无背景故事*
-> *该歌曲暂无背景故事*
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes/hapifes-2.png" alt="Rainbow Rush Story" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">Rainbow Rush Story</h3>
+<Badge type="tip" text="いるかアイス feat.ちょこ" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
+
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes/hapifes-3.png" alt="Tricolor⁂circuS" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">Tricolor⁂circuS</h3>
+<Badge type="tip" text="ああ…翡翠茶漬け…" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
+
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
+    
+<div style="flex-shrink: 0; width: 140px;">
+<img src="/src/images/hapifes/hapifes-4.png" alt="[X]" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+</div>
+    
+<div style="flex-grow: 1;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">[X]</h3>
+<Badge type="tip" text="Blacklolita" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+
+</div>
+</details>
+</div>
+</div>
