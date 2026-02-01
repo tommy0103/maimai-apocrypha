@@ -142,7 +142,7 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-1.png" alt='フェイクフェイス・フェイルセイフ' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet5/skystreet5-1.png" alt="フェイクフェイス・フェイルセイフ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -168,7 +168,7 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-2.png" alt='シックスプラン' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet5/skystreet5-2.png" alt="シックスプラン" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -194,7 +194,7 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-3.png" alt='フタタビ' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet5/skystreet5-3.png" alt="フタタビ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -220,7 +220,7 @@ Akatsuki抱紧自己般蜷缩身体，就那样瘫倒在冰冷的水泥地上。
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-4.png" alt='ふらふらふら、' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet5/skystreet5-4.png" alt="ふらふらふら、" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">

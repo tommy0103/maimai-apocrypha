@@ -142,7 +142,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-1.png" alt='星めぐり、果ての君へ。' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet2/skystreet2-1.png" alt="星めぐり、果ての君へ。" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -168,7 +168,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-2.png" alt='スローアライズ' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet2/skystreet2-2.png" alt="スローアライズ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -194,7 +194,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-4.png" alt='生命不詳' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet2/skystreet2-4.png" alt="生命不詳" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -220,7 +220,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-3.png" alt='チエルカ／エソテリカ' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/skystreet2/skystreet2-3.png" alt="チエルカ／エソテリカ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">

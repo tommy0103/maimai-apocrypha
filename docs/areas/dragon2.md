@@ -96,7 +96,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-1.png" alt='隠密あんみつDX' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/dragon2/dragon2-1.png" alt="隠密あんみつDX" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -122,7 +122,7 @@ Ask的父母是最强的龙使者，但在这个镇上，他是家喻户晓的�
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-2.png" alt='地球' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/dragon2/dragon2-2.png" alt="地球" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -148,7 +148,7 @@ Ask坚信在Midgard已经找不到自己的伙伴龙了……他阴沉着脸告�
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-3.png" alt='Churros Parlor' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/dragon2/dragon2-3.png" alt="Churros Parlor" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -174,7 +174,7 @@ Ask坚信在Midgard已经找不到自己的伙伴龙了……他阴沉着脸告�
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-4.png" alt='超熊猫的周遊記（ワンダーパンダートラベラー）' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/dragon2/dragon2-4.png" alt="超熊猫的周遊記（ワンダーパンダートラベラー）" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">

@@ -19,6 +19,15 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def format_attr_value(value) -> str:
+    value = "" if value is None else str(value)
+    if '"' in value:
+        escaped = html.escape(value, quote=False).replace('"', "&quot;")
+        return escaped
+    escaped = html.escape(value, quote=False).replace("'", "&#39;")
+    return escaped
+
+
 def is_missing(value) -> bool:
     if value is None:
         return True
@@ -219,6 +228,7 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
 
             title = song_jp.get('songtitle', 'Unknown Song')
             artist = song_jp.get('artist', 'Unknown Artist')
+            title_attr = format_attr_value(title)
     
                 # 核心剧情文本
             story_zh = safe_html_text(song_local.get('songsummary', '（暂无剧情翻译）'))
@@ -254,7 +264,7 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="{jacket_url}" alt='{title}' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="{jacket_url}" alt="{title_attr}" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">

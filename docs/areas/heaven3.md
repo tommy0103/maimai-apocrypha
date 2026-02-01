@@ -125,7 +125,7 @@ editLink: true
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-03.png" alt='ワンダーシャッフェンの法則' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/heaven3/heaven3-03.png" alt="ワンダーシャッフェンの法則" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -151,7 +151,7 @@ Mika 并不知晓外面的世界。她存在于教会，是为了祈祷天界的
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-02.png" alt='BIRTH' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/heaven3/heaven3-02.png" alt="BIRTH" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
@@ -177,7 +177,7 @@ Mika 并不知晓外面的世界。她存在于教会，是为了祈祷天界的
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-01.png" alt='Regulus' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/heaven3/heaven3-01.png" alt="Regulus" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">

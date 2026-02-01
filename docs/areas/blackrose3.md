@@ -145,7 +145,7 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
     
 <div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/blackrose3/blackrose3-01.png" alt='シアトリカル・ケース' style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<img src="/src/images/blackrose3/blackrose3-01.png" alt="シアトリカル・ケース" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
 </div>
     
 <div style="flex-grow: 1;">
