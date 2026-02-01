@@ -1,12 +1,6 @@
 {
-  "buildCommand": "npm run docs:build",
+  "buildCommand": "VERCEL=1 npm run docs:build",
   "outputDirectory": "docs/.vitepress/dist",
   "installCommand": "npm ci",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
-    }
-  ]
+  "framework": null
 }

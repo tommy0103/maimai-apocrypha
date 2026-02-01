@@ -29,7 +29,8 @@ function loadAreaSidebar() {
 const sidebarAreas = loadAreaSidebar();
 
 export default defineConfig({
-  base: "/maimai-apocrypha/",
+  // base: "/maimai-apocrypha/",
+  base: process.env.VERCEL ?  "/" : "/maimai-apocrypha/",
   title: "Maimai Apocrypha",
   description: "maimai story archive",
   themeConfig: {
