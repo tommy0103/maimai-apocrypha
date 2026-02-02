@@ -7,10 +7,18 @@ editLink: true
 ::: info 区域简介
 天空街道的新篇章，Episode 0。
 :::
+::: tip 一些小信息
+现在与未来。在相隔遥远的世界彼端，他们终于直面彼此。
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > スカイストリートの新章、エピソード0。
+
+::: tip 一些小信息
+現在と未来。遠く隔てた世界の端で、
+彼らはようやく向き合った。
+:::
 </details>
 
 

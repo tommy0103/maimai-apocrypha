@@ -7,10 +7,17 @@ editLink: true
 ::: info 区域简介
 路西法集结魔族与堕天使，觉醒为大恶魔并开始行动
 :::
+::: tip 一些小信息
+宣告最终战争来自魔界的一击
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > 魔族、堕天使を束ね、大悪魔として覚醒したルシファーが動き始める
+
+::: tip 一些小信息
+最終戦争を告げる魔界からの一撃
+:::
 </details>
 
 

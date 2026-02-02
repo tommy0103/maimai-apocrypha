@@ -1,1 +1,242 @@
-[{"id": "blackrose8", "name": "BLACK ROSE区域8"}, {"id": "takamagahara2", "name": "高天原区域2"}, {"id": "blackrose6", "name": "BLACK ROSE区域6"}, {"id": "metropolis7", "name": "Metropolis区域7"}, {"id": "blackrose9", "name": "BLACK ROSE区域9"}, {"id": "skystreet6", "name": "天空街道区域6"}, {"id": "metropolis5", "name": "大都会区域5"}, {"id": "dragon2", "name": "龙区域2"}, {"id": "dragon3", "name": "Dragon区域3"}, {"id": "blackrose5", "name": "BLACK ROSE区域5"}, {"id": "torikoro", "name": "三色区域"}, {"id": "party", "name": "派对区域"}, {"id": "universe", "name": "宇宙站"}, {"id": "skystreet", "name": "天空街道区域"}, {"id": "7sref", "name": "7sRef"}, {"id": "kawaii2", "name": "可爱区域2"}, {"id": "heaven6", "name": "天界区域6"}, {"id": "heaven3", "name": "天界区域3"}, {"id": "takamagahara", "name": "高天原区域"}, {"id": "shuwa-shuwa2", "name": "噗呲噗呲区域2"}, {"id": "heaven4", "name": "天界区域4"}, {"id": "heaven8", "name": "天界区域8"}, {"id": "7sref2", "name": "7sRef区域2"}, {"id": "skystreet5", "name": "Sky Street 区域5"}, {"id": "skystreet3", "name": "Sky Street 区域3"}, {"id": "metropolis8", "name": "Metropolis区域8"}, {"id": "7sref4", "name": "7sRef区域4"}, {"id": "skystreet2", "name": "Sky Street 区域 2"}, {"id": "party2", "name": "派对区域2"}, {"id": "metropolis3", "name": "Metropolis区域3"}, {"id": "metropolis9", "name": "Metropolis区域9"}, {"id": "skystreet4", "name": "天穹街道区域4"}, {"id": "nanairo", "name": "七色区域"}, {"id": "heaven7", "name": "天界区域7"}, {"id": "blackrose3", "name": "BLACK ROSE区域3"}, {"id": "blackrose7", "name": "BLACK ROSE区域7"}, {"id": "universe2", "name": "宇宙站2"}, {"id": "metropolis4", "name": "大都会区域4"}, {"id": "blackrose10", "name": "BLACK ROSE区域10"}, {"id": "blackrose4", "name": "BLACK ROSE 区域 4"}, {"id": "heaven5", "name": "天界区域5"}, {"id": "7sref3", "name": "7sRef区域3"}, {"id": "kawaii", "name": "可爱区域"}, {"id": "shuwa-shuwa", "name": "泡泡滋滋区域"}, {"id": "dragon4", "name": "飞龙区域4"}, {"id": "metropolis6", "name": "Metropolis 区域6"}, {"id": "hapifes", "name": "欢乐祭典区域"}, {"id": "hapifes2", "name": "HAPIFES 区域 2"}]
+[
+  {
+    "id": "7sref",
+    "text": "7sRefちほー",
+    "version": "universe"
+  },
+  {
+    "id": "7sref2",
+    "text": "7sRefちほー2",
+    "version": "universeplus"
+  },
+  {
+    "id": "7sref3",
+    "text": "7sRefちほー3",
+    "version": "buddies"
+  },
+  {
+    "id": "7sref4",
+    "text": "7sRefちほー4",
+    "version": "prismplus"
+  },
+  {
+    "id": "blackrose10",
+    "text": "BLACK ROSEちほー10",
+    "version": "prism"
+  },
+  {
+    "id": "blackrose3",
+    "text": "BLACK ROSEちほー3",
+    "version": "splash"
+  },
+  {
+    "id": "blackrose4",
+    "text": "BLACK ROSEちほー4",
+    "version": "splashplus"
+  },
+  {
+    "id": "blackrose5",
+    "text": "BLACK ROSEちほー5",
+    "version": "universe"
+  },
+  {
+    "id": "blackrose6",
+    "text": "BLACK ROSEちほー6",
+    "version": "universeplus"
+  },
+  {
+    "id": "blackrose7",
+    "text": "BLACK ROSEちほー7",
+    "version": "festival"
+  },
+  {
+    "id": "blackrose8",
+    "text": "BLACK ROSEちほー8",
+    "version": "festivalplus"
+  },
+  {
+    "id": "blackrose9",
+    "text": "BLACK ROSEちほー9",
+    "version": "buddies"
+  },
+  {
+    "id": "dragon2",
+    "text": "ドラゴンちほー2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "dragon3",
+    "text": "ドラゴンちほー3",
+    "version": "buddiesplus"
+  },
+  {
+    "id": "dragon4",
+    "text": "ドラゴンちほー4",
+    "version": "prismplus"
+  },
+  {
+    "id": "hapifes",
+    "text": "ハピフェスちほー",
+    "version": "festival"
+  },
+  {
+    "id": "hapifes2",
+    "text": "ハピフェスちほー2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "heaven3",
+    "text": "天界ちほー3",
+    "version": "splash"
+  },
+  {
+    "id": "heaven4",
+    "text": "天界ちほー4",
+    "version": "universe"
+  },
+  {
+    "id": "heaven5",
+    "text": "天界ちほー5",
+    "version": "universeplus"
+  },
+  {
+    "id": "heaven6",
+    "text": "天界ちほー6",
+    "version": "festival"
+  },
+  {
+    "id": "heaven7",
+    "text": "天界ちほー7",
+    "version": "buddiesplus"
+  },
+  {
+    "id": "heaven8",
+    "text": "天界ちほー8",
+    "version": "prism"
+  },
+  {
+    "id": "kawaii",
+    "text": "kawaiiちほー",
+    "version": "splashplus"
+  },
+  {
+    "id": "kawaii2",
+    "text": "kawaiiちほー2",
+    "version": "circle"
+  },
+  {
+    "id": "metropolis3",
+    "text": "メトロポリスちほー3",
+    "version": "splash"
+  },
+  {
+    "id": "metropolis4",
+    "text": "メトロポリスちほー4",
+    "version": "universe"
+  },
+  {
+    "id": "metropolis5",
+    "text": "メトロポリスちほー5",
+    "version": "universeplus"
+  },
+  {
+    "id": "metropolis6",
+    "text": "メトロポリスちほー6",
+    "version": "festival"
+  },
+  {
+    "id": "metropolis7",
+    "text": "メトロポリスちほー7",
+    "version": "buddies"
+  },
+  {
+    "id": "metropolis8",
+    "text": "メトロポリスちほー8",
+    "version": "buddiesplus"
+  },
+  {
+    "id": "metropolis9",
+    "text": "メトロポリスちほー9",
+    "version": "prism"
+  },
+  {
+    "id": "nanairo",
+    "text": "なないろちほー",
+    "version": "prismplus"
+  },
+  {
+    "id": "party",
+    "text": "パーリィちほー",
+    "version": "buddies"
+  },
+  {
+    "id": "party2",
+    "text": "パーリィちほー2",
+    "version": "buddiesplus"
+  },
+  {
+    "id": "shuwa-shuwa",
+    "text": "しゅわしゅわちほー",
+    "version": "splash"
+  },
+  {
+    "id": "shuwa-shuwa2",
+    "text": "しゅわしゅわちほー2",
+    "version": "splashplus"
+  },
+  {
+    "id": "skystreet",
+    "text": "スカイストリートちほー",
+    "version": "splash"
+  },
+  {
+    "id": "skystreet2",
+    "text": "スカイストリートちほー2",
+    "version": "splashplus"
+  },
+  {
+    "id": "skystreet3",
+    "text": "スカイストリートちほー3",
+    "version": "festival"
+  },
+  {
+    "id": "skystreet4",
+    "text": "スカイストリートちほー4",
+    "version": "festivalplus"
+  },
+  {
+    "id": "skystreet5",
+    "text": "スカイストリートちほー5",
+    "version": "buddies"
+  },
+  {
+    "id": "skystreet6",
+    "text": "スカイストリートちほー6",
+    "version": "prism"
+  },
+  {
+    "id": "takamagahara",
+    "text": "高天原ちほー",
+    "version": "splashplus"
+  },
+  {
+    "id": "takamagahara2",
+    "text": "高天原ちほー2",
+    "version": "circle"
+  },
+  {
+    "id": "torikoro",
+    "text": "トリコロちほー",
+    "version": "circle"
+  },
+  {
+    "id": "universe",
+    "text": "宇宙すてーしょんちほー",
+    "version": "universe"
+  },
+  {
+    "id": "universe2",
+    "text": "宇宙すてーしょんちほー2",
+    "version": "universeplus"
+  }
+]

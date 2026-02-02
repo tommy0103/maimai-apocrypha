@@ -11,13 +11,34 @@ function loadAreaSidebar() {
     const indexPath = resolve(__dirname, "../public/area_index.json");
     const fileContent = readFileSync(indexPath, "utf-8");
     const areas = JSON.parse(fileContent);
+    const normalized = areas.map((area) => ({
+      id: area.id,
+      text: area.text ?? area.name ?? area.id,
+      version: area.version ?? "unknown",
+    }));
 
-    return areas
-      .sort((a, b) => a.id.localeCompare(b.id))
-      .map((area) => ({
-        text: `${area.id} 区域`,
-        link: `/areas/${area.id}`,
+    const grouped = new Map();
+    for (const area of normalized) {
+      const version = area.version || "unknown";
+      if (!grouped.has(version)) {
+        grouped.set(version, []);
+      }
+      grouped.get(version).push(area);
+    }
+
+    const versionGroups = Array.from(grouped.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([version, items]) => ({
+        text: version,
+        items: items
+          .sort((a, b) => a.id.localeCompare(b.id))
+          .map((area) => ({
+            text: `${area.text}（${area.id} 区域）`,
+            link: `/areas/${area.id}`,
+          })),
       }));
+
+    return versionGroups;
   } catch (e) {
     console.error(
       "⚠️ 无法自动生成侧边栏，请检查 public/area_index.json 是否存在。",

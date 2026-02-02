@@ -7,10 +7,19 @@ editLink: true
 ::: info 区域简介
 『7sRef』是maimai中七个区域之一的名称。
 :::
+::: tip 一些小信息
+在maimai中持续发生的故障。
+那让通往世界的大门锁上钥匙的『事件』究竟是什么呢？
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > 『7sRef』……それはmaimaiに7つ存在するエリアの名称の一つ。
+
+::: tip 一些小信息
+maimaiで続くエラー。
+世界へ続く扉が鍵を閉ざす『事象』とは一体何だったのだろう？
+:::
 </details>
 
 

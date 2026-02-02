@@ -7,10 +7,19 @@ editLink: true
 ::: info 区域简介
 在误入的门扉之中……？ Milk 和 Salt 能平安逃脱吗？
 :::
+::: tip 一些小信息
+闪耀着七色光芒的宝石，
+点缀得区域闪闪发亮、美丽无比！
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > 迷い込んだ扉の中には……？ みるくとソルトは無事に脱出できるでしょうか？
+
+::: tip 一些小信息
+なないろに輝く宝石が
+キラキラ綺麗なちほー！
+:::
 </details>
 
 

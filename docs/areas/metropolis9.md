@@ -7,10 +7,19 @@ editLink: true
 ::: info 区域简介
 读取过去的记忆，Kurohime在思考什么？
 :::
+::: tip 一些小信息
+白与黑两军的战力，起初看似势均力敌。
+这场战斗的走向将如何？
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > 過去のメモリーを読み込み、黒姫は何を思うのか？
+
+::: tip 一些小信息
+白と黒の軍勢の戦力は、当初五分に見えた。
+その戦いの行方は？
+:::
 </details>
 
 

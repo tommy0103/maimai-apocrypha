@@ -7,10 +7,19 @@ editLink: true
 ::: info 区域简介
 因果循环的过去与现在。少女曾经所见之物是什么？
 :::
+::: tip 一些小信息
+Rag 是天界的实力派人物。
+这是她不为人知的过去一幕。
+:::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
 
 > 因果が巡る過去と現在。かつて少女が見た物とは？
+
+::: tip 一些小信息
+天界の実力者であるラグ。
+これは、知られざる彼女の過去の一幕。
+:::
 </details>
 
 
