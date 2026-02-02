@@ -19,6 +19,7 @@ class ScraperConfig:
     raw_data_dir: Path = Path("../raw_data")
     images_dir: Path = Path("../docs/src/images")
     concurrency: int = 32
+    area_index_path: Path = Path("../docs/public/area_index.json")
 
 
 class AreaScraper:
@@ -43,12 +44,12 @@ class AreaScraper:
                 logging.info("Found script: %s", full_url)
         return found_scripts
 
-    def parse_area_json_urls(self, js_content: str, js_file_name: str) -> list[str]:
+    def parse_area_json_urls(self, js_content: str, js_file_name: str) -> tuple[str, list[str]]:
         list_pattern = re.compile(r"\w+\s*=\s*\[(.*?)\]")
         list_match = list_pattern.search(js_content)
         if not list_match:
             logging.warning("No list definition in %s", js_file_name)
-            return []
+            return ("unknown", [])
         raw_content = list_match.group(1)
         items = re.findall(r"['\"](.*?)['\"]", raw_content)
         logging.info("List items: %s", items)
@@ -59,7 +60,7 @@ class AreaScraper:
         url_match = url_pattern.search(js_content)
         if not url_match:
             logging.warning("No json pattern string found in %s", js_file_name)
-            return []
+            return ("unknown", [])
 
         prefix = url_match.group(1)
         suffix = url_match.group(2)
@@ -72,7 +73,9 @@ class AreaScraper:
         ]
         for url in full_urls:
             logging.info("JSON URL: %s", url)
-        return full_urls
+        version_match = re.search(r"/data/([^/]+)Area/", clean_prefix)
+        version_name = version_match.group(1) if version_match else "unknown"
+        return (version_name, full_urls)
 
     async def fetch_and_save_json(
         self,
@@ -143,6 +146,53 @@ class AreaScraper:
         )
         return all_areas
 
+    def merge_area_index(self, entries: list[dict]) -> None:
+        index_path = self.config.area_index_path
+        index_path.parent.mkdir(parents=True, exist_ok=True)
+        if index_path.exists():
+            existing = json.loads(index_path.read_text(encoding="utf-8"))
+        else:
+            existing = []
+        merged = {}
+        for item in existing + entries:
+            if not isinstance(item, dict):
+                continue
+            area_id = item.get("id")
+            version = item.get("version")
+            if not area_id or not version:
+                continue
+            merged[f"{area_id}:{version}"] = { # A key designed to merge
+                "id": area_id,
+                "text": item.get("text", ""),
+                "version": version,
+            }
+        merged_list = sorted(merged.values(), key=lambda x: (x["id"], x["version"]))
+        index_path.write_text(
+            json.dumps(merged_list, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
+    def build_phase1_index_entries(self, version_name: str, json_urls: list[str]) -> list[dict]:
+        entries: list[dict] = []
+        for url in json_urls:
+            filename = url.split("/")[-1]
+            file_path = self.config.raw_data_dir / filename
+            if not file_path.exists():
+                continue
+            area = json.loads(file_path.read_text(encoding="utf-8"))
+            area_id = area.get("id", "")
+            area_name = area.get("name", "")
+            if not area_id:
+                continue
+            entries.append(
+                {
+                    "id": area_id,
+                    "text": area_name,
+                    "version": version_name,
+                }
+            )
+        return entries
+
     def fetch_begin_page(self) -> None:
         url = "https://maimai.sega.jp/area/hapifes/story/"
         response = httpx.get(url)
@@ -162,8 +212,12 @@ class AreaScraper:
                 full_url = urljoin(version_url, js_filename)
                 logging.info("Fetching script: %s", full_url)
                 js_content = httpx.get(full_url).text
-                json_urls = self.parse_area_json_urls(js_content, js_filename)
+                version_name, json_urls = self.parse_area_json_urls(js_content, js_filename)
                 await self.download_jsons(json_urls)
+                if json_urls:
+                    entries = self.build_phase1_index_entries(version_name, json_urls)
+                    if entries:
+                        self.merge_area_index(entries)
 
     async def fetch_data_phase2(self) -> None:
         version_name_list = [
@@ -175,6 +229,7 @@ class AreaScraper:
             "splash",
         ]
         all_areas = self.build_unified_index(version_name_list)
+        self.merge_area_index(all_areas)
         json_urls = [
             f"https://maimai.sega.jp/data/{area['version']}Area/{area['id']}.json"
             for area in all_areas

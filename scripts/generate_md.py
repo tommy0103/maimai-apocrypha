@@ -97,17 +97,28 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
         # --- 标题与简介 ---
     md_content.append(f"\n# {area_local.get('name', area_jp['name'])}（{area_jp.get('name', '')}）")
     
-    area_story_jp = area_jp.get('area', area_jp.get('comment', ''))
-    area_story_zh = area_local.get('area', area_local.get('comment', ''))
+    area_story_jp = area_jp.get('area', '')
+    area_story_zh = area_local.get('area', '')
+    comment_jp = area_jp.get('comment', '')
+    comment_zh = area_local.get('comment', '')
 
         # 双语简介 (使用引用块或折叠)
     md_content.append("::: info 区域简介")
     md_content.append(area_story_zh)
     md_content.append(":::")
+    if comment_zh:
+        md_content.append("::: tip 一些小信息")
+        md_content.append(comment_zh)
+        md_content.append(":::")
         
     md_content.append("<details class='raw-text'>")
     md_content.append("<summary>查看日语原文 (Original Text)</summary>\n")
     md_content.append(f"> {area_story_jp}")
+    if comment_jp:
+        md_content.append("")
+        md_content.append("::: tip 一些小信息")
+        md_content.append(comment_jp)
+        md_content.append(":::")
     md_content.append("</details>\n")
 
     soukanzu_url = f"/src/images/{area_jp['id']}/soukanzu.png"

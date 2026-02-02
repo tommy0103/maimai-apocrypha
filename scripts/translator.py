@@ -132,16 +132,16 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     for future in as_completed(futures):
          result = future.result()
 
-files = list(Path("../raw_data").rglob("*.zh.json"))
-writen_data = []
+# files = list(Path("../raw_data").rglob("*.zh.json"))
+# writen_data = []
 
-for input_file in files:
-    with open(input_file, encoding="utf-8") as f:
-        data = json.load(f)
-        writen_data.append({"id": data['id'], "name": data['name']})
+# for input_file in files:
+#     with open(input_file, encoding="utf-8") as f:
+#         data = json.load(f)
+#         writen_data.append({"id": data['id'], "name": data['name']})
 
-with open("../docs/public/area_index.json", "w", encoding="utf-8") as f:
-    json.dump(writen_data, f, ensure_ascii=False)
+# with open("../docs/public/area_index.json", "w", encoding="utf-8") as f:
+#     json.dump(writen_data, f, ensure_ascii=False)
             # print(result) # 可选：打印结果
 # for input_file in tqdm(files, desc="Translateing..."):
 #     # print(input_file.__str__())
