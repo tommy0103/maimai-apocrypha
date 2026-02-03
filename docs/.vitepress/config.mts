@@ -84,7 +84,7 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "关于", link: "/about" },
-      { text: "贡献翻译", link: "/contribute" },
+      { text: "贡献翻译与勘误", link: "/contribute" },
     ],
     search: {
       provider: "local",
@@ -123,7 +123,7 @@ export default defineConfig({
         // ],
       },
       {
-        text: "kaleidx_scope（万花筒）",
+        text: "万花筒 (kaleidx_scope)",
         items: [
           { text: "phase1", link: "/kaleidx_scope/phase1" },
         ],

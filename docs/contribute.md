@@ -1,11 +1,13 @@
 ---
-title: 贡献翻译
+title: 贡献翻译与勘误
 editLink: true
 ---
 
-# 贡献翻译
+# 贡献翻译与勘误
 
 可以通过 GitHub 帐号提交对应 `*.zh.json` 文件的 PR。
+
+对于 kaleidx_scope 区域，可以提交对应 `*.md` 文件的 PR，也可以直接通过邮箱 <a href="mailto:nekotomiya@outlook.com">nekotomiya@outlook.com</a> 联系我。
 
 如果你没有 GitHub 账号，也可以通过表单参与翻译。填写后，我会定期导出并合并到站点里。
 

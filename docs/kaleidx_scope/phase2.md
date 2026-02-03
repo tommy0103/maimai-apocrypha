@@ -57,7 +57,7 @@ editLink: true
 :::
 
 ::: info 解锁条件
-1. 完走 heaven8 区域
+1. 完走 [heaven8 区域](/areas/heaven8)
 2. 佩戴 Latent Kingdom 背景板，在 1pc 内游玩以下大国奏音的歌曲（共 6 首，不可重复游玩）
 <div style="text-align: center; margin: 18px 0 28px;">
   <img src="/src/images/kaleidx_scope/phase2/phase2-sp1.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
@@ -65,7 +65,7 @@ editLink: true
 :::
 
 ::: tip 白门有关区域
-神明区域：heaven1, heaven2, heaven3, heaven4, heaven5, heaven6, heaven7, heaven8 区域
+神明区域：heaven, heaven2, [heaven3](/areas/heaven3), [heaven4](/areas/heaven4), [heaven5](/areas/heaven5), [heaven6](/areas/heaven6), [heaven7](/areas/heaven7), [heaven8](/areas/heaven8) 区域
 :::
 
 <div style="text-align: center; margin: 18px 0 28px;">

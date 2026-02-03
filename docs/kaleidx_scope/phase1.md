@@ -45,14 +45,14 @@ editLink: true
 :::
 
 ::: info 解锁条件
-1. 完走 SkyStreet6 区域
+1. 完走 [skystreet6](/areas/skystreet6) 区域
 2. 游玩以下区域的全部歌曲，共 29 首
 :::
 
 ::: tip 青门有关区域
 青春区域（天空街区域）：
 - skystreet 区域（dx 的青春区域 + dx plus 的两个区域），由于这三个区域均未提供详细背景故事，所以统称为 skystreet 区域
-- skystreet2, skystreet3, skystreet4, skystreet5, skystreet6 区域
+- [skystreet2](/areas/skystreet2), [skystreet3](/areas/skystreet3), [skystreet4](/areas/skystreet4), [skystreet5](/areas/skystreet5), [skystreet6](/areas/skystreet6) 区域
 :::
 
 <div style="text-align: center; margin: 18px 0 28px;">
