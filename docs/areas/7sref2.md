@@ -1,9 +1,9 @@
 ---
-title: 7sRef区域2
+title: 7sref2 区域
 editLink: true
 ---
 
-# 7sRef区域2（7sRefちほー2）
+# 7sRefちほー2（7sref2 区域）
 ::: info 区域简介
 本不应相交的世界发生扭曲、改变形态，最终融为一体之地——7sRef。眼前出现了七个箱子。这是一个我将寻回『　』的故事。哎呀……看来今晚来了不得了的客人呢。今夜的客人们真是相当热闹，却又带着一丝悲伤。悲喜剧的派对，现在开场。
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref2/01.png" alt="Riz" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref2/01.png" alt="Riz">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Riz</h3>
 <p><b>「贵安，客人。<br>今夜，就让我来讲讲玩具们的回忆吧。」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref2/02.png" alt="Acid" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref2/02.png" alt="Acid">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Acid</h3>
 <p><b>「我们呀，<br>就像一对镜中倒影呢。」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref2/03.png" alt="Geluputedi" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref2/03.png" alt="Geluputedi">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Geluputedi</h3>
 <p><b>「Coucou, 和我一起玩吧！」</b></p>
 
@@ -90,11 +141,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref2/04.png" alt="Orangeatte" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref2/04.png" alt="Orangeatte">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Orangeatte</h3>
 <p><b>「代替面包的是微苦的巧克力，<br>代替石子的是沙沙作响的金平糖。<br>顺着它们走，就能回到家。」</b></p>
 
@@ -113,11 +164,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref2/05.png" alt="W?K?Y?" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref2/05.png" alt="W?K?Y?">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">W?K?Y?</h3>
 <p><b>「『早上好，你的名字是？』」</b></p>
 
@@ -139,13 +190,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref2/7sref2-1.png" alt="Jouez Avec Moi?" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Jouez Avec Moi?
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref2/7sref2-1.png" alt="Jouez Avec Moi?" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Jouez Avec Moi?</h3>
 <Badge type="tip" text="Retropolitaliens (Ms.+駄々子)" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref2/7sref2-2.png" alt="白花の天使" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 白花の天使
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref2/7sref2-2.png" alt="白花の天使" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">白花の天使</h3>
 <Badge type="tip" text="Yu-dachi" style="vertical-align: middle;" />
@@ -191,13 +244,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref2/7sref2-3.png" alt="Metamorphosism" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Metamorphosism
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref2/7sref2-3.png" alt="Metamorphosism" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Metamorphosism</h3>
 <Badge type="tip" text="削除" style="vertical-align: middle;" />
@@ -217,13 +271,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref2/7sref2-4.png" alt="World&#39;s end loneliness" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### World's end loneliness
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref2/7sref2-4.png" alt="World&#39;s end loneliness" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">World's end loneliness</h3>
 <Badge type="tip" text="打打だいず" style="vertical-align: middle;" />

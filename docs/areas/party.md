@@ -1,9 +1,9 @@
 ---
-title: 派对区域
+title: party 区域
 editLink: true
 ---
 
-# 派对区域（パーリィちほー）
+# パーリィちほー（party 区域）
 ::: info 区域简介
 Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！』，眼睁睁看着星球诞辰祭的会场渐行渐远。驾驶鲜红色跑车的乙姫兴奋地说『好期待呢～』，但Ras哪有心思理会。就这样糊里糊涂地被带往的星球，原来是个全年都沉浸在『宴会』喧嚣中的行星。
 :::
@@ -27,12 +27,63 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/01.png" alt="乙姫（Badies）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/01.png" alt="乙姫（Badies）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">乙姫（Badies）</h3>
 <p><b>「每天都有宴会……这是多么迷人的话语啊<br>我的手腕都忍不住要动起来了～～！」</b></p>
 
@@ -51,11 +102,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/02.png" alt="Ras（Badies）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/02.png" alt="Ras（Badies）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Ras（Badies）</h3>
 <p><b>「既然都已经到这一步了，<br>除了硬着头皮上……也没办法了，对吧！」</b></p>
 
@@ -74,11 +125,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/03.png" alt="SD光吉猛修" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/03.png" alt="SD光吉猛修">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD光吉猛修</h3>
 <p><b>「把『真正的我』展现出来，不也挺好吗？」</b></p>
 
@@ -97,11 +148,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/04.png" alt="SD龟" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/04.png" alt="SD龟">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD龟</h3>
 <p><b>「话说回来，<br>这所谓的『西装』可真紧啊……」</b></p>
 
@@ -120,11 +171,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/05.png" alt="SD鲷" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/05.png" alt="SD鲷">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD鲷</h3>
 <p><b>「真是好歌呀～！<br>情不自禁就露出笑容了呢」</b></p>
 
@@ -143,11 +194,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/06.png" alt="SD Dandy Dan" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/06.png" alt="SD Dandy Dan">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD Dandy Dan</h3>
 <p><b>「虽然是没听过的音乐，<br>但很棒呢☆（眨眼）」</b></p>
 
@@ -166,11 +217,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/07.png" alt="Shama（Party☆People☆Princess）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/07.png" alt="Shama（Party☆People☆Princess）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Shama（Party☆People☆Princess）</h3>
 <p><b>「是啊！永不结束的派对魔法<br>不是超级棒吗？」</b></p>
 
@@ -189,11 +240,11 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/party/08.png" alt="Milk（Party☆People☆Princess）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/party/08.png" alt="Milk（Party☆People☆Princess）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Milk（Party☆People☆Princess）</h3>
 <p><b>「开心的事一旦结束就无聊了喵！<br>所以今天要一直开派对喵～！」</b></p>
 
@@ -215,13 +266,14 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/party/party-1.png" alt="NOIZY BOUNCE" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### NOIZY BOUNCE
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/party/party-1.png" alt="NOIZY BOUNCE" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">NOIZY BOUNCE</h3>
 <Badge type="tip" text="八王子P feat. ななひら・まめこ" style="vertical-align: middle;" />
@@ -241,13 +293,14 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/party/party-2.png" alt="サンバディ！" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### サンバディ！
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/party/party-2.png" alt="サンバディ！" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">サンバディ！</h3>
 <Badge type="tip" text="水野健治 feat.光吉猛修" style="vertical-align: middle;" />
@@ -267,13 +320,14 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/party/party-3.png" alt="Horoscope Express" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Horoscope Express
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/party/party-3.png" alt="Horoscope Express" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Horoscope Express</h3>
 <Badge type="tip" text="pan" style="vertical-align: middle;" />
@@ -293,13 +347,14 @@ Ras正身处困境。他呼喊着『Chiffon酱，Salt酱，呜呜呜～～～！
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/party/party-4.png" alt="Party☆People☆Princess" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Party☆People☆Princess
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/party/party-4.png" alt="Party☆People☆Princess" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Party☆People☆Princess</h3>
 <Badge type="tip" text="Sound Artz" style="vertical-align: middle;" />

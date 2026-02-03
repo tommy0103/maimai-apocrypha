@@ -1,9 +1,9 @@
 ---
-title: Sky Street 区域3
+title: skystreet3 区域
 editLink: true
 ---
 
-# Sky Street 区域3（スカイストリートちほー3）
+# スカイストリートちほー3（skystreet3 区域）
 ::: info 区域简介
 开始发生各类事件的 Sky Street。这是一个由试图交错过去与未来的两人之意图，以及另一人所怀抱的秘密，所引发的故事。
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet3/01.png" alt="Akatsuki" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet3/01.png" alt="Akatsuki">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Akatsuki</h3>
 <p><b>「这种预言……不可能成真的」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet3/02.png" alt="Kohaku" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet3/02.png" alt="Kohaku">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Kohaku</h3>
 <p><b>「真希望别人能干脆说我脑子出问题了<br>那样还轻松点」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet3/03.png" alt="暁" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet3/03.png" alt="暁">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">暁</h3>
 <p><b>「想碰碰你的脸颊呢」</b></p>
 
@@ -90,11 +141,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet3/04.png" alt="Noah" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet3/04.png" alt="Noah">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Noah</h3>
 <p><b>「就这样敷衍地活在今天吧<br>一直如此」</b></p>
 
@@ -113,11 +164,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet3/05.png" alt="Sou" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet3/05.png" alt="Sou">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Sou</h3>
 <p><b>「虽然不狠狠揍你一拳<br>实在不解气，但我还是感谢你的」</b></p>
 
@@ -139,13 +190,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet3/skystreet3-1.png" alt="RIFFRAIN" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### RIFFRAIN
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet3/skystreet3-1.png" alt="RIFFRAIN" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">RIFFRAIN</h3>
 <Badge type="tip" text="夏代孝明" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet3/skystreet3-2.png" alt="Falling" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Falling
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet3/skystreet3-2.png" alt="Falling" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Falling</h3>
 <Badge type="tip" text="シノ feat.しほ" style="vertical-align: middle;" />
@@ -191,13 +244,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet3/skystreet3-3.png" alt="ピリオドサイン" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ピリオドサイン
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet3/skystreet3-3.png" alt="ピリオドサイン" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ピリオドサイン</h3>
 <Badge type="tip" text="Ponchi♪ feat.はぁち" style="vertical-align: middle;" />
@@ -217,13 +271,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet3/skystreet3-4.png" alt="群青シグナル" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 群青シグナル
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet3/skystreet3-4.png" alt="群青シグナル" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">群青シグナル</h3>
 <Badge type="tip" text="テヅカ feat. 獅子神レオナ" style="vertical-align: middle;" />

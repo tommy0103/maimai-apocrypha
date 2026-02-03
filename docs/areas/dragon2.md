@@ -1,9 +1,9 @@
 ---
-title: 龙区域2
+title: dragon2 区域
 editLink: true
 ---
 
-# 龙区域2（ドラゴンちほー2）
+# ドラゴンちほー2（dragon2 区域）
 ::: info 区域简介
 这是一个“龙与人类”成对诞生的世界。灵魂伙伴即使出生在不同地点，也注定会相遇，并共度一生。但有一位少年，他不仅找不到伙伴，甚至所有遇到的龙都讨厌他……？这便是Ask为寻找伙伴龙而踏上旅程的故事。
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/dragon2/01.png" alt="Ask" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/dragon2/01.png" alt="Ask">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Ask</h3>
 <p><b>「为什么，为什么我就找不到伙伴啊～～～！？」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/dragon2/02.png" alt="LED" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/dragon2/02.png" alt="LED">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">LED</h3>
 <p><b>「这个，给你☆」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/dragon2/03.png" alt="Embla" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/dragon2/03.png" alt="Embla">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Embla</h3>
 <p><b>「没有伙伴……这种事可能吗？」</b></p>
 
@@ -93,13 +144,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-1.png" alt="隠密あんみつDX" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 隠密あんみつDX
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/dragon2/dragon2-1.png" alt="隠密あんみつDX" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">隠密あんみつDX</h3>
 <Badge type="tip" text="カルロス袴田 feat. 日南めい, 古川由彩" style="vertical-align: middle;" />
@@ -119,13 +171,14 @@ Ask的父母是最强的龙使者，但在这个镇上，他是家喻户晓的�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-2.png" alt="地球" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 地球
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/dragon2/dragon2-2.png" alt="地球" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">地球</h3>
 <Badge type="tip" text="立秋 feat.ちょこ" style="vertical-align: middle;" />
@@ -145,13 +198,14 @@ Ask坚信在Midgard已经找不到自己的伙伴龙了……他阴沉着脸告�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-3.png" alt="Churros Parlor" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Churros Parlor
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/dragon2/dragon2-3.png" alt="Churros Parlor" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Churros Parlor</h3>
 <Badge type="tip" text="ピエロ☆マン" style="vertical-align: middle;" />
@@ -171,13 +225,14 @@ Ask坚信在Midgard已经找不到自己的伙伴龙了……他阴沉着脸告�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/dragon2/dragon2-4.png" alt="超熊猫的周遊記（ワンダーパンダートラベラー）" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 超熊猫的周遊記（ワンダーパンダートラベラー）
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/dragon2/dragon2-4.png" alt="超熊猫的周遊記（ワンダーパンダートラベラー）" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">超熊猫的周遊記（ワンダーパンダートラベラー）</h3>
 <Badge type="tip" text="FANTAGIRAFF " style="vertical-align: middle;" />

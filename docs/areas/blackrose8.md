@@ -1,9 +1,9 @@
 ---
-title: BLACK ROSE区域8
+title: blackrose8 区域
 editLink: true
 ---
 
-# BLACK ROSE区域8（BLACK ROSEちほー8）
+# BLACK ROSEちほー8（blackrose8 区域）
 ::: info 区域简介
 围绕着Owl侦探事务所的多样人际关系。伙伴、养父、往昔的友人……以及宿敌。与Owl相关的两位人物——『搭档Nick』与『怪盗Hugh·Rue』。这是关于他们的一段小小往事。
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose8/01.png" alt="Louie（幼年时期）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose8/01.png" alt="Louie（幼年时期）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Louie（幼年时期）</h3>
 <p><b>「我会梦见『颠倒之街』哦。」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose8/02.png" alt="SD Nick" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose8/02.png" alt="SD Nick">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD Nick</h3>
 <p><b>「我们要一直一直在一起哦！☆」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose8/03.png" alt="SD Bratt" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose8/03.png" alt="SD Bratt">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD Bratt</h3>
 <p><b>「那个头发蓬蓬的学生，总是板着同一张脸，好无聊喵~」</b></p>
 
@@ -90,11 +141,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose8/04.png" alt="SD Owl" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose8/04.png" alt="SD Owl">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD Owl</h3>
 <p><b>「……去找吧？搭档。」</b></p>
 
@@ -113,11 +164,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose8/05.png" alt="Nick & Bratt" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose8/05.png" alt="Nick & Bratt">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Nick & Bratt</h3>
 <p><b>「我们是搭档，也是家人！」</b></p>
 
@@ -139,13 +190,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/blackrose8/blackrose8-1.png" alt="ヱデン" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ヱデン
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/blackrose8/blackrose8-1.png" alt="ヱデン" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ヱデン</h3>
 <Badge type="tip" text="koyori(電ポルP)" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/blackrose8/blackrose8-2.png" alt="にゃーにゃー冒険譚" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### にゃーにゃー冒険譚
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/blackrose8/blackrose8-2.png" alt="にゃーにゃー冒険譚" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">にゃーにゃー冒険譚</h3>
 <Badge type="tip" text="黒魔" style="vertical-align: middle;" />

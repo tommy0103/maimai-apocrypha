@@ -1,9 +1,9 @@
 ---
-title: 7sRef区域4
+title: 7sref4 区域
 editLink: true
 ---
 
-# 7sRef区域4（7sRefちほー4）
+# 7sRefちほー4（7sref4 区域）
 ::: info 区域简介
 『7sRef』是maimai中七个区域之一的名称。
 :::
@@ -29,12 +29,63 @@ maimaiで続くエラー。
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref4/01.png" alt="W?K?Y?" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref4/01.png" alt="W?K?Y?">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">W?K?Y?</h3>
 <p><b>「Has been shut down to prevent damage to your world」</b></p>
 
@@ -53,11 +104,11 @@ maimaiで続くエラー。
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref4/02.png" alt="Rotoscara" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref4/02.png" alt="Rotoscara">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Rotoscara</h3>
 <p><b>「你一直很努力，我知道！<br>你的碎片……那些『体验和记忆』是唯一不会说谎的。」</b></p>
 
@@ -76,11 +127,11 @@ maimaiで続くエラー。
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/7sref4/03.png" alt="Acid" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/7sref4/03.png" alt="Acid">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Acid</h3>
 <p><b>「不然你还能有什么办法？」</b></p>
 
@@ -102,13 +153,14 @@ maimaiで続くエラー。
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-1.png" alt="IMBRUED:FLUX" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### IMBRUED:FLUX
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-1.png" alt="IMBRUED:FLUX" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">IMBRUED:FLUX</h3>
 <Badge type="tip" text="qfeileadh feat.のあ" style="vertical-align: middle;" />
@@ -128,13 +180,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-2.png" alt="砂の函" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 砂の函
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-2.png" alt="砂の函" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">砂の函</h3>
 <Badge type="tip" text="Nego_tiator" style="vertical-align: middle;" />
@@ -154,13 +207,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-3.png" alt="Amereistr" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Amereistr
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-3.png" alt="Amereistr" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Amereistr</h3>
 <Badge type="tip" text="rN" style="vertical-align: middle;" />
@@ -180,13 +234,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-4.png" alt="World&#39;s end BLACKBOX" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### World's end BLACKBOX
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-4.png" alt="World&#39;s end BLACKBOX" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">World's end BLACKBOX</h3>
 <Badge type="tip" text="打打だいず" style="vertical-align: middle;" />
@@ -206,13 +261,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-5.png" alt="AFTER PANDORA" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### AFTER PANDORA
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-5.png" alt="AFTER PANDORA" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">AFTER PANDORA</h3>
 <Badge type="tip" text="削除" style="vertical-align: middle;" />
@@ -232,13 +288,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-6.png" alt="Xaleid◆scopiX" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Xaleid◆scopiX
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-6.png" alt="Xaleid◆scopiX" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Xaleid◆scopiX</h3>
 <Badge type="tip" text="xi" style="vertical-align: middle;" />
@@ -258,13 +315,14 @@ maimaiで続くエラー。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/7sref4/7sref4-7.png" alt="Ref:rain (for 7th Heaven)" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Ref:rain (for 7th Heaven)
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/7sref4/7sref4-7.png" alt="Ref:rain (for 7th Heaven)" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Ref:rain (for 7th Heaven)</h3>
 <Badge type="tip" text="カモメサノエレクトリックオーケストラ include Limonène" style="vertical-align: middle;" />

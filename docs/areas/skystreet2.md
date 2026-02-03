@@ -1,9 +1,9 @@
 ---
-title: Sky Street 区域 2
+title: skystreet2 区域
 editLink: true
 ---
 
-# Sky Street 区域 2（スカイストリートちほー2）
+# スカイストリートちほー2（skystreet2 区域）
 ::: info 区域简介
 为了调查在 Sky Street 流行的蝴蝶传闻，Akatsuki 委托了青梅竹马的 Kohaku 进行调查。两人追踪加密在蝴蝶翅膀上的地址，最终到达了 Noah 的网站。然而，在接触 Noah 后，Sky Street 附近开始发生离奇的失踪事件。追逐蝶羽而逐渐改变的各自过去，以及最终抵达的未来会是…？
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet2/01.png" alt="Momo" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet2/01.png" alt="Momo">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Momo</h3>
 <p><b>「这个记忆（旅程）将由你我共同编织，直到永远。」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet2/02.png" alt="Tokiya" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet2/02.png" alt="Tokiya">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Tokiya</h3>
 <p><b>「向前进吧，既然已经决定，就不会犹豫。」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet2/03.png" alt="Kohaku" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet2/03.png" alt="Kohaku">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Kohaku</h3>
 <p><b>「…讨厌，好麻烦。」</b></p>
 
@@ -90,11 +141,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet2/04.png" alt="Noah" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet2/04.png" alt="Noah">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Noah</h3>
 <p><b>「能实现任何愿望的“魔法师”？我是你的…」</b></p>
 
@@ -113,11 +164,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet2/05.png" alt="Akatsuki" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet2/05.png" alt="Akatsuki">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Akatsuki</h3>
 <p><b>「我从什么时候开始自以为是的？以为知道那家伙的一切。」</b></p>
 
@@ -139,13 +190,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-1.png" alt="星めぐり、果ての君へ。" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 星めぐり、果ての君へ。
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet2/skystreet2-1.png" alt="星めぐり、果ての君へ。" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">星めぐり、果ての君へ。</h3>
 <Badge type="tip" text="TAKU1175 ft.駄々子" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-2.png" alt="スローアライズ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### スローアライズ
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet2/skystreet2-2.png" alt="スローアライズ" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">スローアライズ</h3>
 <Badge type="tip" text="Endorfin." style="vertical-align: middle;" />
@@ -191,13 +244,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-4.png" alt="生命不詳" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 生命不詳
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet2/skystreet2-4.png" alt="生命不詳" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">生命不詳</h3>
 <Badge type="tip" text="蜂屋ななし" style="vertical-align: middle;" />
@@ -217,13 +271,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet2/skystreet2-3.png" alt="チエルカ／エソテリカ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### チエルカ／エソテリカ
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet2/skystreet2-3.png" alt="チエルカ／エソテリカ" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">チエルカ／エソテリカ</h3>
 <Badge type="tip" text="ツミキ × 宮下遊" style="vertical-align: middle;" />

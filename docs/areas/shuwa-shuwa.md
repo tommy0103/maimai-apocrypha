@@ -1,9 +1,9 @@
 ---
-title: 泡泡滋滋区域
+title: shuwa-shuwa 区域
 editLink: true
 ---
 
-# 泡泡滋滋区域（しゅわしゅわちほー）
+# しゅわしゅわちほー（shuwa-shuwa 区域）
 ::: info 区域简介
 这里遍布着青柠绿色碳酸气泡的泳池和温泉，形成了泡泡滋滋区域。这是一个有趣的游乐场，可以通过巨大的水上滑梯在城市里自由自在地穿梭飞翔！乙姬殿下似乎也很中意，每天都在这里滋滋地游来游去，并称赞道：“地上的这片水洼，倒也颇为有趣嘛！”
 :::
@@ -21,12 +21,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/shuwa-shuwa/01.png" alt="Lime-kkuma" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/shuwa-shuwa/01.png" alt="Lime-kkuma">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Lime-kkuma</h3>
 <p><b>「这整个城镇都充满了泡泡滋滋的快乐气息！」</b></p>
 
@@ -45,11 +96,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/shuwa-shuwa/02.png" alt="Lemon-kkuma" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/shuwa-shuwa/02.png" alt="Lemon-kkuma">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Lemon-kkuma</h3>
 <p><b>「这里的特产和碳酸绝配，就是青柠和柠檬哟！」</b></p>
 
@@ -68,11 +119,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/shuwa-shuwa/03.png" alt="Delakkuma" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/shuwa-shuwa/03.png" alt="Delakkuma">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Delakkuma</h3>
 <p><b>「我要给 Lion Mama 写信，告诉她原来有这么多不同的「区域」哦！」</b></p>
 
@@ -91,11 +142,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/shuwa-shuwa/04.png" alt="Ran" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/shuwa-shuwa/04.png" alt="Ran">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Ran</h3>
 <p><b>「好想去泡泡滋滋泳池玩呀！」</b></p>
 
@@ -114,11 +165,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/shuwa-shuwa/05.png" alt="Dory" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/shuwa-shuwa/05.png" alt="Dory">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Dory</h3>
 <p><b>「泡泡滋滋温泉，泡起来暖暖的呀！」</b></p>
 
@@ -140,13 +191,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/shuwa-shuwa/syuwa01.png" alt="ぼくたちいつでも　しゅわっしゅわ！ " style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ぼくたちいつでも　しゅわっしゅわ！ 
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/shuwa-shuwa/syuwa01.png" alt="ぼくたちいつでも　しゅわっしゅわ！ " style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ぼくたちいつでも　しゅわっしゅわ！ </h3>
 <Badge type="tip" text="ヒゲドライバー feat.らいむっくま(CV:村川梨衣) ＆ れもんっくま(CV:MoeMi) " style="vertical-align: middle;" />
@@ -166,13 +218,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/shuwa-shuwa/syuwa02.png" alt="Boys O’Clock" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Boys O’Clock
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/shuwa-shuwa/syuwa02.png" alt="Boys O’Clock" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Boys O’Clock</h3>
 <Badge type="tip" text="technoplanet" style="vertical-align: middle;" />
@@ -192,13 +245,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/shuwa-shuwa/syuwa03.png" alt="居並ぶ穀物と溜息まじりの運送屋" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 居並ぶ穀物と溜息まじりの運送屋
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/shuwa-shuwa/syuwa03.png" alt="居並ぶ穀物と溜息まじりの運送屋" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">居並ぶ穀物と溜息まじりの運送屋</h3>
 <Badge type="tip" text="hanzo" style="vertical-align: middle;" />
@@ -218,13 +272,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/shuwa-shuwa/syuwa04.png" alt="ARAIS" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ARAIS
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/shuwa-shuwa/syuwa04.png" alt="ARAIS" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ARAIS</h3>
 <Badge type="tip" text="千本松 仁" style="vertical-align: middle;" />

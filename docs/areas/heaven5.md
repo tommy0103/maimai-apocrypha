@@ -1,9 +1,9 @@
 ---
-title: 天界区域5
+title: heaven5 区域
 editLink: true
 ---
 
-# 天界区域5（天界ちほー5）
+# 天界ちほー5（heaven5 区域）
 ::: info 区域简介
 某一天，Iofi为了前往合唱队的教练那里，匆忙穿过走廊时，看到Mika正望着窗外，轻轻叹了口气。说起来她最近没什么精神呢……Iofi试着问Mika原因――“在这个走廊，能听到圣歌队的歌声。我觉得很美妙，每天听着听着，不知不觉就想，如果我也能那样唱歌就好了……”――Mika这样想着。Mika紧握着裙摆，害羞地回答。啊，这位只知道作为支柱的责任，甚至认为自己连这样微小的愿望都无法实现……想着想着，Iofi超越了怜悯，涌起了愤怒。“――对了，Mika大人。我们来开音乐会吧！交给我，我会召集最好的乐队成员！”“等、等一下！？”“我好期待呢～！哇～……”“走掉了……Iofi真是的。没问题吧。”
 :::
@@ -20,12 +20,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven5/01.png" alt="百合咲 Mika" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven5/01.png" alt="百合咲 Mika">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">百合咲 Mika</h3>
 <p><b>「Azuri，音乐真是快乐呢<br>我连这种事都不知道。」</b></p>
 
@@ -44,11 +95,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven5/02.png" alt="白銅寺 Azuri" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven5/02.png" alt="白銅寺 Azuri">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">白銅寺 Azuri</h3>
 <p><b>「就像母亲说的<br>什么都应该事先做好<br>唔……我一定会赶上演奏会的！」</b></p>
 
@@ -67,11 +118,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven5/03.png" alt="白法院 Rag" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven5/03.png" alt="白法院 Rag">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">白法院 Rag</h3>
 <p><b>「虽然久违地拿起了书和锡杖以外的东西，<br>但既然是Mika大人的愿望」</b></p>
 
@@ -90,11 +141,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven5/04.png" alt="兎花宮 Iofi" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven5/04.png" alt="兎花宮 Iofi">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">兎花宮 Iofi</h3>
 <p><b>「不用担心！就像乘上大船一样，<br>请交给我吧！」</b></p>
 
@@ -113,11 +164,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven5/05.png" alt="庭白 Gavi" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven5/05.png" alt="庭白 Gavi">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">庭白 Gavi</h3>
 <p><b>「来吧，<br>让我听听你们的声音好吗？」</b></p>
 
@@ -139,13 +190,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven5/heaven5-1.png" alt="星空パーティーチューン" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 星空パーティーチューン
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven5/heaven5-1.png" alt="星空パーティーチューン" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">星空パーティーチューン</h3>
 <Badge type="tip" text="OSTER project feat. そらこ" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven5/heaven5-2.png" alt="チューリングの跡" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### チューリングの跡
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven5/heaven5-2.png" alt="チューリングの跡" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">チューリングの跡</h3>
 <Badge type="tip" text="Frums" style="vertical-align: middle;" />
@@ -191,13 +244,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven5/heaven5-3.png" alt="Swift Swing" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Swift Swing
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven5/heaven5-3.png" alt="Swift Swing" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Swift Swing</h3>
 <Badge type="tip" text="Laur" style="vertical-align: middle;" />
@@ -217,13 +271,14 @@ editLink: true
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven5/heaven5-4.png" alt="Sage" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Sage
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven5/heaven5-4.png" alt="Sage" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Sage</h3>
 <Badge type="tip" text="かめりあ" style="vertical-align: middle;" />

@@ -1,9 +1,9 @@
 ---
-title: 天界区域8
+title: heaven8 区域
 editLink: true
 ---
 
-# 天界区域8（天界ちほー8）
+# 天界ちほー8（heaven8 区域）
 ::: info 区域简介
 因果循环的过去与现在。少女曾经所见之物是什么？
 :::
@@ -29,12 +29,63 @@ Rag 是天界的实力派人物。
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven8/01.png" alt="Vilius" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven8/01.png" alt="Vilius">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Vilius</h3>
 <p><b>「我接受了 Lete 的力量，手持枪 Biesfera。<br>天使将如何凋零，试炼之日似乎临近了。」</b></p>
 
@@ -53,11 +104,11 @@ Rag 是天界的实力派人物。
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven8/02.png" alt="Monverde" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven8/02.png" alt="Monverde">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Monverde</h3>
 <p><b>「将混沌带给世界！<br>终于变得有趣起来了不是吗！」</b></p>
 
@@ -76,11 +127,11 @@ Rag 是天界的实力派人物。
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven8/03.png" alt="Arma" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven8/03.png" alt="Arma">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Arma</h3>
 <p><b>「我也能像 Rag 一样吗……？」</b></p>
 
@@ -99,11 +150,11 @@ Rag 是天界的实力派人物。
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven8/04.png" alt="Rag" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven8/04.png" alt="Rag">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Rag</h3>
 <p><b>「喂！最近森林里发生奇怪事情<br>的传闻，你知道吗？」</b></p>
 
@@ -125,13 +176,14 @@ Rag 是天界的实力派人物。
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven8/heaven8-1.png" alt="Ourania" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Ourania
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven8/heaven8-1.png" alt="Ourania" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Ourania</h3>
 <Badge type="tip" text="satella feat.藍月なくる" style="vertical-align: middle;" />
@@ -151,13 +203,14 @@ Arma 从小就是个书虫。<br>说话时，声音会变得怯懦细小，所�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven8/heaven8-2.png" alt="天蓋" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 天蓋
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven8/heaven8-2.png" alt="天蓋" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">天蓋</h3>
 <Badge type="tip" text="花徒めと（Metomate）" style="vertical-align: middle;" />
@@ -177,13 +230,14 @@ Arma 从小就是个书虫。<br>说话时，声音会变得怯懦细小，所�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven8/heaven8-3.png" alt="Deicide" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Deicide
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven8/heaven8-3.png" alt="Deicide" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Deicide</h3>
 <Badge type="tip" text="void (Mournfinale) feat. 古泉葉月" style="vertical-align: middle;" />
@@ -203,13 +257,14 @@ Arma 从小就是个书虫。<br>说话时，声音会变得怯懦细小，所�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven8/heaven8-4.png" alt="氷滅の135小節" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 氷滅の135小節
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven8/heaven8-4.png" alt="氷滅の135小節" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">氷滅の135小節</h3>
 <Badge type="tip" text="大国奏音" style="vertical-align: middle;" />

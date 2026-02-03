@@ -1,9 +1,9 @@
 ---
-title: 宇宙站2
+title: universe2 区域
 editLink: true
 ---
 
-# 宇宙站2（宇宙すてーしょん2）
+# 宇宙すてーしょん2（universe2 区域）
 ::: info 区域简介
 Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发光的姿态，Milk每天都梦想着能和她一起唱歌喵～…但是，Milk突然注意到了实现那个梦想的方法。…那就是（如果Milk也成为偶像，就能和Shama站在同一个舞台上了喵！）既然这么决定了，那就特训特训！即使面对严酷的考验，Milk也凭借牛奶力量克服了。而今天，终于站上了出道舞台。但是，在满场观众面前，却无法像平时一样表演了…？
 :::
@@ -20,12 +20,63 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/universe2/01.png" alt="Chibi Milk" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/universe2/01.png" alt="Chibi Milk">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Chibi Milk</h3>
 <p><b>「Milk也要成为超级偶像喵～☆」</b></p>
 
@@ -44,11 +95,11 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/universe2/02.png" alt="SD『Shama』" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/universe2/02.png" alt="SD『Shama』">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD『Shama』</h3>
 <p><b>「」</b></p>
 
@@ -63,11 +114,11 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/universe2/03.png" alt="SD『Milk』" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/universe2/03.png" alt="SD『Milk』">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">SD『Milk』</h3>
 <p><b>「」</b></p>
 
@@ -82,11 +133,11 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/universe2/04.png" alt="金色牛奶瓶" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/universe2/04.png" alt="金色牛奶瓶">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">金色牛奶瓶</h3>
 <p><b>「」</b></p>
 
@@ -101,11 +152,11 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/universe2/05.png" alt="Joker" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/universe2/05.png" alt="Joker">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Joker</h3>
 <p><b>「オーマイガー！」</b></p>
 
@@ -127,13 +178,14 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/universe2/universe2-1.png" alt="ミルキースター・シューティングスター" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ミルキースター・シューティングスター
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/universe2/universe2-1.png" alt="ミルキースター・シューティングスター" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ミルキースター・シューティングスター</h3>
 <Badge type="tip" text="烏屋茶房 feat. 利香" style="vertical-align: middle;" />
@@ -153,13 +205,14 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/universe2/universe2-2.png" alt="ｉｓｏｐｈｏｔｅ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ｉｓｏｐｈｏｔｅ
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/universe2/universe2-2.png" alt="ｉｓｏｐｈｏｔｅ" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ｉｓｏｐｈｏｔｅ</h3>
 <Badge type="tip" text="パソコン音楽クラブ feat.ぷにぷに電機" style="vertical-align: middle;" />
@@ -179,13 +232,14 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/universe2/universe2-3.png" alt="パラマウント☆ショータイム！！" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### パラマウント☆ショータイム！！
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/universe2/universe2-3.png" alt="パラマウント☆ショータイム！！" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">パラマウント☆ショータイム！！</h3>
 <Badge type="tip" text="翡乃イスカ" style="vertical-align: middle;" />
@@ -205,13 +259,14 @@ Shama是小小Milk憧憬的超级偶像。在街头影像中看到Shama闪闪发
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/universe2/universe2-4.png" alt="Strive against fate" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Strive against fate
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/universe2/universe2-4.png" alt="Strive against fate" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Strive against fate</h3>
 <Badge type="tip" text="Noah" style="vertical-align: middle;" />

@@ -28,6 +28,23 @@ def format_attr_value(value) -> str:
     return escaped
 
 
+def slugify(text: str) -> str:
+    text = "" if text is None else str(text)
+    text = text.lower()
+    slug = []
+    prev_dash = False
+    for ch in text:
+        if ch.isalnum():
+            slug.append(ch)
+            prev_dash = False
+        else:
+            if not prev_dash:
+                slug.append("-")
+                prev_dash = True
+    slug_text = "".join(slug).strip("-")
+    return slug_text or "song"
+
+
 def is_missing(value) -> bool:
     if value is None:
         return True
@@ -90,12 +107,12 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
         
     # --- Frontmatter (VitePress 元数据) ---
     md_content.append("---")
-    md_content.append(f"title: {area_local.get('name', area_jp['name'])}") # 优先用译名
+    md_content.append(f"title: {area_local.get('id', area_jp['id'])} 区域") # 优先用译名
     md_content.append(f"editLink: true") # 允许社区编辑
     md_content.append("---")
         
         # --- 标题与简介 ---
-    md_content.append(f"\n# {area_local.get('name', area_jp['name'])}（{area_jp.get('name', '')}）")
+    md_content.append(f"\n# {area_jp['name']}（{area_jp.get('id')} 区域）")
     
     area_story_jp = area_jp.get('area', '')
     area_story_zh = area_local.get('area', '')
@@ -129,6 +146,58 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
   <img src="{soukanzu_url}" alt="相关图" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <p style="font-size: 0.8em; color: #666;">区域人物相关图</p>
 </div>
+""")
+
+    md_content.append("""
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
 """)
 
         # --- 角色介绍 (Characters) ---
@@ -205,11 +274,11 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
 
             # 使用 Flexbox 布局：左边头像(120px)，右边文字
             card_html = f"""\
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="{img_url}" alt="{name}" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="{img_url}" alt="{name}">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">{name}</h3>
 <p><b>「{serif_zh}」</b></p>
 {stats_html}
@@ -272,14 +341,14 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
             # md_content.append(story_jp)
             # md_content.append("</details>\n")
 
+            md_content.append(f"\n### {title}")
             song_html = f"""
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="{jacket_url}" alt="{title_attr}" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="{jacket_url}" alt="{title_attr}" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">{title}</h3>
 <Badge type="tip" text="{artist}" style="vertical-align: middle;" />

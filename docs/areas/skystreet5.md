@@ -1,9 +1,9 @@
 ---
-title: Sky Street 区域5
+title: skystreet5 区域
 editLink: true
 ---
 
-# Sky Street 区域5（スカイストリートちほー5）
+# スカイストリートちほー5（skystreet5 区域）
 ::: info 区域简介
 Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah之谜和介于被篡改的记忆之间的〈真相〉。
 :::
@@ -27,12 +27,63 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet5/01.png" alt="Noah" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet5/01.png" alt="Noah">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Noah</h3>
 <p><b>「Kohaku这家伙……偶尔真笨。」</b></p>
 
@@ -51,11 +102,11 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet5/02.png" alt="Sou" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet5/02.png" alt="Sou">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Sou</h3>
 <p><b>「果然靠食物<br>身体就能变大呢～」</b></p>
 
@@ -74,11 +125,11 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet5/03.png" alt="Tokiya" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet5/03.png" alt="Tokiya">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Tokiya</h3>
 <p><b>「Sky Street……<br>那条街，感觉特别呢。」</b></p>
 
@@ -97,11 +148,11 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet5/04.png" alt="Nanoha" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet5/04.png" alt="Nanoha">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Nanoha</h3>
 <p><b>「好想再次<br>见到你。」</b></p>
 
@@ -120,11 +171,11 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/skystreet5/05.png" alt="Yuuki" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/skystreet5/05.png" alt="Yuuki">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Yuuki</h3>
 <p><b>「那么，在Nanoha的画里<br>带我去全世界吧！」</b></p>
 
@@ -146,13 +197,14 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-1.png" alt="フェイクフェイス・フェイルセイフ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### フェイクフェイス・フェイルセイフ
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet5/skystreet5-1.png" alt="フェイクフェイス・フェイルセイフ" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">フェイクフェイス・フェイルセイフ</h3>
 <Badge type="tip" text="カラスヤサボウ feat. もるでお" style="vertical-align: middle;" />
@@ -172,13 +224,14 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-2.png" alt="シックスプラン" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### シックスプラン
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet5/skystreet5-2.png" alt="シックスプラン" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">シックスプラン</h3>
 <Badge type="tip" text="針原翼（はりーP）feat. はく" style="vertical-align: middle;" />
@@ -198,13 +251,14 @@ Sky Street的成员们开始恢复记忆。Sou开口，试图面对消失的Noah
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-3.png" alt="フタタビ" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### フタタビ
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet5/skystreet5-3.png" alt="フタタビ" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">フタタビ</h3>
 <Badge type="tip" text="KAZE Lab" style="vertical-align: middle;" />
@@ -224,13 +278,14 @@ Akatsuki抱紧自己般蜷缩身体，就那样瘫倒在冰冷的水泥地上。
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/skystreet5/skystreet5-4.png" alt="ふらふらふら、" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ふらふらふら、
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/skystreet5/skystreet5-4.png" alt="ふらふらふら、" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ふらふらふら、</h3>
 <Badge type="tip" text="アオワイファイ feat.犀羅" style="vertical-align: middle;" />

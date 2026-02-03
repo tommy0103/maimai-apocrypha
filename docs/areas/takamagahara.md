@@ -1,9 +1,9 @@
 ---
-title: 高天原区域
+title: takamagahara 区域
 editLink: true
 ---
 
-# 高天原区域（高天原ちほー）
+# 高天原ちほー（takamagahara 区域）
 ::: info 区域简介
 Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务。因为嫌麻烦，他大约十年都懒散地逃避着，但最终无法再逃避，只得降临下界。本应平静的那片土地，由于被Nigi的祖父委托管理该地的Okuninushi失踪了（加上Nigi怠慢了十年），已经完全停滞腐朽。在与由不净之物形成的“鬼”战斗的同时，寻找失踪的Okuninushi和失落神器的旅程开始了。
 :::
@@ -20,12 +20,63 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/takamagahara/01.png" alt="Nigi" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/takamagahara/01.png" alt="Nigi">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Nigi</h3>
 <p><b>「体力劳动还是免了吧<br>祖母大人」</b></p>
 
@@ -44,11 +95,11 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/takamagahara/02.png" alt="Ohime" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/takamagahara/02.png" alt="Ohime">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Ohime</h3>
 <p><b>「以神之恩情，将这三人托付于你吧」</b></p>
 
@@ -67,11 +118,11 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/takamagahara/03.png" alt="Amahiko" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/takamagahara/03.png" alt="Amahiko">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Amahiko</h3>
 <p><b>「居然想利用我<br>挺有自信的嘛」</b></p>
 
@@ -90,11 +141,11 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/takamagahara/04.png" alt="Shinkyo" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/takamagahara/04.png" alt="Shinkyo">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Shinkyo</h3>
 <p><b>「拜托Shinkyoちゃん的话<br>代价很高哦，没问题吗？」</b></p>
 
@@ -113,11 +164,11 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/takamagahara/05.png" alt="Menou" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/takamagahara/05.png" alt="Menou">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Menou</h3>
 <p><b>「能帮上忙我很开心…呢」</b></p>
 
@@ -139,13 +190,14 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/takamagahara/takamagahara-1.png" alt="Last Samurai" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Last Samurai
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/takamagahara/takamagahara-1.png" alt="Last Samurai" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Last Samurai</h3>
 <Badge type="tip" text="Street" style="vertical-align: middle;" />
@@ -165,13 +217,14 @@ Nigi被Ohime祖母委以平定中津国和寻找失落的三种神器的任务�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/takamagahara/takamagahara-2.png" alt="蒼穹舞楽" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### 蒼穹舞楽
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/takamagahara/takamagahara-2.png" alt="蒼穹舞楽" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">蒼穹舞楽</h3>
 <Badge type="tip" text="Capchii" style="vertical-align: middle;" />
@@ -191,13 +244,14 @@ Nigi操纵“MAGATAMA”显现的苍龙扭动着水之身躯，一声咆哮，�
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/takamagahara/takamagahara-3.png" alt="AMABIE" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### AMABIE
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/takamagahara/takamagahara-3.png" alt="AMABIE" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">AMABIE</h3>
 <Badge type="tip" text="OSTER project" style="vertical-align: middle;" />

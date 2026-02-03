@@ -1,9 +1,9 @@
 ---
-title: BLACK ROSE区域3
+title: blackrose3 区域
 editLink: true
 ---
 
-# BLACK ROSE区域3（BLACK ROSEちほー3）
+# BLACK ROSEちほー3（blackrose3 区域）
 ::: info 区域简介
 Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷薇病专科医生遗体消失的奇怪事件。事件背后，隐藏着一位医生将健康人伪装成黑蔷薇病患者，以此勒索巨额住院费的欺诈和恐吓行为。而受害者，也在这趟列车中……扮成车掌的Hudloo也现身，事件最终迎来了意想不到的结局。
 :::
@@ -23,12 +23,63 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose3/01.png" alt="Rou" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose3/01.png" alt="Rou">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Rou</h3>
 <p><b>「你背叛了我……我的爱」</b></p>
 
@@ -47,11 +98,11 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose3/02.png" alt="Marie" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose3/02.png" alt="Marie">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Marie</h3>
 <p><b>「你们这些母子，早就该被卖掉了哟。」</b></p>
 
@@ -70,11 +121,11 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose3/03.png" alt="Hanna" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose3/03.png" alt="Hanna">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Hanna</h3>
 <p><b>「如果您的事情办完了，就请快点回去吧，Aul大人。」</b></p>
 
@@ -93,11 +144,11 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose3/04.png" alt="Tristan" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose3/04.png" alt="Tristan">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Tristan</h3>
 <p><b>「Aul拥有的天赋之才。炼金术正是解开你追寻之谜的关键吧。」</b></p>
 
@@ -116,11 +167,11 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose3/05.png" alt="Clemens（恶魔）" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose3/05.png" alt="Clemens（恶魔）">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Clemens（恶魔）</h3>
 <p><b>「想要理解这世上的一切，真是自负呢。」</b></p>
 
@@ -142,13 +193,14 @@ Aul一行人乘坐列车前往宝石商宅邸接受委托，却遭遇了黑蔷�
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/blackrose3/blackrose3-01.png" alt="シアトリカル・ケース" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### シアトリカル・ケース
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/blackrose3/blackrose3-01.png" alt="シアトリカル・ケース" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">シアトリカル・ケース</h3>
 <Badge type="tip" text="ユリイ・カノン feat.ウォルピスカーター&まひる" style="vertical-align: middle;" />

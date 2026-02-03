@@ -1,9 +1,9 @@
 ---
-title: BLACK ROSE区域5
+title: blackrose5 区域
 editLink: true
 ---
 
-# BLACK ROSE区域5（BLACK ROSEちほー5）
+# BLACK ROSEちほー5（blackrose5 区域）
 ::: info 区域简介
 Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家族的宅邸。这座奇特的宅邸中央有一个圆形大厅，里面摆放着天球仪和占星盘，每个房间都装饰着美丽的星座符号。当月蚀的光芒透过天窗时，事件骤然发生。在各方意图交织的谜团中，Owl能否平安抵达所有真相的尽头？
 :::
@@ -20,12 +20,63 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose5/01.png" alt="Eliza" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose5/01.png" alt="Eliza">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Eliza</h3>
 <p><b>「我必须坚强起来。<br>为了MacLeach家族嘛。」</b></p>
 
@@ -44,11 +95,11 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose5/02.png" alt="Cain" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose5/02.png" alt="Cain">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Cain</h3>
 <p><b>「明明有更多赚钱的方法，<br>为什么？是脑子不好使吗？」</b></p>
 
@@ -67,11 +118,11 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose5/03.png" alt="Jack" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose5/03.png" alt="Jack">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Jack</h3>
 <p><b>「因为她总想独自承担，<br>所以我想在她身边支持她。」</b></p>
 
@@ -90,11 +141,11 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose5/04.png" alt="Anastasia" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose5/04.png" alt="Anastasia">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Anastasia</h3>
 <p><b>「我总是被排除在外，<br>但我想帮上姐姐的忙！」</b></p>
 
@@ -113,11 +164,11 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/blackrose5/05.png" alt="Ralph (Demon-Possessed)" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/blackrose5/05.png" alt="Ralph (Demon-Possessed)">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">Ralph (Demon-Possessed)</h3>
 <p><b>「能驯服这股冲动的<br>只有你」</b></p>
 
@@ -139,13 +190,14 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/blackrose5/blackrose5-1.png" alt="アンビバレンス" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### アンビバレンス
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/blackrose5/blackrose5-1.png" alt="アンビバレンス" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">アンビバレンス</h3>
 <Badge type="tip" text="すりぃ×相沢" style="vertical-align: middle;" />

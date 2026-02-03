@@ -26,8 +26,34 @@ function loadAreaSidebar() {
       grouped.get(version).push(area);
     }
 
+    const versionOrder = [
+      "circle",
+      "prismplus",
+      "prism",
+      "buddiesplus",
+      "buddies",
+      "festivalplus",
+      "festival",
+      "universeplus",
+      "universe",
+      "splashplus",
+      "splash",
+    ];
+
+    const versionRank = (version: string) => {
+      const index = versionOrder.indexOf(version);
+      return index === -1 ? Number.POSITIVE_INFINITY : index;
+    };
+
     const versionGroups = Array.from(grouped.entries())
-      .sort(([a], [b]) => a.localeCompare(b))
+      .sort(([a], [b]) => {
+        const aRank = versionRank(a);
+        const bRank = versionRank(b);
+        if (aRank !== bRank) {
+          return aRank - bRank;
+        }
+        return a.localeCompare(b);
+      })
       .map(([version, items]) => ({
         text: version,
         items: items
@@ -60,6 +86,28 @@ export default defineConfig({
       { text: "关于", link: "/about" },
       { text: "贡献翻译", link: "/contribute" },
     ],
+    search: {
+      provider: "local",
+      options: {
+        detailedView: true,
+        miniSearch: {
+          options: {
+            tokenize: (text) => {
+              // 先去掉所有引号再分词
+              return text.replace(/['']/g, '').toLowerCase().split(/\s+/)
+            }
+          },
+          searchOptions: {
+            fuzzy: 0.2,
+            prefix: true,
+            weights: {
+              fuzzy: 0.2,
+              prefix: 0.4,
+            },
+          },
+        },
+      },
+    },
 
     sidebar: [
       {

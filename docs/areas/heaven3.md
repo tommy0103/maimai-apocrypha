@@ -1,9 +1,9 @@
 ---
-title: 天界区域3
+title: heaven3 区域
 editLink: true
 ---
 
-# 天界区域3（天界ちほー3）
+# 天界ちほー3（heaven3 区域）
 ::: info 区域简介
 在学园举办的决斗中获胜，成为初代“骑士”的，是一位名叫 Alma 的美丽天使。
 自此之后，通过决斗被选为“骑士”，成为了天使们至高无上的荣誉。年幼的 Azuri 也对那华丽的决斗舞台心生向往。
@@ -26,12 +26,63 @@ editLink: true
 </div>
 
 
+<style>
+.story-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+.story-card__media {
+  flex-shrink: 0;
+  width: 140px;
+}
+.story-card__media img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.story-card__body {
+  flex-grow: 1;
+  min-width: 0;
+}
+.VPContent .content h3:has(+ .story-card--song) {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .story-card {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  .story-card__media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .story-card--character .story-card__media img {
+    width: min(200px, 70vw);
+  }
+  .story-card--song .story-card__media img {
+    width: min(240px, 70vw);
+  }
+}
+</style>
+
+
 ## 登場人物 (Characters)
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven3/01.png" alt="百合咲 Mika" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven3/01.png" alt="百合咲 Mika">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">百合咲 Mika</h3>
 <p><b>「我祈愿<br>愿此天界永享安宁与平安。」</b></p>
 
@@ -50,11 +101,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven3/02.png" alt="白銅寺 Azuri" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven3/02.png" alt="白銅寺 Azuri">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">白銅寺 Azuri</h3>
 <p><b>「终有一天，我也要<br>成为 Mika 大人独一无二的骑士。」</b></p>
 
@@ -73,11 +124,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven3/03.png" alt="八剱月 Alma" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven3/03.png" alt="八剱月 Alma">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">八剱月 Alma</h3>
 <p><b>「在这座纯白的城堡中<br>您无需知晓任何事情。」</b></p>
 
@@ -96,11 +147,11 @@ editLink: true
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 15px; background: var(--vp-c-bg-soft); border-radius: 12px;">
-<div style="flex-shrink: 0; width: 120px;">
-<img src="/src/images/heaven3/04.png" alt="白法院 Rag" style="width: 100%; border-radius: 8px; object-fit: cover;">
+<div class="story-card story-card--character">
+<div class="story-card__media" style="width: 120px;">
+<img src="/src/images/heaven3/04.png" alt="白法院 Rag">
 </div>
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <h3 style="margin-top: 0;">白法院 Rag</h3>
 <p><b>「让我们立誓吧，所有的奉献<br>都将成为这世界安宁的基石。」</b></p>
 
@@ -122,13 +173,14 @@ editLink: true
 
 ## 楽曲ストーリー (Stories)
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-03.png" alt="ワンダーシャッフェンの法則" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### ワンダーシャッフェンの法則
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven3/heaven3-03.png" alt="ワンダーシャッフェンの法則" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">ワンダーシャッフェンの法則</h3>
 <Badge type="tip" text="アリスシャッハと魔法の楽団" style="vertical-align: middle;" />
@@ -148,13 +200,14 @@ Mika 并不知晓外面的世界。她存在于教会，是为了祈祷天界的
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-02.png" alt="BIRTH" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### BIRTH
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven3/heaven3-02.png" alt="BIRTH" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">BIRTH</h3>
 <Badge type="tip" text="llliiillliiilll" style="vertical-align: middle;" />
@@ -174,13 +227,14 @@ Mika 并不知晓外面的世界。她存在于教会，是为了祈祷天界的
 </div>
 
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 40px; padding: 20px; background: var(--vp-c-bg-soft); border-radius: 12px; border: 1px solid var(--vp-c-divider);">
-    
-<div style="flex-shrink: 0; width: 140px;">
-<img src="/src/images/heaven3/heaven3-01.png" alt="Regulus" style="width: 100%; border-radius: 6px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1; object-fit: cover;">
+### Regulus
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/heaven3/heaven3-01.png" alt="Regulus" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
 </div>
     
-<div style="flex-grow: 1;">
+<div class="story-card__body">
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
 <h3 style="margin: 0; border: none; font-size: 1.3em;">Regulus</h3>
 <Badge type="tip" text="お月さま交響曲" style="vertical-align: middle;" />
