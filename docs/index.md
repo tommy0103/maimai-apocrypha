@@ -28,7 +28,7 @@ hero:
         <div class="home-card__badge">剧情归档</div>
         <img class="home-card__badge-icon home-card__badge-icon--right" src="/src/images/7sref.png" alt="7sref">
       </div>
-      <h2 class="home-card__title">区域剧情 (Areas)</h2>
+      <h3 class="home-card__title">区域剧情 (Areas)</h3>
       <p class="home-card__desc">按区域阅读完整剧情，提供中文翻译与日语原文对照。</p>
       <div class="home-card__actions">
         <a class="VPButton brand" href="/areas/7sref">从 7sRef 开始</a>
@@ -39,7 +39,7 @@ hero:
         <div class="home-card__badge">万花筒解密</div>
         <img class="home-card__badge-icon home-card__badge-icon--right" src="/src/images/phase1.png" alt="phase1">
       </div>
-      <h2 class="home-card__title">万花筒 (kaleidx_scope)</h2>
+      <h3 class="home-card__title">万花筒 (kaleidx_scope)</h3>
       <p class="home-card__desc">提供解锁条件与歌曲清单，快速定位需要完成的任务。</p>
       <div class="home-card__actions">
         <a class="VPButton brand" href="/kaleidx_scope/phase1">Phase 1</a>
