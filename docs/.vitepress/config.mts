@@ -122,6 +122,12 @@ export default defineConfig({
         //   //   { text: "HapiFes 区域", link: "/areas/hapifes" },
         // ],
       },
+      {
+        text: "kaleidx_scope（万花筒）",
+        items: [
+          { text: "phase1", link: "/kaleidx_scope/phase1" },
+        ],
+      },
     ],
 
     socialLinks: [
