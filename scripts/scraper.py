@@ -1,5 +1,6 @@
 import argparse
 import asyncio
+import hashlib
 import json
 import logging
 import re
@@ -20,12 +21,60 @@ class ScraperConfig:
     images_dir: Path = Path("../docs/src/images")
     concurrency: int = 32
     area_index_path: Path = Path("../docs/public/area_index.json")
+    only_new: bool = False
 
 
 class AreaScraper:
     def __init__(self, config: ScraperConfig) -> None:
         self.config = config
         self.semaphore = asyncio.Semaphore(config.concurrency)
+
+    def _hash_key(self, path: Path, base_dir: Path) -> str:
+        try:
+            return str(path.relative_to(base_dir))
+        except ValueError:
+            return str(path)
+
+    def _hash_bytes(self, data: bytes) -> str:
+        return hashlib.sha256(data).hexdigest()
+
+    def _hash_file(self, path: Path) -> str:
+        return self._hash_bytes(path.read_bytes())
+
+    def _load_hashes(self, path: Path) -> dict[str, str]:
+        if not path.exists():
+            return {}
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            logging.warning("Hash file is invalid JSON: %s", path)
+            return {}
+        if not isinstance(data, dict):
+            logging.warning("Hash file is not an object: %s", path)
+            return {}
+        return {str(k): str(v) for k, v in data.items()}
+
+    def _save_hashes(self, path: Path, hashes: dict[str, str]) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(
+            json.dumps(dict(sorted(hashes.items())), ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+
+    def _get_cached_hash(self, hashes: dict[str, str], key: str, path: Path) -> str | None:
+        cached = hashes.get(key)
+        if cached is None and path.exists():
+            cached = self._hash_file(path)
+            hashes[key] = cached
+        return cached
+
+    def _log_update_list(self, updated_files: list[Path]) -> None:
+        if not updated_files:
+            logging.info("No files updated.")
+            return
+        logging.info("Updated files:")
+        for path in sorted(set(updated_files), key=lambda p: str(p)):
+            logging.info("  %s | updated", path)
 
     def find_js_files(self, url: str) -> list[str]:
         response = httpx.get(url, follow_redirects=True)
@@ -95,6 +144,16 @@ class AreaScraper:
         except Exception as exc:
             logging.exception("Error fetching %s: %s", url, exc)
 
+    async def fetch_bytes(self, client: httpx.AsyncClient, url: str) -> bytes | None:
+        try:
+            response = await client.get(url)
+            if response.status_code == 200:
+                return response.content
+            logging.error("Download error: %s (status=%s)", url, response.status_code)
+        except Exception as exc:
+            logging.exception("Error fetching %s: %s", url, exc)
+        return None
+
     def get_json(self, url: str) -> list[dict]:
         response = httpx.get(url)
         if response.status_code != 200:
@@ -109,22 +168,84 @@ class AreaScraper:
             return None
         return response.content
 
-    async def download_image(self, client: httpx.AsyncClient, output_path: Path, url: str) -> None:
+    async def download_image(
+        self,
+        client: httpx.AsyncClient,
+        output_path: Path,
+        url: str,
+        hashes: dict[str, str],
+        base_dir: Path,
+    ) -> None:
         async with self.semaphore:
             img_data = await self.get_image(client, url)
             if img_data:
+                key = self._hash_key(output_path, base_dir)
+                new_hash = self._hash_bytes(img_data)
+                existing_hash = self._get_cached_hash(hashes, key, output_path)
+                if existing_hash == new_hash:
+                    logging.info("Unchanged: %s", output_path)
+                    return
                 output_path.write_bytes(img_data)
+                hashes[key] = new_hash
+                logging.info("Saved: %s", output_path)
             else:
                 logging.error("Image download error: %s", url)
 
-    async def download_jsons(self, json_urls: list[str]) -> None:
+    async def download_jsons(self, json_urls: list[str]) -> list[Path]:
         save_dir = self.config.raw_data_dir
         save_dir.mkdir(exist_ok=True)
+        hashes_path = save_dir / ".hashes.json"
+        hashes = self._load_hashes(hashes_path)
+        hashes_dirty = False
+        if self.config.only_new:
+            pending_urls = []
+            for json_url in json_urls:
+                filename = json_url.split("/")[-1]
+                file_path = save_dir / filename
+                if file_path.exists():
+                    logging.info("Skip existing: %s", file_path)
+                    continue
+                pending_urls.append(json_url)
+            json_urls = pending_urls
+            if json_urls:
+                new_files = [save_dir / url.split("/")[-1] for url in json_urls]
+                logging.info("New json files (%s):", len(new_files))
+                for file_path in new_files:
+                    logging.info("  %s", file_path)
+            else:
+                logging.info("No new json files to download.")
+        if not json_urls:
+            return []
         async with httpx.AsyncClient() as client:
-            tasks = [self.fetch_and_save_json(client, json_url, save_dir) for json_url in json_urls]
-            await asyncio.gather(*tasks)
+            tasks = [self.fetch_bytes(client, json_url) for json_url in json_urls]
+            results = await asyncio.gather(*tasks)
 
-    def build_unified_index(self, version_names: list[str]) -> list[dict]:
+        updated_files: list[Path] = []
+        for json_url, content in zip(json_urls, results, strict=False):
+            if content is None:
+                continue
+            filename = json_url.split("/")[-1]
+            file_path = save_dir / filename
+            if self.config.only_new and file_path.exists():
+                logging.info("Skip existing: %s", file_path)
+                continue
+            key = self._hash_key(file_path, save_dir)
+            new_hash = self._hash_bytes(content)
+            existing_hash = self._get_cached_hash(hashes, key, file_path)
+            if not self.config.only_new and existing_hash == new_hash:
+                logging.info("Unchanged: %s", file_path)
+                continue
+            file_path.write_bytes(content)
+            hashes[key] = new_hash
+            hashes_dirty = True
+            updated_files.append(file_path)
+            logging.info("Saved: %s", file_path)
+
+        if hashes_dirty:
+            self._save_hashes(hashes_path, hashes)
+        return updated_files
+
+    def build_unified_index(self, version_names: list[str], *, write_output: bool = True) -> list[dict]:
         url = urljoin(self.config.base_url, "./data/")
         all_areas: list[dict] = []
         for version_name in version_names:
@@ -139,14 +260,15 @@ class AreaScraper:
                 all_areas.append(clean_item)
                 logging.info("Index item: %s", clean_item)
 
-        output_file = self.config.raw_data_dir / "area_index.json"
-        output_file.write_text(
-            json.dumps(all_areas, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
+        if write_output:
+            output_file = self.config.raw_data_dir / "area_index.json"
+            output_file.write_text(
+                json.dumps(all_areas, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
         return all_areas
 
-    def merge_area_index(self, entries: list[dict]) -> None:
+    def merge_area_index(self, entries: list[dict]) -> bool:
         index_path = self.config.area_index_path
         index_path.parent.mkdir(parents=True, exist_ok=True)
         if index_path.exists():
@@ -167,16 +289,26 @@ class AreaScraper:
                 "version": version,
             }
         merged_list = sorted(merged.values(), key=lambda x: (x["id"], x["version"]))
-        index_path.write_text(
-            json.dumps(merged_list, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
+        new_content = json.dumps(merged_list, ensure_ascii=False, indent=2)
+        if index_path.exists():
+            current = index_path.read_text(encoding="utf-8")
+            if current == new_content:
+                return False
+        index_path.write_text(new_content, encoding="utf-8")
+        return True
 
-    def build_phase1_index_entries(self, version_name: str, json_urls: list[str]) -> list[dict]:
+    def build_phase1_index_entries(
+        self,
+        version_name: str,
+        json_sources: list[Path | str],
+    ) -> list[dict]:
         entries: list[dict] = []
-        for url in json_urls:
-            filename = url.split("/")[-1]
-            file_path = self.config.raw_data_dir / filename
+        for source in json_sources:
+            if isinstance(source, Path):
+                file_path = source
+            else:
+                filename = source.split("/")[-1]
+                file_path = self.config.raw_data_dir / filename
             if not file_path.exists():
                 continue
             area = json.loads(file_path.read_text(encoding="utf-8"))
@@ -202,6 +334,7 @@ class AreaScraper:
         version_list = ["", "./prismplus/", "./prism/", "./buddiesplus/", "./buddies/"]
         area_url = urljoin(self.config.base_url, "./area/")
         version_urls = [urljoin(area_url, version) for version in version_list]
+        updated_files: list[Path] = []
         for version_url in version_urls:
             logging.info("Scanning: %s", version_url)
             js_filenames = self.find_js_files(version_url)
@@ -213,11 +346,15 @@ class AreaScraper:
                 logging.info("Fetching script: %s", full_url)
                 js_content = httpx.get(full_url).text
                 version_name, json_urls = self.parse_area_json_urls(js_content, js_filename)
-                await self.download_jsons(json_urls)
-                if json_urls:
-                    entries = self.build_phase1_index_entries(version_name, json_urls)
+                updated_jsons = await self.download_jsons(json_urls)
+                updated_files.extend(updated_jsons)
+                if updated_jsons:
+                    entries = self.build_phase1_index_entries(version_name, updated_jsons)
                     if entries:
-                        self.merge_area_index(entries)
+                        if self.merge_area_index(entries):
+                            updated_files.append(self.config.area_index_path)
+        if not self.config.only_new:
+            self._log_update_list(updated_files)
 
     async def fetch_data_phase2(self) -> None:
         version_name_list = [
@@ -228,16 +365,40 @@ class AreaScraper:
             "splashplus",
             "splash",
         ]
-        all_areas = self.build_unified_index(version_name_list)
-        self.merge_area_index(all_areas)
+        updated_files: list[Path] = []
+        all_areas = self.build_unified_index(
+            version_name_list,
+            write_output=not self.config.only_new,
+        )
+        if self.config.only_new:
+            new_entries = [
+                area
+                for area in all_areas
+                if not (self.config.raw_data_dir / f"{area['id']}.json").exists()
+            ]
+            if new_entries:
+                if self.merge_area_index(new_entries):
+                    updated_files.append(self.config.area_index_path)
+            json_urls = [
+                f"https://maimai.sega.jp/data/{area['version']}Area/{area['id']}.json"
+                for area in new_entries
+            ]
+            updated_files.extend(await self.download_jsons(json_urls))
+            return
+
+        if self.merge_area_index(all_areas):
+            updated_files.append(self.config.area_index_path)
         json_urls = [
             f"https://maimai.sega.jp/data/{area['version']}Area/{area['id']}.json"
             for area in all_areas
         ]
-        await self.download_jsons(json_urls)
+        updated_files.extend(await self.download_jsons(json_urls))
+        self._log_update_list(updated_files)
 
     async def fetch_images(self) -> None:
         base_dir = self.config.images_dir
+        hashes_path = base_dir / ".hashes.json"
+        hashes = self._load_hashes(hashes_path)
         urls: list[tuple[Path, str]] = []
         for json_file in self.config.raw_data_dir.rglob("*.json"):
             area = json.loads(json_file.read_text(encoding="utf-8"))
@@ -261,8 +422,12 @@ class AreaScraper:
                 urls.append((output_dir, img_url))
 
         async with httpx.AsyncClient() as client:
-            tasks = [self.download_image(client, path, url) for (path, url) in urls]
+            tasks = [
+                self.download_image(client, path, url, hashes, base_dir)
+                for (path, url) in urls
+            ]
             await asyncio.gather(*tasks)
+        self._save_hashes(hashes_path, hashes)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -276,6 +441,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--images-dir", default="../docs/src/images")
     parser.add_argument("--concurrency", type=int, default=32)
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument(
+        "--only-new",
+        action="store_true",
+        help="Only download new json files; do not overwrite existing ones",
+    )
     return parser
 
 
@@ -283,12 +453,13 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
     logging.basicConfig(level=args.log_level, format="%(levelname)s: %(message)s")
-    logging.getLogger().setLevel(logging.WARNING)
+    # logging.getLogger().setLevel(logging.WARNING)
 
     config = ScraperConfig(
         raw_data_dir=Path(args.raw_data_dir),
         images_dir=Path(args.images_dir),
         concurrency=args.concurrency,
+        only_new=args.only_new,
     )
     scraper = AreaScraper(config)
 
