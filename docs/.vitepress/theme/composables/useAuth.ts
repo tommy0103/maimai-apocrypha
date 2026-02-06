@@ -9,9 +9,12 @@ interface User {
 const user = ref<User | null>(null);
 const loading = ref(true);
 
-const API_BASE = import.meta.env.PROD
-  ? window.location.origin
-  : "http://localhost:5173";
+const getApiBase = () => {
+  if (typeof window === "undefined") {
+    return "";
+  }
+  return import.meta.env.PROD ? window.location.origin : "http://localhost:5173";
+};
 
 export function useAuth() {
   const checkAuth = async () => {
@@ -22,7 +25,7 @@ export function useAuth() {
     }
 
     try {
-      const response = await fetch(`${API_BASE}/api/auth/me`, {
+      const response = await fetch(`${getApiBase()}/api/auth/me`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -63,7 +66,7 @@ export function useAuth() {
       return;
     }
 
-    const redirectUri = `${API_BASE}/api/auth/callback`;
+    const redirectUri = `${getApiBase()}/api/auth/callback`;
     const githubAuthUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(
       redirectUri
     )}&scope=read:user`;
