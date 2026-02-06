@@ -77,9 +77,13 @@ const sidebarAreas = loadAreaSidebar();
 
 export default defineConfig({
   // base: "/maimai-apocrypha/",
-  base: process.env.VERCEL ?  "/" : "/maimai-apocrypha/",
+  // base: process.env.VERCEL ?  "/" : "/maimai-apocrypha/",
+  base: "/",
   title: "Maimai Apocrypha",
   description: "maimai story archive",
+  vite: {
+    envDir: resolve(__dirname, "../../"),
+  },
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
