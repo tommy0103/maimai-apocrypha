@@ -85,6 +85,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "关于", link: "/about" },
       { text: "贡献翻译与勘误", link: "/contribute" },
+      { text: "贡献荣誉榜", link: "/honor" },
     ],
     search: {
       provider: "local",
@@ -126,6 +127,13 @@ export default defineConfig({
         text: "万花筒 (kaleidx_scope)",
         items: [
           { text: "phase1", link: "/kaleidx_scope/phase1" },
+        ],
+      },
+      {
+        text: "贡献",
+        items: [
+          { text: "贡献翻译与勘误", link: "/contribute" },
+          { text: "贡献荣誉榜", link: "/honor" },
         ],
       },
     ],
