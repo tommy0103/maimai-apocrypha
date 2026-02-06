@@ -4,6 +4,7 @@ import hashlib
 import json
 import logging
 import re
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urljoin
@@ -19,9 +20,12 @@ class ScraperConfig:
     base_url: str = BASE_URL
     raw_data_dir: Path = Path("../raw_data")
     images_dir: Path = Path("../docs/src/images")
-    concurrency: int = 32
+    concurrency: int = 16
     area_index_path: Path = Path("../docs/public/area_index.json")
     only_new: bool = False
+    request_timeout: float = 20.0
+    max_retries: int = 3
+    retry_backoff: float = 0.8
 
 
 class AreaScraper:
@@ -76,10 +80,59 @@ class AreaScraper:
         for path in sorted(set(updated_files), key=lambda p: str(p)):
             logging.info("  %s | updated", path)
 
+    def _get_sync_with_retry(
+        self,
+        url: str,
+        *,
+        follow_redirects: bool = False,
+    ) -> httpx.Response | None:
+        for attempt in range(1, self.config.max_retries + 1):
+            try:
+                response = httpx.get(
+                    url,
+                    follow_redirects=follow_redirects,
+                    timeout=self.config.request_timeout,
+                )
+            except httpx.RequestError as exc:
+                logging.warning("Request error (%s): %s", url, exc)
+                response = None
+            if response is not None and response.status_code == 200:
+                return response
+            if response is not None:
+                logging.warning(
+                    "Request failed: %s (status=%s)", url, response.status_code
+                )
+            if attempt < self.config.max_retries:
+                time.sleep(self.config.retry_backoff * attempt)
+        return None
+
+    async def _get_with_retry(
+        self,
+        client: httpx.AsyncClient,
+        url: str,
+        *,
+        follow_redirects: bool = False,
+    ) -> httpx.Response | None:
+        for attempt in range(1, self.config.max_retries + 1):
+            try:
+                response = await client.get(url, follow_redirects=follow_redirects)
+            except httpx.RequestError as exc:
+                logging.warning("Request error (%s): %s", url, exc)
+                response = None
+            if response is not None and response.status_code == 200:
+                return response
+            if response is not None:
+                logging.warning(
+                    "Request failed: %s (status=%s)", url, response.status_code
+                )
+            if attempt < self.config.max_retries:
+                await asyncio.sleep(self.config.retry_backoff * attempt)
+        return None
+
     def find_js_files(self, url: str) -> list[str]:
-        response = httpx.get(url, follow_redirects=True)
-        if response.status_code != 200:
-            logging.error("Fetch failed: %s (status=%s)", url, response.status_code)
+        response = self._get_sync_with_retry(url, follow_redirects=True)
+        if response is None:
+            logging.error("Fetch failed: %s", url)
             return []
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -145,26 +198,23 @@ class AreaScraper:
             logging.exception("Error fetching %s: %s", url, exc)
 
     async def fetch_bytes(self, client: httpx.AsyncClient, url: str) -> bytes | None:
-        try:
-            response = await client.get(url)
-            if response.status_code == 200:
-                return response.content
-            logging.error("Download error: %s (status=%s)", url, response.status_code)
-        except Exception as exc:
-            logging.exception("Error fetching %s: %s", url, exc)
+        response = await self._get_with_retry(client, url)
+        if response is not None:
+            return response.content
+        logging.error("Download error: %s", url)
         return None
 
     def get_json(self, url: str) -> list[dict]:
-        response = httpx.get(url)
-        if response.status_code != 200:
-            logging.error("Fetch JSON failed: %s (status=%s)", url, response.status_code)
+        response = self._get_sync_with_retry(url)
+        if response is None:
+            logging.error("Fetch JSON failed: %s", url)
             return []
         return response.json()
 
     async def get_image(self, client: httpx.AsyncClient, url: str) -> bytes | None:
-        response = await client.get(url)
-        if response.status_code != 200:
-            logging.error("Image fetch failed: %s (status=%s)", url, response.status_code)
+        response = await self._get_with_retry(client, url)
+        if response is None:
+            logging.error("Image fetch failed: %s", url)
             return None
         return response.content
 
@@ -216,7 +266,7 @@ class AreaScraper:
                 logging.info("No new json files to download.")
         if not json_urls:
             return []
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=self.config.request_timeout) as client:
             tasks = [self.fetch_bytes(client, json_url) for json_url in json_urls]
             results = await asyncio.gather(*tasks)
 
@@ -402,6 +452,9 @@ class AreaScraper:
         urls: list[tuple[Path, str]] = []
         for json_file in self.config.raw_data_dir.rglob("*.json"):
             area = json.loads(json_file.read_text(encoding="utf-8"))
+            if not isinstance(area, dict) or "id" not in area:
+                logging.warning("Skip non-area json: %s", json_file)
+                continue
             area_id = area["id"]
             logging.info("Area: %s", area_id)
             area_dir = base_dir / area_id
@@ -421,7 +474,7 @@ class AreaScraper:
                 output_dir = area_dir / f"{thumbnail}.png"
                 urls.append((output_dir, img_url))
 
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=self.config.request_timeout) as client:
             tasks = [
                 self.download_image(client, path, url, hashes, base_dir)
                 for (path, url) in urls
@@ -441,6 +494,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--images-dir", default="../docs/src/images")
     parser.add_argument("--concurrency", type=int, default=32)
     parser.add_argument("--log-level", default="INFO")
+    parser.add_argument("--timeout", type=float, default=20.0)
+    parser.add_argument("--max-retries", type=int, default=3)
+    parser.add_argument("--retry-backoff", type=float, default=0.8)
     parser.add_argument(
         "--only-new",
         action="store_true",
@@ -453,13 +509,16 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
     logging.basicConfig(level=args.log_level, format="%(levelname)s: %(message)s")
-    # logging.getLogger().setLevel(logging.WARNING)
+    logging.getLogger().setLevel(logging.WARNING)
 
     config = ScraperConfig(
         raw_data_dir=Path(args.raw_data_dir),
         images_dir=Path(args.images_dir),
         concurrency=args.concurrency,
         only_new=args.only_new,
+        request_timeout=args.timeout,
+        max_retries=args.max_retries,
+        retry_backoff=args.retry_backoff,
     )
     scraper = AreaScraper(config)
 

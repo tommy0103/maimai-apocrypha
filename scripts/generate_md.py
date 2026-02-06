@@ -87,6 +87,9 @@ def get_list_item(items, index, fallback):
 def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
     area_jp_file = area_file
     area_jp = load_json(area_jp_file)
+    if not isinstance(area_jp, dict) or "id" not in area_jp:
+        logging.warning("Skip non-area json: %s", area_file)
+        return
 
     area_local = area_jp
     if lang:
@@ -394,6 +397,8 @@ def main() -> None:
 
     files = list(Path(args.data_dir).rglob("*.json"))
     for f in files:
+        if f.name in {"area_index.json", ".hashes.json"}:
+            continue
         if args.lang and f.name.endswith(f".{args.lang}.json"):
             continue
         if not args.lang and ".zh" in f.name:

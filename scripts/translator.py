@@ -118,17 +118,15 @@ all_files = []
 # json_pattern = re.compile(r"")
 
 for input_file in files:
-    if ".zh" in input_file.name:
+    if ".zh" in input_file.name or ".hashes" in input_file.name:
         continue
     output_file = input_file.with_suffix(".zh.json")
     # output_file = input_file.with_suffix(".zh.parallel.json")
     all_files.append((input_file, output_file))
 
 with ThreadPoolExecutor(max_workers=10) as executor:
-    # 提交所有任务到线程池
     futures = [executor.submit(translate_from_to, f1, f2) for (f1, f2) in all_files]
         
-    # 等待所有任务完成
     for future in as_completed(futures):
          result = future.result()
 
