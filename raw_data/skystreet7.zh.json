@@ -1,0 +1,99 @@
+{
+  "id": "skystreet7",
+  "name": "天空街区域7",
+  "comment": "已经无需再畏惧『重来之前的世界』了。",
+  "area": "反复进行时间跳跃，终于抵达的未来。若能触及纷乱丝线的根源，或许这好不容易才握在手中的『现在』也将不复存在。面对这沉重的现实，所有人都陷入了沉默。",
+  "youtubeID": "x6tEQzfNbOg",
+  "characters": [
+    {
+      "name": "Tokiya（玩偶）",
+      "summary": "Momo亲手制作的Tokiya玩偶。\r\n虽然并不擅长缝纫，但她还是边查网络边努力完成了。\r\n再现他的不对称发型是最难的部分。",
+      "title1": "身高",
+      "item1": "28cm",
+      "title2": "制作日",
+      "item2": "4月30日",
+      "title3": "年龄",
+      "item3": "0岁",
+      "serif": "哇，简直像到不行呢～！？（Momo）",
+      "team": "Momo的房间",
+      "illustrator": "たま",
+      "img": "01"
+    },
+    {
+      "name": "Momo",
+      "summary": "在重复的日常中，心中那些萦绕不去的各种琐事。\r\n将那些未能传达的话语，记录在纸上。\r\n祈愿着，终有一日，这些话语能乘上属于你的音律。",
+      "title1": "身高",
+      "item1": "157.5cm",
+      "title2": "生日",
+      "item2": "4月1日",
+      "title3": "年龄",
+      "item3": "16岁",
+      "serif": "我的话，已经传达到了Tokiya那里。\r\n没问题。接下来就轮到你了。",
+      "team": "REAL VOICE",
+      "illustrator": "たま",
+      "img": "02"
+    },
+    {
+      "name": "Kohaku",
+      "summary": "如同蜘蛛结网一般，将线索遍布各处。\r\n只为让这座城市的蝴蝶，轻舞飞扬时能自投罗网。\r\n巷弄间的蝴蝶标记，其坐标数字正是最初的暗号。",
+      "title1": "身高",
+      "item1": "163cm",
+      "title2": "生日",
+      "item2": "9月7日",
+      "title3": "年龄",
+      "item3": "17岁",
+      "serif": "是个不成器的魔法使呢……\r\n但是，关于『我的愿望』呢？\r\n你有哪怕一次，尝试去实现它吗？",
+      "team": "无所属",
+      "illustrator": "沙月",
+      "img": "03"
+    },
+    {
+      "name": "Noah",
+      "summary": "我的愿望，是去实现Akatsuki的愿望。\r\n但其实，我只是想听他说一句“需要我”而已。",
+      "title1": "身高",
+      "item1": "？",
+      "title2": "生日",
+      "item2": "？",
+      "title3": "年龄",
+      "item3": "？",
+      "serif": "如果Kohaku希望如此的话，\r\n我和Akatsuki，也终于能让这个循环终结了。",
+      "team": "Raum",
+      "illustrator": "ヨ剤",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "Slow Glow",
+      "artist": "nayuta、櫻澤ヒカル",
+      "movie": "DaLq",
+      "illustrator": "たま",
+      "songsummary": "『在重复的日子里，不经意间发现的美丽事物；与他人相视而笑的瞬间；偶尔扣错的纽扣。就是这些，让心有所触动的点点滴滴，我将其化作文字留存了下来。\r\n\r\n因为我希望，终有一日它们能再次传递给你，渴望感受在你音阶之上嬉戏的言语。』\r\n\r\n怀着这般想法，我穿越了时间。我想，即便重来多少次，我也会做出相同的选择。\r\n所以，已经没关系了。接下来，就请去实现你的愿望吧。",
+      "thumbnail": "skystreet7-01"
+    },
+    {
+      "songtitle": "ECHO,",
+      "artist": "棗いつき、櫻澤ヒカル",
+      "movie": "びーすけ",
+      "illustrator": "沙月",
+      "songsummary": "『在电子的海洋中翩翩起舞的幻之蝶。\r\n只要抓住它，一切都能迎刃而解。\r\n如此深信不疑，城市的居民以蝴蝶标记为线索，在网络的海洋中寻找着我的所在。\r\n巷弄间的蝴蝶标记点，其坐标数字就是最初的暗号。\r\n\r\n即便我只是个无法实现所有愿望的，冒牌魔法使。』\r\n\r\n经过无数次重复才明白的事：神明根本不会实现我们的愿望。\r\n但如果，再一次，仅仅为了我自己而使用C204的话……我会选择什么呢？",
+      "thumbnail": "skystreet7-02"
+    },
+    {
+      "songtitle": "Phase: Theatre",
+      "artist": "藍月なくる、櫻澤ヒカル",
+      "movie": "tugutugu",
+      "illustrator": "ヨ剤",
+      "songsummary": "『Raum的白色实验楼，\r\n那里陈列着诸多赝品。\r\n而我，是第31号赝品。\r\n\r\n无论从这里跳下多少次都毫无改变，\r\n这一点，你应该最清楚不过了吧？』\r\n\r\n我和Akatsuki会消失的世界线……\r\n或许，我们一直以来寻找的，正是它。",
+      "thumbnail": "skystreet7-03"
+    },
+    {
+      "songtitle": "Sky Trails",
+      "artist": "La prière、RD-Sounds",
+      "movie": "INPINE",
+      "illustrator": "Masako Wada",
+      "songsummary": "历经无数次重来，终于抵达的未来。\r\n若说毫不畏惧失去，那便是谎言。\r\n也无法保证绝不会有后悔。\r\n但是，正因无数次奋力挣扎过，才明白了一些事。\r\n\r\n如今，我们已能在遥远的未来，在遥远的过去，\r\n亲手去选择自己想要抓住的世界。\r\n\r\n即便一切归零重来，这份记忆也随之消失不见，但想必……\r\n\r\n所以这次，轮到Kohaku和Akatsuki了。\r\n来吧，你们会选择什么？",
+      "thumbnail": "skystreet7-04"
+    }
+  ]
+}
