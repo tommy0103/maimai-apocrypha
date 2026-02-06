@@ -1,6 +1,10 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import crypto from "node:crypto";
 
 const JWT_SECRET = process.env.JWT_SECRET || "change-me-in-production";
+
+const base64urlDecode = (input: string) =>
+  Buffer.from(input, "base64url").toString("utf8");
 
 // Simple JWT verification (for production, use a library like jsonwebtoken)
 function verifyJWT(token: string): Record<string, any> | null {
@@ -8,13 +12,20 @@ function verifyJWT(token: string): Record<string, any> | null {
     const parts = token.split(".");
     if (parts.length !== 3) return null;
 
-    const payload = JSON.parse(atob(parts[1]));
-    const exp = payload.exp;
+    const [header, payload, signature] = parts;
+    const expected = crypto
+      .createHmac("sha256", JWT_SECRET)
+      .update(`${header}.${payload}`)
+      .digest("base64url");
+    if (signature !== expected) return null;
+
+    const parsedPayload = JSON.parse(base64urlDecode(payload));
+    const exp = parsedPayload.exp;
     if (exp && exp < Math.floor(Date.now() / 1000)) {
       return null; // Expired
     }
 
-    return payload;
+    return parsedPayload;
   } catch {
     return null;
   }

@@ -1,25 +1,22 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
+import crypto from "node:crypto";
 
 const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
 const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
 const JWT_SECRET = process.env.JWT_SECRET || "change-me-in-production";
-const BASE_URL = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : process.env.BASE_URL || "http://localhost:5173";
+
+const base64url = (input: string | Buffer) =>
+  Buffer.from(input).toString("base64url");
 
 // Simple JWT implementation (for production, use a library like jsonwebtoken)
 function signJWT(payload: Record<string, any>): string {
-  const header = { alg: "HS256", typ: "JWT" };
-  const encodedHeader = btoa(JSON.stringify(header));
-  const encodedPayload = btoa(JSON.stringify(payload));
-  const signature = btoa(
-    JSON.stringify({
-      header: encodedHeader,
-      payload: encodedPayload,
-      secret: JWT_SECRET,
-    })
-  );
-  return `${encodedHeader}.${encodedPayload}.${signature}`;
+  const header = base64url(JSON.stringify({ alg: "HS256", typ: "JWT" }));
+  const encodedPayload = base64url(JSON.stringify(payload));
+  const signature = crypto
+    .createHmac("sha256", JWT_SECRET)
+    .update(`${header}.${encodedPayload}`)
+    .digest("base64url");
+  return `${header}.${encodedPayload}.${signature}`;
 }
 
 export default async function handler(
@@ -88,8 +85,14 @@ export default async function handler(
       exp: Math.floor(Date.now() / 1000) + 7 * 24 * 60 * 60, // 7 days
     });
 
+    const forwardedProto = req.headers["x-forwarded-proto"] as string | undefined;
+    const forwardedHost = req.headers["x-forwarded-host"] as string | undefined;
+    const host = forwardedHost || req.headers.host || "";
+    const proto = forwardedProto || "https";
+    const baseUrl = process.env.BASE_URL || `${proto}://${host}`;
+
     // Redirect back to site with token
-    const redirectUrl = new URL(`${BASE_URL}/auth/callback`);
+    const redirectUrl = new URL(`${baseUrl}/auth/callback`);
     redirectUrl.searchParams.set("token", jwt);
 
     return res.redirect(redirectUrl.toString());
