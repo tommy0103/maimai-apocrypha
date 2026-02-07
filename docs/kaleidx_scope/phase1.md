@@ -18,6 +18,7 @@ editLink: true
   border-radius: 12px;
   padding: 12px;
   text-align: center;
+  position: relative;
 }
 .kaleidx-card img {
   width: 100%;
@@ -26,10 +27,104 @@ editLink: true
   border-radius: 8px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
+.kaleidx-card.is-checked {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 1px rgba(0, 174, 239, 0.3);
+}
 .kaleidx-card__title {
   margin-top: 10px;
   font-weight: 700;
   font-size: 0.95em;
+}
+.kaleidx-hero {
+  position: relative;
+  text-align: center;
+  margin: 18px 0 28px;
+}
+.kaleidx-hero img {
+  max-width: min(640px, 90%);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  opacity: 0.95;
+}
+.kaleidx-stat-float {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  min-width: 120px;
+  text-align: center;
+}
+.kaleidx-stat-float__num {
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  font-size: 1.2em;
+}
+.kaleidx-stat-float__label {
+  font-size: 0.85em;
+  color: var(--vp-c-text-2);
+}
+@media (max-width: 640px) {
+  .kaleidx-hero {
+    margin-bottom: 18px;
+  }
+  .kaleidx-stat-float {
+    position: static;
+    margin: 10px auto 0;
+  }
+}
+.kaleidx-check {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.kaleidx-check input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.kaleidx-check__box {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--vp-c-brand-1);
+  border-radius: 4px;
+  position: relative;
+}
+.kaleidx-check input:checked + .kaleidx-check__box {
+  background: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+.kaleidx-check input:checked + .kaleidx-check__box::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 @media (max-width: 640px) {
   .kaleidx-card {
@@ -37,6 +132,60 @@ editLink: true
   }
 }
 </style>
+
+<script setup>
+import { onMounted } from "vue";
+
+onMounted(() => {
+  const cards = Array.from(document.querySelectorAll(".kaleidx-card"));
+  const countEl = document.querySelector("#kaleidx-complete-count");
+  const updateCount = () => {
+    const checked = cards.filter((card) =>
+      card.classList.contains("is-checked")
+    ).length;
+    const total = cards.length;
+    if (countEl) {
+      countEl.textContent = `${checked} / ${total}`;
+    }
+  };
+
+  cards.forEach((card, index) => {
+    const titleEl = card.querySelector(".kaleidx-card__title");
+    const title = titleEl ? titleEl.textContent.trim() : `song-${index + 1}`;
+    const key = `kaleidx_phase1_${title}`;
+
+    const label = document.createElement("label");
+    label.className = "kaleidx-check";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.checked = localStorage.getItem(key) === "1";
+
+    const box = document.createElement("span");
+    box.className = "kaleidx-check__box";
+
+    label.append(input, box);
+    card.appendChild(label);
+
+    if (input.checked) {
+      card.classList.add("is-checked");
+    }
+
+    input.addEventListener("change", () => {
+      if (input.checked) {
+        localStorage.setItem(key, "1");
+        card.classList.add("is-checked");
+      } else {
+        localStorage.removeItem(key);
+        card.classList.remove("is-checked");
+      }
+      updateCount();
+    });
+  });
+
+  updateCount();
+});
+</script>
 
 ::: warning 引文
 君はどんな 結末を願っていた？
@@ -55,9 +204,15 @@ editLink: true
 - [skystreet1](/areas/skystreet), [skystreet2](/areas/skystreet2), [skystreet3](/areas/skystreet3), [skystreet4](/areas/skystreet4), [skystreet5](/areas/skystreet5), [skystreet6](/areas/skystreet6) 区域
 :::
 
-<div style="text-align: center; margin: 18px 0 28px;">
-  <img src="/src/images/kaleidx_scope/phase1/phase1-bg.png" alt="Phase 1" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
+<div class="kaleidx-hero">
+  <img src="/src/images/kaleidx_scope/phase1/phase1-bg.png" alt="Phase 1">
+  <div class="kaleidx-stat-float">
+    <div class="kaleidx-stat-float__num" id="kaleidx-complete-count">0</div>
+    <div class="kaleidx-stat-float__label">已完成歌曲数</div>
+  </div>
 </div>
+
+
 
 ## 青春区域（skystreet0 区域）
 
@@ -207,9 +362,5 @@ editLink: true
   <div class="kaleidx-card">
     <img src="/src/images/skystreet6/skystreet6-3.png" alt="184億回のマルチトニック">
     <div class="kaleidx-card__title">184億回のマルチトニック</div>
-  </div>
-  <div class="kaleidx-card">
-    <img src="/src/images/skystreet6/skystreet6-4.png" alt="果ての空、僕らが見た光。">
-    <div class="kaleidx-card__title">果ての空、僕らが見た光。</div>
   </div>
 </div>
