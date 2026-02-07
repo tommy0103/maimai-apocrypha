@@ -83,6 +83,9 @@ export default defineConfig({
   description: "maimai story archive",
   vite: {
     envDir: resolve(__dirname, "../../"),
+    ssr: {
+      noExternal: ["vitepress-plugin-nprogress"],
+    },
   },
   themeConfig: {
     nav: [
@@ -117,6 +120,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "区域剧情 (Areas)",
+        collapsed: true,
         items: sidebarAreas,
         // items: [
         //   // 这里手动填一下你生成的那个文件名，之后可以写脚本自动生成这个列表
@@ -129,12 +133,14 @@ export default defineConfig({
       },
       {
         text: "万花筒 (kaleidx_scope)",
+        collapsed: true,
         items: [
           { text: "phase1", link: "/kaleidx_scope/phase1" },
         ],
       },
       {
         text: "贡献",
+        collapsed: true,
         items: [
           { text: "贡献翻译与勘误", link: "/contribute" },
           { text: "贡献荣誉榜", link: "/honor" },

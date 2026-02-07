@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/tommy0103/maimai-apocrypha#readme",
   "devDependencies": {
-    "vitepress": "^1.6.4"
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-nprogress": "^0.1.1"
   }
 }
