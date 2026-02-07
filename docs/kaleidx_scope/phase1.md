@@ -94,14 +94,30 @@ editLink: true
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
 }
+.dark .kaleidx-stat-btn {
+  background: rgba(13, 27, 42, 0.6);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.dark .kaleidx-stat-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: #ffffff;
+}
 @media (max-width: 640px) {
   .kaleidx-hero {
     margin-bottom: 18px;
   }
   .kaleidx-stat-float {
-    position: static;
-    margin: 10px auto 0;
+    right: 12px;
+    bottom: 12px;
   }
+}
+.dark .kaleidx-stat-float {
+  background: rgba(13, 27, 42, 0.55);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12);
 }
 .kaleidx-check {
   position: absolute;
@@ -148,6 +164,26 @@ editLink: true
 @media (max-width: 640px) {
   .kaleidx-card {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  .kaleidx-card img {
+    width: 88px;
+    height: 88px;
+    aspect-ratio: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  .kaleidx-card__title {
+    margin-top: 0;
+    font-size: 0.95em;
+  }
+  .kaleidx-check {
+    top: 6px;
+    right: 6px;
   }
 }
 </style>
