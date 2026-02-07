@@ -163,23 +163,27 @@ editLink: true
 }
 @media (max-width: 640px) {
   .kaleidx-card {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 12px;
-    text-align: left;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 10px 12px !important;
+    text-align: left !important;
   }
   .kaleidx-card img {
-    width: 88px;
-    height: 88px;
-    aspect-ratio: auto;
-    border-radius: 10px;
-    flex-shrink: 0;
+    width: 88px !important;
+    height: 88px !important;
+    aspect-ratio: auto !important;
+    border-radius: 10px !important;
+    flex-shrink: 0 !important;
   }
   .kaleidx-card__title {
     margin-top: 0;
     font-size: 0.95em;
+    flex: 1;
+    min-width: 0;
+    white-space: normal;
+    word-break: break-word;
   }
   .kaleidx-check {
     top: 6px;
