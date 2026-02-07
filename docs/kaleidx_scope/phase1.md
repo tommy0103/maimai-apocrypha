@@ -51,15 +51,15 @@ editLink: true
 
 ::: tip 青门有关区域
 青春区域（天空街区域）：
-- skystreet 区域（dx 的青春区域 + dx plus 的两个区域），由于这三个区域均未提供详细背景故事，所以统称为 skystreet 区域
-- [skystreet2](/areas/skystreet2), [skystreet3](/areas/skystreet3), [skystreet4](/areas/skystreet4), [skystreet5](/areas/skystreet5), [skystreet6](/areas/skystreet6) 区域
+- 青春区域（dx 的青春区域 + dx plus 的两个区域），由于这三个区域均未提供详细背景故事，所以统称为青春区域（skystreet0 区域）
+- [skystreet1](/areas/skystreet), [skystreet2](/areas/skystreet2), [skystreet3](/areas/skystreet3), [skystreet4](/areas/skystreet4), [skystreet5](/areas/skystreet5), [skystreet6](/areas/skystreet6) 区域
 :::
 
 <div style="text-align: center; margin: 18px 0 28px;">
   <img src="/src/images/kaleidx_scope/phase1/phase1-bg.png" alt="Phase 1" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
 </div>
 
-## スカイストリートちほー（skystreet 区域）
+## 青春区域（skystreet0 区域）
 
 <div class="kaleidx-grid">
   <div class="kaleidx-card">
@@ -85,6 +85,27 @@ editLink: true
   <div class="kaleidx-card">
     <img src="/src/images/kaleidx_scope/phase1/11100.png" alt="シエルブルーマルシェ">
     <div class="kaleidx-card__title">シエルブルーマルシェ</div>
+  </div>
+</div>
+
+## スカイストリートちほー1（skystreet1 区域）
+
+<div class="kaleidx-grid">
+  <div class="kaleidx-card">
+    <img src="/src/images/skystreet/skystreet-01.png" alt="REAL VOICE">
+    <div class="kaleidx-card__title">REAL VOICE</div>
+  </div>
+  <div class="kaleidx-card">
+    <img src="/src/images/skystreet/skystreet-02.png" alt="ユメヒバナ">
+    <div class="kaleidx-card__title">ユメヒバナ</div>
+  </div>
+  <div class="kaleidx-card">
+    <img src="/src/images/skystreet/skystreet-03.png" alt="オリフィス">
+    <div class="kaleidx-card__title">オリフィス</div>
+  </div>
+  <div class="kaleidx-card">
+    <img src="/src/images/skystreet/skystreet-04.png" alt="パラボラ">
+    <div class="kaleidx-card__title">パラボラ</div>
   </div>
 </div>
 

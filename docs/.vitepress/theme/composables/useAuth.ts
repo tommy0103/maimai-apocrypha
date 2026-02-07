@@ -82,6 +82,7 @@ export function useAuth() {
 
   // Handle OAuth callback
   const handleCallback = () => {
+    // token = JWT Token
     const urlParams = new URLSearchParams(window.location.search);
     const token = urlParams.get("token");
 
