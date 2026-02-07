@@ -75,6 +75,25 @@ editLink: true
   font-size: 0.85em;
   color: var(--vp-c-text-2);
 }
+.kaleidx-stat-actions {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+.kaleidx-stat-btn {
+  padding: 4px 8px;
+  font-size: 0.8em;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+}
+.kaleidx-stat-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
 @media (max-width: 640px) {
   .kaleidx-hero {
     margin-bottom: 18px;
@@ -139,6 +158,20 @@ import { onMounted } from "vue";
 onMounted(() => {
   const cards = Array.from(document.querySelectorAll(".kaleidx-card"));
   const countEl = document.querySelector("#kaleidx-complete-count");
+  const exportBtn = document.querySelector("#kaleidx-export-btn");
+  const importBtn = document.querySelector("#kaleidx-import-btn");
+  const setCardState = (card, key, checked) => {
+    const checkbox = card.querySelector("input[type='checkbox']");
+    if (checked) {
+      localStorage.setItem(key, "1");
+      card.classList.add("is-checked");
+      if (checkbox) checkbox.checked = true;
+      return;
+    }
+    localStorage.removeItem(key);
+    card.classList.remove("is-checked");
+    if (checkbox) checkbox.checked = false;
+  };
   const updateCount = () => {
     const checked = cards.filter((card) =>
       card.classList.contains("is-checked")
@@ -173,17 +206,60 @@ onMounted(() => {
 
     input.addEventListener("change", () => {
       if (input.checked) {
-        localStorage.setItem(key, "1");
-        card.classList.add("is-checked");
+        setCardState(card, key, true);
       } else {
-        localStorage.removeItem(key);
-        card.classList.remove("is-checked");
+        setCardState(card, key, false);
       }
       updateCount();
     });
   });
 
   updateCount();
+
+  if (exportBtn) {
+    exportBtn.addEventListener("click", async () => {
+      const picked = cards
+        .filter((card) => card.classList.contains("is-checked"))
+        .map((card, index) => {
+          const titleEl = card.querySelector(".kaleidx-card__title");
+          return titleEl ? titleEl.textContent.trim() : `song-${index + 1}`;
+        });
+      const payload = btoa(unescape(encodeURIComponent(JSON.stringify(picked))));
+      try {
+        await navigator.clipboard.writeText(payload);
+        exportBtn.textContent = "已复制";
+        setTimeout(() => {
+          exportBtn.textContent = "导出";
+        }, 1200);
+      } catch {
+        prompt("复制失败，请手动复制：", payload);
+      }
+    });
+  }
+
+  if (importBtn) {
+    importBtn.addEventListener("click", () => {
+      const input = prompt("粘贴导入码：");
+      if (!input) return;
+      try {
+        const decoded = JSON.parse(
+          decodeURIComponent(escape(atob(input.trim())))
+        );
+        const set = new Set(Array.isArray(decoded) ? decoded : []);
+        cards.forEach((card, index) => {
+          const titleEl = card.querySelector(".kaleidx-card__title");
+          const title = titleEl
+            ? titleEl.textContent.trim()
+            : `song-${index + 1}`;
+          const key = `kaleidx_phase1_${title}`;
+        setCardState(card, key, set.has(title));
+        });
+        updateCount();
+      } catch {
+        alert("导入失败：格式不正确");
+      }
+    });
+  }
 });
 </script>
 
@@ -209,6 +285,10 @@ onMounted(() => {
   <div class="kaleidx-stat-float">
     <div class="kaleidx-stat-float__num" id="kaleidx-complete-count">0</div>
     <div class="kaleidx-stat-float__label">已完成歌曲数</div>
+    <div class="kaleidx-stat-actions">
+      <button class="kaleidx-stat-btn" id="kaleidx-export-btn">导出</button>
+      <button class="kaleidx-stat-btn" id="kaleidx-import-btn">导入</button>
+    </div>
   </div>
 </div>
 
