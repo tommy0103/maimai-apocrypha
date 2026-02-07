@@ -36,7 +36,8 @@ div[style*="border-radius"] {
 }
 
 body {
-  font-family: "Varela Round", "Nunito", "PingFang SC", "Microsoft YaHei",
+  font-family: "Varela Round", "Nunito", "PingFang SC", "Hiragino Sans GB",
+    "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei",
     sans-serif;
 }
 
