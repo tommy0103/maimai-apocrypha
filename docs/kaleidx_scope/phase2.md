@@ -56,13 +56,18 @@ editLink: true
 呐 你还记得吗
 :::
 
-::: info 解锁条件
-1. 完走 [heaven8 区域](/areas/heaven8)（完走之后可以发现白之门，和青之门一样）
-2. 佩戴 Latent Kingdom 背景板，在 1pc 内 **只** 游玩以下大国奏音的歌曲（共 6 首，不可重复游玩），即不能游玩列表外的歌曲，否则该 pc 无效（可以先佩戴背景板打歌拿钥匙，但需要看到白之门之后才能解锁白之门，当然，拿到钥匙之后只要完走 heaven8 区域就可以解锁白之门，然后就可以愉快游玩白门了）
+<!-- 1. 完走 [heaven8 区域](/areas/heaven8)（完走之后可以发现白之门，和青之门一样）
+2. 佩戴 Latent Kingdom 背景板，在 1pc 内 **只** 游玩以下大国奏音的歌曲（共 6 首，不可重复游玩），即不能游玩列表外的歌曲，否则该 pc 无效（可以先佩戴背景板打歌拿钥匙，但需要看到白之门之后才能解锁白之门，当然，拿到钥匙之后只要完走 heaven8 区域就可以解锁白之门，然后就可以愉快游玩白门了） -->
 
-<div style="text-align: center; margin: 18px 0 28px;">
-  <img src="/src/images/kaleidx_scope/phase2/phase2-sp1.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
-</div>
+::: info 解锁条件
+
+- 看到门的条件（解锁白门的前提）：完走 [heaven8 区域](/areas/heaven8)（和青之门一样，完走之后可以发现白之门）
+
+- 拿到钥匙的条件：佩戴 Latent Kingdom 背景板，在 1pc 内 **只** 游玩以下大国奏音的歌曲（共 6 首，不可重复游玩），即不能游玩列表外的歌曲，否则该 pc 无效
+
+::: danger 注意！
+- 不能游玩列表外的歌曲，否则该 pc 无效
+- 钥匙和门是独立的，先去完成满足哪个条件都可以，但必须同时拿到钥匙并且发现门才可以解锁门。
 :::
 
 ::: tip 白门有关区域
@@ -71,6 +76,12 @@ editLink: true
 
 <div style="text-align: center; margin: 18px 0 28px;">
   <img src="/src/images/kaleidx_scope/phase2/phase2-bg.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
+</div>
+
+## 所需背景板
+
+<div style="text-align: center; margin: 18px 0 28px;">
+  <img src="/src/images/kaleidx_scope/phase2/phase2-sp1.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
 </div>
 
 ## 歌曲列表
