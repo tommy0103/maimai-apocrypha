@@ -20,57 +20,6 @@ Owl一行人在解决了列车事件后，抵达了委托方宝石商MacLeach家
 </div>
 
 
-<style>
-.story-card {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  margin-bottom: 40px;
-  padding: 16px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  border: 1px solid var(--vp-c-divider);
-}
-.story-card__media {
-  flex-shrink: 0;
-  width: 140px;
-}
-.story-card__media img {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-}
-.story-card__body {
-  flex-grow: 1;
-  min-width: 0;
-}
-.VPContent .content h3:has(+ .story-card--song) {
-  margin: 0;
-  padding: 0;
-  height: 0;
-  overflow: hidden;
-}
-@media (max-width: 640px) {
-  .story-card {
-    flex-direction: column;
-    gap: 12px;
-    padding: 12px;
-  }
-  .story-card__media {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .story-card--character .story-card__media img {
-    width: min(200px, 70vw);
-  }
-  .story-card--song .story-card__media img {
-    width: min(240px, 70vw);
-  }
-}
-</style>
-
-
 ## 登場人物 (Characters)
 <div class="story-card story-card--character">
 <div class="story-card__media" style="width: 120px;">

@@ -5,39 +5,6 @@ editLink: true
 
 # Phase 2（白门）
 
-<style>
-.kaleidx-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-.kaleidx-card {
-  width: min(200px, 45vw);
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 12px;
-  text-align: center;
-}
-.kaleidx-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
-}
-.kaleidx-card__title {
-  margin-top: 10px;
-  font-weight: 700;
-  font-size: 0.95em;
-}
-@media (max-width: 640px) {
-  .kaleidx-card {
-    width: 100%;
-  }
-}
-</style>
-
 ::: warning 引文
 昏き声が嘯くたびに
 

@@ -12,12 +12,12 @@
 import DefaultTheme from "vitepress/theme";
 import LoginButton from "./components/LoginButton.vue";
 import { onMounted } from 'vue';
-import { inject } from '@vercel/analytics';
 
 const { Layout } = DefaultTheme;
 
 onMounted(() => {
-  inject();
+  const mod = '@vercel/' + 'analytics';
+  import(/* @vite-ignore */ mod).then(({ inject }) => inject()).catch(() => {});
 });
 </script>
 
