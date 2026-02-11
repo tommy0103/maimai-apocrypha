@@ -58,7 +58,7 @@ editLink: true
 
 ::: info 解锁条件
 1. 完走 [heaven8 区域](/areas/heaven8)（完走之后可以发现白之门，和青之门一样）
-2. 佩戴 Latent Kingdom 背景板，在 1pc 内 **只** 游玩以下大国奏音的歌曲（共 6 首，不可重复游玩），即不能游玩列表外的歌曲，否则该 pc 无效（可以先佩戴背景板打歌拿钥匙，但需要看到白之门之后才能解锁白之门，当然，拿到钥匙之后只要完走 heaven8区域就可以解锁白之门，然后就可以愉快游玩白门了）
+2. 佩戴 Latent Kingdom 背景板，在 1pc 内 **只** 游玩以下大国奏音的歌曲（共 6 首，不可重复游玩），即不能游玩列表外的歌曲，否则该 pc 无效（可以先佩戴背景板打歌拿钥匙，但需要看到白之门之后才能解锁白之门，当然，拿到钥匙之后只要完走 heaven8 区域就可以解锁白之门，然后就可以愉快游玩白门了）
 
 <div style="text-align: center; margin: 18px 0 28px;">
   <img src="/src/images/kaleidx_scope/phase2/phase2-sp1.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
