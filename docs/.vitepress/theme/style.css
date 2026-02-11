@@ -497,12 +497,53 @@ div[style*="display: flex"]:hover {
 
 .kaleidx-card {
   width: min(200px, 45vw);
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: clamp(12px, 2vw, 16px);
   padding: 12px;
   text-align: center;
-  position: relative;
+  backdrop-filter: blur(8px) saturate(150%);
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.06),
+    0 6px 16px rgba(0, 174, 239, 0.08),
+    0 16px 36px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+/* 玻璃高光 */
+.kaleidx-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.dark .kaleidx-card {
+  background: rgba(13, 27, 42, 0.58);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.15),
+    0 6px 16px rgba(0, 174, 239, 0.1),
+    0 16px 36px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.dark .kaleidx-card::before {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
 }
 
 .kaleidx-card img {
@@ -510,12 +551,23 @@ div[style*="display: flex"]:hover {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  position: relative;
 }
 
 .kaleidx-card.is-checked {
   border-color: var(--vp-c-brand-1);
-  box-shadow: 0 0 0 1px rgba(0, 174, 239, 0.3);
+  box-shadow:
+    0 0 0 1px rgba(0, 174, 239, 0.3),
+    0 6px 16px rgba(0, 174, 239, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.dark .kaleidx-card.is-checked {
+  box-shadow:
+    0 0 0 1px rgba(0, 174, 239, 0.4),
+    0 6px 16px rgba(0, 174, 239, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .kaleidx-card__title {
@@ -673,7 +725,7 @@ div[style*="display: flex"]:hover {
     display: flex !important;
     align-items: center !important;
     gap: 12px !important;
-    padding: 10px 12px !important;
+    padding: 10px 14px !important;
     text-align: left !important;
   }
   .kaleidx-card img {
