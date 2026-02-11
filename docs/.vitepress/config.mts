@@ -133,9 +133,10 @@ export default defineConfig({
       },
       {
         text: "万花筒 (kaleidx_scope)",
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: "phase1", link: "/kaleidx_scope/phase1" },
+          { text: "phase2", link: "/kaleidx_scope/phase2" },
         ],
       },
       {
