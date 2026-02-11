@@ -11,8 +11,14 @@
 <script setup>
 import DefaultTheme from "vitepress/theme";
 import LoginButton from "./components/LoginButton.vue";
+import { onMounted } from 'vue';
+import { inject } from '@vercel/analytics';
 
 const { Layout } = DefaultTheme;
+
+onMounted(() => {
+  inject();
+});
 </script>
 
 <style>

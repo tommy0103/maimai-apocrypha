@@ -26,5 +26,8 @@
   "devDependencies": {
     "vitepress": "^1.6.4",
     "vitepress-plugin-nprogress": "^0.1.1"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.6.1"
   }
 }
