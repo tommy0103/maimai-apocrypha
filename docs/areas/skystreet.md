@@ -85,7 +85,7 @@ editLink: true
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>174cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>12月8日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>他出身于古老的奉纳舞世家，但探索着不拘一格的自己的舞蹈，成为受欢迎的舞者。突然手腕上浮现出蝶形痣痕，得知这与街头传闻的网络大师「Noah」使用的蝶形标记相似，于是开始调查。</p>    
+<p>他出身于古老的奉纳舞世家，但探索着不拘一格的自己的舞蹈，成为受欢迎的舞者。突然手腕上浮现出蝶形痣痕，得知这与街头传闻的网络大师「Noa」使用的蝶形标记相似，于是开始调查。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -108,7 +108,7 @@ editLink: true
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>184cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>11月19日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>职业篮球选手。拥有天才般的才能但缺乏团队合作精神。比赛中受重伤危及职业生涯，在试图时间跳跃前遭到Noah袭击，被夺走了蝶形痣痕。</p>    
+<p>职业篮球选手。拥有天才般的才能但缺乏团队合作精神。比赛中受重伤危及职业生涯，在试图时间跳跃前遭到Noa袭击，被夺走了蝶形痣痕。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -121,17 +121,17 @@ editLink: true
 
 <div class="story-card story-card--character">
 <div class="story-card__media" style="width: 120px;">
-<img src="/src/images/skystreet/05.png" alt="Noah">
+<img src="/src/images/skystreet/05.png" alt="Noa">
 </div>
 <div class="story-card__body">
-<h3 style="margin-top: 0;">Noah</h3>
+<h3 style="margin-top: 0;">Noa</h3>
 <p><b>「10100101101010111010010110<br>1100111010010111011000」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>？</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>？</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>？</b></span>
 </div>
 
-<p>最近在天空街道的学生和网络留言板上流传着『在网上追逐蝴蝶就能实现愿望』的传闻。线索是一个名为「Noah」的站长运营的黑色页面。若能到达那里，就会看到一只蝶形标记。</p>    
+<p>最近在天空街道的学生和网络留言板上流传着『在网上追逐蝴蝶就能实现愿望』的传闻。线索是一个名为「Noa」的站长运营的黑色页面。若能到达那里，就会看到一只蝶形标记。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -186,7 +186,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-夜幕降临，突然出现身着和服的团体。<br>他们一开始跳舞，平淡无奇的街道便瞬间转变，令人感觉仿佛误入了异界般的陶醉感。<br>听闻此传闻的人们，为了亲眼目睹这不知何时何地开始的游击演出，每夜都涌向天空街道。<br>Akatsuki曾率领这个舞者团体Loto Team，但某日被卷入不可思议的事件，手腕上刻下了蝶形痣痕。<br>为了追查在街头传闻中使用相同蝶形标记的网络大师「Noah」，Akatsuki开始行动。
+夜幕降临，突然出现身着和服的团体。<br>他们一开始跳舞，平淡无奇的街道便瞬间转变，令人感觉仿佛误入了异界般的陶醉感。<br>听闻此传闻的人们，为了亲眼目睹这不知何时何地开始的游击演出，每夜都涌向天空街道。<br>Akatsuki曾率领这个舞者团体Loto Team，但某日被卷入不可思议的事件，手腕上刻下了蝶形痣痕。<br>为了追查在街头传闻中使用相同蝶形标记的网络大师「Noa」，Akatsuki开始行动。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -240,7 +240,7 @@ Nanoha绘制的画作能撼动人们的情感。<br>那是一种似乎缺少了�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-初高中时期就是篮球希望选手的So，在17岁就成为职业选手的天才得分手。<br>但正因如此，他不擅长与周围配合，只对实力相当的选手感兴趣。<br>渐渐地与团队成员也无法协作，某日比赛中的受伤使他陷入职业生涯危机。<br>此时，被手机收到的“让你重来过去”的不可思议消息唆使，他尝试时间跳跃，但在途中遭到「Noah」袭击，精神被投射到小学生时代的身体，无法回到原来的时代。
+初高中时期就是篮球希望选手的So，在17岁就成为职业选手的天才得分手。<br>但正因如此，他不擅长与周围配合，只对实力相当的选手感兴趣。<br>渐渐地与团队成员也无法协作，某日比赛中的受伤使他陷入职业生涯危机。<br>此时，被手机收到的“让你重来过去”的不可思议消息唆使，他尝试时间跳跃，但在途中遭到「Noa」袭击，精神被投射到小学生时代的身体，无法回到原来的时代。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

@@ -58,13 +58,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Kohaku</h3>
-<p><b>「不顾一切地前进吧……<br>Noah」</b></p>
+<p><b>「不顾一切地前进吧……<br>Noa」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>163cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>9月7日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>在一块容易被人忽视的小墓碑上，刻着晓家的纹章。Noah 看到后说道：&#x27;这个纹章，我认识。Akatsuki 曾经跟我提过……这是&#x27;</p>    
+<p>在一块容易被人忽视的小墓碑上，刻着晓家的纹章。Noa 看到后说道：&#x27;这个纹章，我认识。Akatsuki 曾经跟我提过……这是&#x27;</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">

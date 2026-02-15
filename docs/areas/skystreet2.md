@@ -5,7 +5,7 @@ editLink: true
 
 # スカイストリートちほー2（skystreet2 区域）
 ::: info 区域简介
-为了调查在 Sky Street 流行的蝴蝶传闻，Akatsuki 委托了青梅竹马的 Kohaku 进行调查。两人追踪加密在蝴蝶翅膀上的地址，最终到达了 Noah 的网站。然而，在接触 Noah 后，Sky Street 附近开始发生离奇的失踪事件。追逐蝶羽而逐渐改变的各自过去，以及最终抵达的未来会是…？
+为了调查在 Sky Street 流行的蝴蝶传闻，Akatsuki 委托了青梅竹马的 Kohaku 进行调查。两人追踪加密在蝴蝶翅膀上的地址，最终到达了 Noa 的网站。然而，在接触 Noa 后，Sky Street 附近开始发生离奇的失踪事件。追逐蝶羽而逐渐改变的各自过去，以及最终抵达的未来会是…？
 :::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
@@ -92,17 +92,17 @@ editLink: true
 
 <div class="story-card story-card--character">
 <div class="story-card__media" style="width: 120px;">
-<img src="/src/images/skystreet2/04.png" alt="Noah">
+<img src="/src/images/skystreet2/04.png" alt="Noa">
 </div>
 <div class="story-card__body">
-<h3 style="margin-top: 0;">Noah</h3>
+<h3 style="margin-top: 0;">Noa</h3>
 <p><b>「能实现任何愿望的“魔法师”？我是你的…」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>?</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>?</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>?</b></span>
 </div>
 
-<p>网络上知名的人物。甚至不清楚他是否真实存在，是组织还是个人。唯一确定的是有“追逐蝴蝶就能实现愿望”的传闻。Sky Street 连续发生失踪事件，警方公布失踪者疑似与 Noah 有过接触。</p>    
+<p>网络上知名的人物。甚至不清楚他是否真实存在，是组织还是个人。唯一确定的是有“追逐蝴蝶就能实现愿望”的传闻。Sky Street 连续发生失踪事件，警方公布失踪者疑似与 Noa 有过接触。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -125,7 +125,7 @@ editLink: true
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>174cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>12月8日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>在 Kohaku 的帮助下，终于找到了 Noah 的网站。但点击屏幕上出现的蝴蝶瞬间，出现了一条消息：“如果想回到过去，我来告诉你方法。”之后再也无法访问该网站。紧接着，街上开始出现失踪者，伙伴 Kohaku 和 Sou 也行踪不明。</p>    
+<p>在 Kohaku 的帮助下，终于找到了 Noa 的网站。但点击屏幕上出现的蝴蝶瞬间，出现了一条消息：“如果想回到过去，我来告诉你方法。”之后再也无法访问该网站。紧接着，街上开始出现失踪者，伙伴 Kohaku 和 Sou 也行踪不明。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -207,7 +207,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-“两名行踪依然不明，但根据信息显示两人都有与自称‘Noah’的人物接触的痕迹…”从 Sky Hall 的大型屏幕反复播放着某企业高管和政治家的面孔，Akatsuki 凝视着。从昨晚开始就联系不上 Kohaku 和 Sou。这个新闻有什么关联…？因沉迷思考，察觉背后气息的瞬间迟了一步。转身朝向传来沙沙脚步声的方向，一个戴兜帽的人影在常夜灯下浮现。白色的脸狞笑着，将冰冷的枪口对准了 Akatsuki。
+“两名行踪依然不明，但根据信息显示两人都有与自称‘Noa’的人物接触的痕迹…”从 Sky Hall 的大型屏幕反复播放着某企业高管和政治家的面孔，Akatsuki 凝视着。从昨晚开始就联系不上 Kohaku 和 Sou。这个新闻有什么关联…？因沉迷思考，察觉背后气息的瞬间迟了一步。转身朝向传来沙沙脚步声的方向，一个戴兜帽的人影在常夜灯下浮现。白色的脸狞笑着，将冰冷的枪口对准了 Akatsuki。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

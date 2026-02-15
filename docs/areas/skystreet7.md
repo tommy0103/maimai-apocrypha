@@ -99,10 +99,10 @@ editLink: true
 
 <div class="story-card story-card--character">
 <div class="story-card__media" style="width: 120px;">
-<img src="/src/images/skystreet7/04.png" alt="Noah">
+<img src="/src/images/skystreet7/04.png" alt="noa">
 </div>
 <div class="story-card__body">
-<h3 style="margin-top: 0;">Noah</h3>
+<h3 style="margin-top: 0;">noa</h3>
 <p><b>「如果Kohaku希望如此的话，<br>我和Akatsuki，也终于能让这个循环终结了。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
