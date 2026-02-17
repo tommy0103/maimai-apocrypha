@@ -903,3 +903,199 @@ div[style*="display: flex"]:hover {
 .dark .custom-block.danger .custom-block-title {
   color: #ff4d8a;
 }
+
+/* ===== Custom Sidebar ===== */
+
+/* 隐藏 VitePress 原生 sidebar 组 */
+.custom-sidebar ~ div {
+  display: none !important;
+}
+
+.custom-sidebar {
+  padding: 4px 0 16px;
+}
+
+/* --- 排序切换（分段控件） --- */
+.cs-toggle {
+  display: flex;
+  gap: 2px;
+  margin: 0 0 14px;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.dark .cs-toggle {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.cs-toggle-btn {
+  flex: 1;
+  padding: 6px 0;
+  font-size: 0.82em;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cs-toggle-btn:hover {
+  color: var(--vp-c-text-1);
+}
+
+.cs-toggle-btn.active {
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--vp-c-brand-1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .cs-toggle-btn.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--vp-c-brand-1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* --- 顶层分区（区域剧情 / 万花筒 / 贡献） --- */
+.cs-section {
+  margin-bottom: 4px;
+}
+
+.cs-head {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  padding: 8px 4px;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s;
+}
+
+.cs-head:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.cs-head-text {
+  flex: 1;
+  text-align: left;
+}
+
+/* --- 折叠箭头 --- */
+.cs-arrow {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 0.2s;
+  color: var(--vp-c-text-3);
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.cs-arrow.open {
+  transform: rotate(90deg);
+}
+
+/* --- 二级分组（版本 / 系列） --- */
+.cs-body {
+  padding-left: 4px;
+}
+
+.cs-group {
+  margin-bottom: 2px;
+}
+
+.cs-group-head {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  padding: 5px 4px;
+  font-size: 0.84em;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s;
+}
+
+.cs-group-head:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.cs-group-label {
+  flex: 1;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 数量徽章 */
+.cs-count {
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--vp-c-text-3);
+  background: rgba(0, 0, 0, 0.04);
+  padding: 1px 7px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.dark .cs-count {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* --- 链接列表 --- */
+.cs-list {
+  list-style: none;
+  padding: 0 0 2px 20px;
+  margin: 0;
+}
+
+.cs-list--top {
+  padding-left: 24px;
+}
+
+.cs-link {
+  display: block;
+  padding: 4px 8px;
+  font-size: 0.84em;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  border-radius: 6px;
+  border-left: 2px solid transparent;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+  line-height: 1.5;
+}
+
+.cs-link:hover {
+  color: var(--vp-c-brand-1);
+  background: rgba(0, 174, 239, 0.06);
+}
+
+.cs-link.active {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  background: rgba(0, 174, 239, 0.08);
+  border-left-color: var(--vp-c-brand-1);
+}
+
+.dark .cs-link:hover {
+  background: rgba(0, 174, 239, 0.1);
+}
+
+.dark .cs-link.active {
+  background: rgba(0, 174, 239, 0.12);
+}

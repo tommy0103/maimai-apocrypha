@@ -5,12 +5,16 @@
         <LoginButton />
       </div>
     </template>
+    <template #sidebar-nav-before> <!-- plugin custom sidebar -->
+      <CustomSidebar />
+    </template>
   </Layout>
 </template>
 
 <script setup>
 import DefaultTheme from "vitepress/theme";
 import LoginButton from "./components/LoginButton.vue";
+import CustomSidebar from "./components/CustomSidebar.vue";
 import { onMounted } from 'vue';
 
 const { Layout } = DefaultTheme;
