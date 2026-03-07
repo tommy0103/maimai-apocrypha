@@ -1099,3 +1099,219 @@ div[style*="display: flex"]:hover {
 .dark .cs-link.active {
   background: rgba(0, 174, 239, 0.12);
 }
+
+/* ===== Honor page ===== */
+.honor-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 20px 0 14px;
+}
+.honor-stat {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: clamp(12px, 2vw, 16px);
+  padding: 14px 16px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.06),
+    0 6px 16px rgba(0, 174, 239, 0.08),
+    0 16px 36px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px) saturate(150%);
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  text-align: center;
+}
+.honor-stat::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  pointer-events: none;
+}
+.honor-stat__num {
+  font-size: 1.7em;
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  font-variant-numeric: tabular-nums;
+}
+.honor-stat__label {
+  font-size: 0.86em;
+  color: var(--vp-c-text-2);
+}
+.honor-empty {
+  margin: 16px 0;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px dashed rgba(0, 174, 239, 0.45);
+  color: var(--vp-c-text-2);
+}
+.honor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+.honor-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: clamp(12px, 2vw, 16px);
+  padding: 14px 16px 14px 18px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.06),
+    0 6px 16px rgba(0, 174, 239, 0.08),
+    0 16px 36px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px) saturate(150%);
+  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.honor-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  pointer-events: none;
+}
+.honor-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 10px 24px rgba(0, 174, 239, 0.14),
+    0 18px 34px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.honor-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.honor-card__identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.honor-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: var(--vp-c-bg-alt);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+.honor-card__name {
+  font-weight: 700;
+  font-size: 1.05em;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.honor-card__count {
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  margin-left: 8px;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.honor-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.honor-badge {
+  font-size: 0.78em;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.65);
+}
+.honor-role {
+  font-size: 0.82em;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  background: rgba(0, 174, 239, 0.08);
+  border: 1px solid rgba(0, 174, 239, 0.2);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+.honor-badge--core {
+  background: rgba(255, 232, 148, 0.3);
+  border-color: rgba(255, 210, 94, 0.45);
+}
+.honor-badge--major {
+  background: rgba(120, 200, 255, 0.22);
+  border-color: rgba(120, 200, 255, 0.45);
+}
+.honor-badge--active {
+  background: rgba(130, 255, 190, 0.22);
+  border-color: rgba(130, 255, 190, 0.45);
+}
+.honor-badge--base {
+  background: rgba(0, 174, 239, 0.12);
+  border-color: rgba(0, 174, 239, 0.28);
+}
+
+.dark .honor-stat,
+.dark .honor-card {
+  background: rgba(13, 27, 42, 0.58);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.15),
+    0 6px 16px rgba(0, 174, 239, 0.1),
+    0 16px 36px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+.dark .honor-stat::before,
+.dark .honor-card::before {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+.dark .honor-empty {
+  background: rgba(13, 27, 42, 0.55);
+  border-color: rgba(0, 174, 239, 0.35);
+}
+.dark .honor-avatar {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+}
+.dark .honor-badge {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.dark .honor-role {
+  background: rgba(0, 174, 239, 0.18);
+  border-color: rgba(0, 174, 239, 0.35);
+  color: #bfefff;
+}
+
+@media (max-width: 640px) {
+  .honor-grid {
+    grid-template-columns: 1fr;
+  }
+}
