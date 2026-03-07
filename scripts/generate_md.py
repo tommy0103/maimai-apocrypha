@@ -4,7 +4,8 @@ import json
 import logging
 from pathlib import Path
 
-DEFAULT_OUTPUT_DIR = Path("../docs/areas")
+DEFAULT_OUTPUT_DIR = Path("docs/areas")
+DEFAULT_PROOFREADERS_FILE = Path("docs/data/area_proofreaders.json")
 
 def safe_html_text(text):
     if not text:
@@ -17,6 +18,20 @@ def safe_html_text(text):
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_proofreaders(path: Path | None) -> dict[str, str]:
+    if path is None or not path.exists():
+        return {}
+    payload = load_json(path)
+    if not isinstance(payload, dict):
+        logging.warning("Invalid proofreaders payload, expected object: %s", path)
+        return {}
+    normalized: dict[str, str] = {}
+    for area_id, reviewer in payload.items():
+        if area_id and reviewer:
+            normalized[str(area_id)] = str(reviewer)
+    return normalized
 
 
 def format_attr_value(value) -> str:
@@ -84,7 +99,7 @@ def get_list_item(items, index, fallback):
     return fallback
 
 
-def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
+def generate_markdown(area_file: Path, output_dir: Path, lang: str | None, proofreaders: dict[str, str]):
     area_jp_file = area_file
     area_jp = load_json(area_jp_file)
     if not isinstance(area_jp, dict) or "id" not in area_jp:
@@ -116,6 +131,14 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
         
         # --- 标题与简介 ---
     md_content.append(f"\n# {area_jp['name']}（{area_jp.get('id')} 区域）")
+
+    reviewer = proofreaders.get(area_jp["id"])
+    if reviewer:
+        md_content.append('<div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px;">')
+        md_content.append('<Badge type="tip" text="已校对" />')
+        md_content.append(f'<Badge type="info" text="@{format_attr_value(reviewer)}" />')
+        md_content.append("</div>")
+        md_content.append("\n")
     
     area_story_jp = area_jp.get('area', '')
     area_story_zh = area_local.get('area', '')
@@ -330,9 +353,14 @@ def generate_markdown(area_file: Path, output_dir: Path, lang: str | None):
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate VitePress markdown from area JSON.")
-    parser.add_argument("--data-dir", default="../raw_data")
+    parser.add_argument("--data-dir", default="raw_data")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR))
     parser.add_argument("--lang", default=None, help="Translation suffix, e.g. zh")
+    parser.add_argument(
+        "--proofreaders-file",
+        default=str(DEFAULT_PROOFREADERS_FILE),
+        help="JSON map for area id -> proofreader handle",
+    )
     parser.add_argument("--log-level", default="INFO")
     return parser
 
@@ -342,10 +370,23 @@ def main() -> None:
     args = parser.parse_args()
     logging.basicConfig(level=args.log_level, format="%(levelname)s: %(message)s")
 
+    repo_root = Path(__file__).resolve().parents[1]
+
+    data_dir = Path(args.data_dir)
+    if not data_dir.is_absolute():
+        data_dir = repo_root / data_dir
+
     output_dir = Path(args.output_dir)
+    if not output_dir.is_absolute():
+        output_dir = repo_root / output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    files = list(Path(args.data_dir).rglob("*.json"))
+    proofreaders_file = Path(args.proofreaders_file)
+    if not proofreaders_file.is_absolute():
+        proofreaders_file = repo_root / proofreaders_file
+    proofreaders = load_proofreaders(proofreaders_file)
+
+    files = list(data_dir.rglob("*.json"))
     for f in files:
         if f.name in {"area_index.json", ".hashes.json"}:
             continue
@@ -353,7 +394,7 @@ def main() -> None:
             continue
         if not args.lang and ".zh" in f.name:
             continue
-        generate_markdown(f, output_dir, args.lang)
+        generate_markdown(f, output_dir, args.lang, proofreaders)
 
 
 if __name__ == "__main__":
