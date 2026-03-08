@@ -4,8 +4,14 @@ editLink: true
 ---
 
 # スカイストリートちほー2（skystreet2 区域）
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 12px;">
+<Badge type="tip" text="已校对" />
+<Badge type="info" text="@深海棉花糖" />
+</div>
+
+
 ::: info 区域简介
-为了调查在 Sky Street 流行的蝴蝶传闻，Akatsuki 委托了青梅竹马的 Kohaku 进行调查。两人追踪加密在蝴蝶翅膀上的地址，最终到达了 Noa 的网站。然而，在接触 Noa 后，Sky Street 附近开始发生离奇的失踪事件。追逐蝶羽而逐渐改变的各自过去，以及最终抵达的未来会是…？
+为了调查在天空街流传的蝴蝶传言，Akatsuki委托了青梅竹马Kohaku进行调查。两人循着隐藏在蝴蝶翅膀上的加密地址，终于找到了Noa的网站。然而在接触Noa后，天空街附近开始接连发生离奇的失踪事件。为了追逐蝴蝶翅膀而逐渐改变的各自的过去，以及他们最终抵达的未来会是…？
 :::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
@@ -27,13 +33,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Momo</h3>
-<p><b>「这个记忆（旅程）将由你我共同编织，直到永远。」</b></p>
+<p><b>「这段记忆（旅程）将由你我共同编织<br>直到永远。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>152cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>4月1日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>15岁</b></span>
 </div>
 
-<p>时间跳跃的 Momo 醒来时，发现自己身处最后一次与 Tokiya 分别的车站广场。在那里，她第一次从 Tokiya 口中得知，他因家庭原因一直苦恼着必须放弃音乐，以及他递给 Momo CD-ROM 的真相。</p>    
+<p>当Momo从时间跳跃中回过神时，发现自己正身处与Tokiya最后分别时的站前广场。这一次，她终于从Tokiya口中得知，他一直苦恼于因家庭原因而不得不放弃音乐，以及向Momo递出CD-ROM的真相。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -50,13 +56,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Tokiya</h3>
-<p><b>「向前进吧，既然已经决定，就不会犹豫。」</b></p>
+<p><b>「向前进吧<br>已经决定好了，就不会再犹豫了。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>171cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>4月30日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>他从小喜欢音乐并作曲。但当因家庭原因差点放弃音乐时，他在车站广场听到了自己创作的旋律。在捡起被父母说不要的东西的少女请求下，Tokiya 重新开始作曲，并在升学之际再次被迫决定未来。</p>    
+<p>他喜欢音乐，从小就开始作曲。就在因为家庭原因即将放弃音乐时，他在站前广场听到了自己创作的旋律。那个女孩捡起了被父母视作无用之物的他，也捡起了他几乎要丢掉的梦。在她的要求下重新开始作曲的他，在升学之际又一次被迫决定自己的将来。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -73,13 +79,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Kohaku</h3>
-<p><b>「…讨厌，好麻烦。」</b></p>
+<p><b>「…不要，好麻烦。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>163cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>9月7日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>他是 Akatsuki 的青梅竹马，也是 Sky Street 的隐藏领袖之一。擅长编程，宅在家里从事类似情报商的活动，Akatsuki 委托他调查“蝶”的传闻真相。然而，委托后 Kohaku 行为变得古怪，最终消失了。</p>    
+<p>她是Akatsuki的青梅竹马，也是天空街暗地里的领袖之一。因为精通编程，一直宅在家里从事着类似情报商的活动，Akatsuki委托她去调查「蝶」传闻的真相。然而在接下委托后，她的状态就一天比一天古怪，到最后干脆消失得无影无踪。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -96,13 +102,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Noa</h3>
-<p><b>「能实现任何愿望的“魔法师”？我是你的…」</b></p>
+<p><b>「任何愿望都能实现的『魔法师』？<br>我就是你的…」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>?</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>?</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>?</b></span>
 </div>
 
-<p>网络上知名的人物。甚至不清楚他是否真实存在，是组织还是个人。唯一确定的是有“追逐蝴蝶就能实现愿望”的传闻。Sky Street 连续发生失踪事件，警方公布失踪者疑似与 Noa 有过接触。</p>    
+<p>网络上知名的神秘人物。无人知晓究竟是否真实存在，是组织还是个人。唯一能确定的只有那句传闻「追逐蝴蝶，愿望就能成真」。而据警方通报，那些在天空街接连发生的失踪案，失踪者们均被怀疑曾与Noa有过接触。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -119,13 +125,13 @@ editLink: true
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Akatsuki</h3>
-<p><b>「我从什么时候开始自以为是的？以为知道那家伙的一切。」</b></p>
+<p><b>「我是从什么时候开始自以为是的？<br>居然自以为看透了那家伙的一切。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>174cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>12月8日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>在 Kohaku 的帮助下，终于找到了 Noa 的网站。但点击屏幕上出现的蝴蝶瞬间，出现了一条消息：“如果想回到过去，我来告诉你方法。”之后再也无法访问该网站。紧接着，街上开始出现失踪者，伙伴 Kohaku 和 Sou 也行踪不明。</p>    
+<p>在Kohaku的帮助下，他终于找到了Noa的网站。就在点击屏幕上出现的蝴蝶的瞬间，一条信息弹了出来：「若想回到过去，我便告诉你方法。」此后，那个网站便再也无法访问。紧接着，街区开始接连出现失踪者，他的伙伴Kohaku和Sou也下落不明。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -153,7 +159,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-樱花如雪般飞舞的三月末。Momo 眼前出现了熟悉的身影。Tokiya 用手指拭去 Momo 眼角的泪水，开口说道：“对 Momo…有件事一直没能说出口。”关于因家庭原因想放弃音乐之路的事。但希望有人能了解自己真实的想法，所以只上传了一首歌到网上，却被父母发现，从网络删除了。…然后，某天一直想忘记的自己的曲子，在广场上听到了。如果收下这张 CD-ROM，这次一定要自己选择道路，Tokiya 如此告诉 Momo。
+三月末，樱花如雪般纷飞。Momo的眼前出现了那道熟悉的身影。Tokiya用手指轻轻拭去她眼角的泪水，缓缓开口：“有件事…一直没能对Momo说出口。”曾因为家里的原因，一度想要放弃音乐的事。曾抱着希望有人能听懂自己真实想法的心情，不过是把一首歌传上网，却还是被父母发现，从网上删掉的事。…还有，一直以来本想要忘掉的自己的曲子，某天却在广场上听到了的事。Tokiya对Momo说，如果她愿意收下这张CD-ROM，那么这一次，他会自己选择自己的道路。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -180,7 +186,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-起初 Kohaku 以为那只是梦。从小反复做的那个梦，声音最后总会这样说：“不要忘记。一定要—做—”某个夜晚，一直听不清的部分清晰起来，想起那声音是 Kohaku 自己的“记忆”。对于不想回忆起的庞大记忆，Kohaku 变得消沉，Akatsuki 在某晚带他出去散步。看着默默走在前面的背影，Kohaku 回忆起小时候第一次看到 Akatsuki 跳舞的情景。（跳神乐的 Akatsuki 就像神明一样。我的神明…已经没有时间了。）
+起初Kohaku以为那只是个寻常的梦。从小反复做的梦里，那个声音最后总会这样说：“不要忘记。一定要——”。某个夜晚，一直听不清的部分突然变得清晰起来，她才惊觉，原来那声音是她自己的「记忆」。那些她不愿想起的、庞大的记忆，让她日渐消沉，Akatsuki便在一个夜里带她出去散步。看着默默走在前面的背影，Kohaku回忆起小时候第一次看到Akatsuki跳舞的情景。（跳着神乐舞的Akatsuki就像神明一样。我的神明啊…我已经，没有时间了。）
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -207,7 +213,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-“两名行踪依然不明，但根据信息显示两人都有与自称‘Noa’的人物接触的痕迹…”从 Sky Hall 的大型屏幕反复播放着某企业高管和政治家的面孔，Akatsuki 凝视着。从昨晚开始就联系不上 Kohaku 和 Sou。这个新闻有什么关联…？因沉迷思考，察觉背后气息的瞬间迟了一步。转身朝向传来沙沙脚步声的方向，一个戴兜帽的人影在常夜灯下浮现。白色的脸狞笑着，将冰冷的枪口对准了 Akatsuki。
+“两名失踪者目前仍下落不明，但根据情报，两人均有与自称「Noa」的人物接触的痕迹…”Akatsuki凝视着天空大厅的巨大屏幕，上面反复播放着某企业高管与政界人士的面孔。从昨晚开始就联系不上Kohaku和Sou了。和这个新闻会有什么关联…？因陷入沉思，当他察觉到身后的动静时已慢了半拍。随着沙沙的脚步声，他猛然回头——在长明灯下，一道戴着兜帽的人影若隐若现。惨白的脸狞笑着，将冰冷的枪口对准了Akatsuki。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -234,7 +240,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-31 第一次看到外面的世界时，瞬间感到失望，接着发现自己抱有“期待”这种感情，觉得可笑。在红色月光下，远眺下方大地，尽是压扁崩塌的钢骨和废料的轮廓。31 轻轻从建筑顶端踏出一步，头朝下坠向黑色大地。他的身体被黑蝶覆盖，渐渐消失不见。
+31第一次见到外面的世界时，一瞬便感到了失望。紧接着，他意识到自己竟怀揣着「期待」这种情感，又觉得有些可笑。在赤红的月光下俯瞰大地，尽是被压弯崩塌的铁骨与废铁的轮廓。31轻轻一蹬，从建筑物顶端跃下，朝着那片漆黑的大地直直坠落。他的身体渐渐被黑色的蝴蝶覆盖，最终消失不见。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
