@@ -1,0 +1,155 @@
+{
+  "id": "torikoro2",
+  "name": "トリコロちほー2",
+  "comment": "「Let's Go!!」の合図でサークルフェスタに飛び込もう！",
+  "area": "この仮想空間では誰もみな自由！ 思い思いの楽しみをきっと見つけられます。",
+  "youtubeID": "X8-a-7RmXEo",
+  "characters": [
+    {
+      "name": "しゃま（さーくるぷらす）",
+      "summary": "サークルフェスタのサポートお姉さん。\nシフォンと一緒にフェスタを盛り上げてくれます。",
+      "title1": "身長",
+      "item1": "157cm ",
+      "title2": "血液型",
+      "item2": "AB",
+      "title3": "年齢",
+      "item3": "18歳",
+      "serif": "円環の摂理に則り、敗者は消滅....",
+      "team": "おしゃま牛乳",
+      "illustrator": "さくら",
+      "img": "01"
+    },
+    {
+      "name": "シフォン（さーくるぷらす）",
+      "summary": "サークルフェスタのサポートお姉さん。\nしゃまと一緒にフェスタを盛り上げてくれます。",
+      "title1": "身長",
+      "item1": "160cm ",
+      "title2": "血液型",
+      "item2": "O",
+      "title3": "年齢",
+      "item3": "16歳",
+      "serif": "大丈夫、新たな輪っかになれるから",
+      "team": "CAFÉ MiLK",
+      "illustrator": "さくら",
+      "img": "02"
+    },
+    {
+      "name": "乙姫（Aides）",
+      "summary": "深海に沈んだ少女の夢。それは一体誰の記憶か？",
+      "title1": "身長",
+      "item1": "152cm ",
+      "title2": "血液型",
+      "item2": "不明",
+      "title3": "年齢",
+      "item3": "不明",
+      "serif": "僕は歌ってるんだよ　孤独な世界で",
+      "team": "不明 ",
+      "illustrator": "みすみ",
+      "img": "03"
+    },
+    {
+      "name": "ソルト（Treasure Chest Expedition）",
+      "summary": "今日のメタモルファッションのポイント：\nブルーベリーとキャップ！",
+      "title1": "身長",
+      "item1": "142cm ",
+      "title2": "血液型",
+      "item2": "A",
+      "title3": "年齢",
+      "item3": "12歳",
+      "serif": "カフェの組み合わせクイズは\nおまかせなのです",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "04"
+    },
+    {
+      "name": "ラズ（Treasure Chest Expedition）",
+      "summary": "今日のメタモルファッションのポイント：\nベリーとスニーカー！",
+      "title1": "身長",
+      "item1": "158cm ",
+      "title2": "血液型",
+      "item2": "B",
+      "title3": "年齢",
+      "item3": "15歳",
+      "serif": "難破船の鍵をゲット～！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "05"
+    },
+    {
+      "name": "シフォン（Treasure Chest Expedition）",
+      "summary": "今日のメタモルファッションのポイント：\nオレンジとキルティングジャケット！",
+      "title1": "身長",
+      "item1": "160cm ",
+      "title2": "血液型",
+      "item2": "O",
+      "title3": "年齢",
+      "item3": "16歳",
+      "serif": "球技は意外と得意なんです、ウフフ",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "06"
+    },
+        {
+      "name": "しゃま（Break The Speakers）",
+      "summary": "Hardsound Loud Kick",
+      "title1": "身長",
+      "item1": "157cm ",
+      "title2": "血液型",
+      "item2": "AB",
+      "title3": "年齢",
+      "item3": "18歳",
+      "serif": "Push Somebody Go!",
+      "team": "おしゃま牛乳",
+      "illustrator": "りゅうら",
+      "img": "07"
+    },
+    {
+      "name": "みるく（Break The Speakers）",
+      "summary": "The Spirit Of Hardcore",
+      "title1": "身長",
+      "item1": "157cm ",
+      "title2": "血液型",
+      "item2": "O",
+      "title3": "年齢",
+      "item3": "10歳",
+      "serif": "Break The Speakers Go!",
+      "team": "おしゃま牛乳",
+      "illustrator": "りゅうら",
+      "img": "08"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "KNØCK ØUT!!",
+      "artist": "DIVELA feat.ラングドシャ",
+      "movie": "aco",
+      "illustrator": "さくら",
+      "songsummary": "maiぱっど君の口上は、今日も軽快！\r\nサークルフェスタに集まった人々は「Let's Go!!」の合図で一斉に拳を振り上げた。\r\nここでは、現実世界の身分や肩書なんて何の意味も持たないのだ。\r\n\r\nただ、円環の摂理に則り、陣地を奪い合うのみ。さあ、君が主役の『限界突破』の始まりだ！",
+      "thumbnail": "torikoro2-1"
+    },
+    {
+      "songtitle": "Aides",
+      "artist": "tokiwa×むﾄ",
+      "movie": "あげは",
+      "illustrator": "みすみ",
+      "songsummary": "海の底、深い眠りの中でふと思い出す事がある。\r\nあの記憶は誰の物だろう……？\r\n\r\nきっと思い出さない方がいい。再び眠りにつくために、私はもう一度瞼を閉じた。",
+      "thumbnail": "torikoro2-2"
+    },
+    {
+      "songtitle": "Treasure Chest Expedition",
+      "artist": "7mai",
+      "movie": "マスティ",
+      "illustrator": "たかくら",
+      "songsummary": "スタイルチェンジで、トレジャーハントにでかけちゃおう！\r\nサークルフェスタの開催される空間では、沢山のアクティビティやイベントが盛りだくさん。\r\n今日3人が向かうのは、謎解き＆楽しい宝さがし。\r\n\r\n見つけた鍵で開いた箱の中には、一体どんなお宝が詰まっているのかな？",
+      "thumbnail": "torikoro2-3"
+    },
+    {
+      "songtitle": "ソテリア",
+      "artist": "Rafutsuri feat.桜あおい",
+      "movie": "檀上 大空",
+      "illustrator": "檀上 大空",
+      "songsummary": "あの日の景色も、足に触れた水の冷たさも、指先の温度も、何もかも。\r\n時間を止めた記憶は未だに鮮明で、無慈悲に再生を繰り返す。\r\n\r\nそれなのに、この小さな写真の中にしか、君はもう存在しないんだ。",
+      "thumbnail": "torikoro2-4"
+    }
+  ]
+}

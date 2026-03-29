@@ -1,0 +1,155 @@
+{
+  "id": "torikoro2",
+  "name": "三原色区域2",
+  "comment": "听到「Let's Go!!」的号令，就一起冲进社团祭典吧！",
+  "area": "在这个虚拟空间中，人人都很自由！ 一定能找到属于自己的乐趣。",
+  "youtubeID": "X8-a-7RmXEo",
+  "characters": [
+    {
+      "name": "Shama (Circle Plus)",
+      "summary": "负责支持社团祭典的姐姐。\n她会和 Chiffon 一起炒热祭典的气氛。",
+      "title1": "身高",
+      "item1": "157cm ",
+      "title2": "血型",
+      "item2": "AB",
+      "title3": "年龄",
+      "item3": "18岁",
+      "serif": "遵循圆环之理，败者将归于虚无……",
+      "team": "おしゃま牛乳",
+      "illustrator": "さくら",
+      "img": "01"
+    },
+    {
+      "name": "Chiffon (Circle Plus)",
+      "summary": "负责支持社团祭典的姐姐。\n她会和 Shama 一起炒热祭典的气氛。",
+      "title1": "身高",
+      "item1": "160cm ",
+      "title2": "血型",
+      "item2": "O",
+      "title3": "年龄",
+      "item3": "16岁",
+      "serif": "没关系，因为可以成为新的圆环嘛。",
+      "team": "CAFÉ MiLK",
+      "illustrator": "さくら",
+      "img": "02"
+    },
+    {
+      "name": "乙姬 (Aides)",
+      "summary": "她沉入深海的少女之梦。那究竟是谁的记忆呢？",
+      "title1": "身高",
+      "item1": "152cm ",
+      "title2": "血型",
+      "item2": "不明",
+      "title3": "年龄",
+      "item3": "不明",
+      "serif": "我正在歌唱哦 在这孤独的世界里",
+      "team": "不明 ",
+      "illustrator": "みすみ",
+      "img": "03"
+    },
+    {
+      "name": "Salt (Treasure Chest Expedition)",
+      "summary": "今日时尚变身要点：\n蓝莓和帽子！",
+      "title1": "身高",
+      "item1": "142cm ",
+      "title2": "血型",
+      "item2": "A",
+      "title3": "年龄",
+      "item3": "12岁",
+      "serif": "咖啡馆的组合谜题，\n就包在我身上吧！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "04"
+    },
+    {
+      "name": "Ras (Treasure Chest Expedition)",
+      "summary": "今日时尚变身要点：\n浆果和运动鞋！",
+      "title1": "身高",
+      "item1": "158cm ",
+      "title2": "血型",
+      "item2": "B",
+      "title3": "年龄",
+      "item3": "15岁",
+      "serif": "拿到沉船钥匙啦～！",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "05"
+    },
+    {
+      "name": "Chiffon (Treasure Chest Expedition)",
+      "summary": "今日时尚变身要点：\n橘色和绗缝夹克！",
+      "title1": "身高",
+      "item1": "160cm ",
+      "title2": "血型",
+      "item2": "O",
+      "title3": "年龄",
+      "item3": "16岁",
+      "serif": "球类运动我还挺擅长的呢，唔呼呼～",
+      "team": "CAFÉ MiLK",
+      "illustrator": "たかくら",
+      "img": "06"
+    },
+    {
+      "name": "Shama (Break The Speakers)",
+      "summary": "Hardsound Loud Kick",
+      "title1": "身高",
+      "item1": "157cm ",
+      "title2": "血型",
+      "item2": "AB",
+      "title3": "年龄",
+      "item3": "18岁",
+      "serif": "Push Somebody Go!",
+      "team": "おしゃま牛乳",
+      "illustrator": "りゅうら",
+      "img": "07"
+    },
+    {
+      "name": "Milk (Break The Speakers)",
+      "summary": "The Spirit Of Hardcore",
+      "title1": "身高",
+      "item1": "157cm ",
+      "title2": "血型",
+      "item2": "O",
+      "title3": "年龄",
+      "item3": "10岁",
+      "serif": "Break The Speakers Go!",
+      "team": "おしゃま牛乳",
+      "illustrator": "りゅうら",
+      "img": "08"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "KNØCK ØUT!!",
+      "artist": "DIVELA feat.ラングドシャ",
+      "movie": "aco",
+      "illustrator": "さくら",
+      "songsummary": "maiPad君的开场白，今天也一样轻快！\r\n聚集在社团祭典的人们，随着「Let's Go!!」的号令一齐挥起了拳头。\r\n在这里，现实世界的身份与头衔没有任何意义。\r\n\r\n只需遵循圆环之理，互相争夺地盘。来吧，属于你的《极限突破》现在开始！",
+      "thumbnail": "torikoro2-1"
+    },
+    {
+      "songtitle": "Aides",
+      "artist": "tokiwa×むﾄ",
+      "movie": "あげは",
+      "illustrator": "みすみ",
+      "songsummary": "在海底、在深沉的睡眠中，有时会忽然想起一件事。\r\n那段记忆究竟属于谁……？\r\n\r\n或许还是不要想起来比较好。为了再次沉入梦乡，我又一次闭上了眼睛。",
+      "thumbnail": "torikoro2-2"
+    },
+    {
+      "songtitle": "Treasure Chest Expedition",
+      "artist": "7mai",
+      "movie": "マスティ",
+      "illustrator": "たかくら",
+      "songsummary": "换好造型，出发去寻宝吧！\r\n在举办社团祭典的空间里，充满了各种活动和事件。\r\n今天三人要前往的，是解谜和寻宝的乐园。\r\n\r\n用找到的钥匙打开的箱子里，究竟装着什么样的宝物呢？",
+      "thumbnail": "torikoro2-3"
+    },
+    {
+      "songtitle": "ソテリア",
+      "artist": "Rafutsuri feat.桜あおい",
+      "movie": "檀上 大空",
+      "illustrator": "檀上 大空",
+      "songsummary": "那天的景色、脚边水流的冰冷、指尖的温度，所有的一切。\r\n停止在那一刻的记忆依旧鲜明，无情地反复重播。\r\n\r\n然而，你却只存在于这张小小的照片之中了。",
+      "thumbnail": "torikoro2-4"
+    }
+  ]
+}
