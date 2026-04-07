@@ -576,6 +576,27 @@ div[style*="display: flex"]:hover {
   font-size: 0.95em;
 }
 
+.kaleidx-card__meta {
+  margin-top: 10px;
+}
+
+.kaleidx-card__area {
+  margin-top: 6px;
+  font-size: 0.8em;
+  color: var(--vp-c-text-2);
+}
+
+.kaleidx-card__area a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 174, 239, 0.45);
+}
+
+.kaleidx-card__area a:hover {
+  color: var(--vp-c-brand-2);
+  border-bottom-color: rgba(0, 142, 204, 0.6);
+}
+
 /* Hero 区域 */
 .kaleidx-hero {
   position: relative;
@@ -738,10 +759,17 @@ div[style*="display: flex"]:hover {
   .kaleidx-card__title {
     margin-top: 0;
     font-size: 0.95em;
-    flex: 1;
     min-width: 0;
     white-space: normal;
     word-break: break-word;
+  }
+  .kaleidx-card__meta {
+    margin-top: 0;
+    flex: 1;
+    min-width: 0;
+  }
+  .kaleidx-card__area {
+    margin-top: 4px;
   }
   .kaleidx-check {
     top: 6px;

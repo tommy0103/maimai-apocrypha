@@ -11,6 +11,7 @@ const collapsedState = ref({});
 const loaded = ref(false);
 
 const VERSION_ORDER = [
+  "circleplus",
   "circle",
   "prismplus",
   "prism",
@@ -25,6 +26,7 @@ const VERSION_ORDER = [
 ];
 
 const VERSION_LABELS = {
+  circleplus: "CiRCLE PLUS",
   circle: "CiRCLE",
   prismplus: "PRiSM PLUS",
   prism: "PRiSM",
@@ -51,6 +53,7 @@ const STATIC_GROUPS = [
     items: [
       { text: "Phase 1（青门）", link: "/kaleidx_scope/phase1" },
       { text: "Phase 2（白门）", link: "/kaleidx_scope/phase2" },
+      { text: "Phase 3（紫门）", link: "/kaleidx_scope/phase3" },
     ],
   },
   {

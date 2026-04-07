@@ -1,13 +1,13 @@
 {
   "id": "torikoro2",
-  "name": "三原色区域2",
-  "comment": "听到「Let's Go!!」的号令，就一起冲进社团祭典吧！",
-  "area": "在这个虚拟空间中，人人都很自由！ 一定能找到属于自己的乐趣。",
+  "name": "Tricolor 区域2",
+  "comment": "在「Let's Go!!」的口号声中，一起投身于 Circle Festa 吧！",
+  "area": "在这个虚拟空间里，每个人都是自由的！ 相信你一定能找到属于自己的乐趣。",
   "youtubeID": "X8-a-7RmXEo",
   "characters": [
     {
       "name": "Shama (Circle Plus)",
-      "summary": "负责支持社团祭典的姐姐。\n她会和 Chiffon 一起炒热祭典的气氛。",
+      "summary": "Circle Festa 的支持者姐姐。\n她会和 Chiffon 一起炒热祭典的气氛。",
       "title1": "身高",
       "item1": "157cm ",
       "title2": "血型",
@@ -21,21 +21,22 @@
     },
     {
       "name": "Chiffon (Circle Plus)",
-      "summary": "负责支持社团祭典的姐姐。\n她会和 Shama 一起炒热祭典的气氛。",
+      "summary": "Circle Festa 的支持者姐姐。\n她会和 Shama 一起炒热祭典的气氛。",
       "title1": "身高",
       "item1": "160cm ",
       "title2": "血型",
       "item2": "O",
       "title3": "年龄",
       "item3": "16岁",
-      "serif": "没关系，因为可以成为新的圆环嘛。",
+      "serif": "没关系的，因为你也可以成为新的圆环",
+
       "team": "CAFÉ MiLK",
       "illustrator": "さくら",
       "img": "02"
     },
     {
-      "name": "乙姬 (Aides)",
-      "summary": "她沉入深海的少女之梦。那究竟是谁的记忆呢？",
+      "name": "乙姫 (Aides)",
+      "summary": "沉入深海的少女之梦。那究竟是谁的记忆？",
       "title1": "身高",
       "item1": "152cm ",
       "title2": "血型",
@@ -49,7 +50,7 @@
     },
     {
       "name": "Salt (Treasure Chest Expedition)",
-      "summary": "今日时尚变身要点：\n蓝莓和帽子！",
+      "summary": "今日 Metamorphosis Fashion 的要点是：\n蓝莓色和帽子！",
       "title1": "身高",
       "item1": "142cm ",
       "title2": "血型",
@@ -63,7 +64,7 @@
     },
     {
       "name": "Ras (Treasure Chest Expedition)",
-      "summary": "今日时尚变身要点：\n浆果和运动鞋！",
+      "summary": "今日 Metamorphosis Fashion 的要点是：\n浆果色和运动鞋！",
       "title1": "身高",
       "item1": "158cm ",
       "title2": "血型",
@@ -77,14 +78,14 @@
     },
     {
       "name": "Chiffon (Treasure Chest Expedition)",
-      "summary": "今日时尚变身要点：\n橘色和绗缝夹克！",
+      "summary": "今日 Metamorphosis Fashion 的要点是：\n橘色和绗缝夹克！",
       "title1": "身高",
       "item1": "160cm ",
       "title2": "血型",
       "item2": "O",
       "title3": "年龄",
       "item3": "16岁",
-      "serif": "球类运动我还挺擅长的呢，唔呼呼～",
+      "serif": "球类运动我其实还挺擅长的呢，唔呼呼",
       "team": "CAFÉ MiLK",
       "illustrator": "たかくら",
       "img": "06"
@@ -121,10 +122,10 @@
   "songs": [
     {
       "songtitle": "KNØCK ØUT!!",
-      "artist": "DIVELA feat.ラングドシャ",
+      "artist": "DIVELA feat. Langues de Chat",
       "movie": "aco",
       "illustrator": "さくら",
-      "songsummary": "maiPad君的开场白，今天也一样轻快！\r\n聚集在社团祭典的人们，随着「Let's Go!!」的号令一齐挥起了拳头。\r\n在这里，现实世界的身份与头衔没有任何意义。\r\n\r\n只需遵循圆环之理，互相争夺地盘。来吧，属于你的《极限突破》现在开始！",
+      "songsummary": "mai pad 君的报幕，今天也一样轻快！\n聚集在 Circle Festa 的人们，随着「Let's Go!!」的口号一齐高举拳头。\n在这里，现实世界的身份或头衔没有任何意义。\n\n大家只需遵循圆环之理，互相争夺阵地。来吧，属于你的『极限突破』即将开始！",
       "thumbnail": "torikoro2-1"
     },
     {
@@ -132,7 +133,7 @@
       "artist": "tokiwa×むﾄ",
       "movie": "あげは",
       "illustrator": "みすみ",
-      "songsummary": "在海底、在深沉的睡眠中，有时会忽然想起一件事。\r\n那段记忆究竟属于谁……？\r\n\r\n或许还是不要想起来比较好。为了再次沉入梦乡，我又一次闭上了眼睛。",
+      "songsummary": "在海底深处，沉睡的梦境中，偶尔会想起一些事。\n那段记忆究竟是谁的呢……？\n\n或许，还是不要想起来比较好。为了再次入睡，我重新闭上了眼睛。",
       "thumbnail": "torikoro2-2"
     },
     {
@@ -140,15 +141,15 @@
       "artist": "7mai",
       "movie": "マスティ",
       "illustrator": "たかくら",
-      "songsummary": "换好造型，出发去寻宝吧！\r\n在举办社团祭典的空间里，充满了各种活动和事件。\r\n今天三人要前往的，是解谜和寻宝的乐园。\r\n\r\n用找到的钥匙打开的箱子里，究竟装着什么样的宝物呢？",
+      "songsummary": "换上新造型，一起去寻宝吧！\n在举办 Circle Festa 的空间里，充满了各式各样的活动和节目。\n今天这三人要去的地方，是解谜与乐趣兼备的宝物探寻。\n\n用找到的钥匙打开的箱子里，究竟装着怎样的宝物呢？",
       "thumbnail": "torikoro2-3"
     },
     {
       "songtitle": "ソテリア",
-      "artist": "Rafutsuri feat.桜あおい",
+      "artist": "Rafutsuri feat. 桜あおい",
       "movie": "檀上 大空",
       "illustrator": "檀上 大空",
-      "songsummary": "那天的景色、脚边水流的冰冷、指尖的温度，所有的一切。\r\n停止在那一刻的记忆依旧鲜明，无情地反复重播。\r\n\r\n然而，你却只存在于这张小小的照片之中了。",
+      "songsummary": "那天的景色、浸湿双脚的水的冰冷、指尖的温度，一切的一切。\n被时间定格的记忆，至今依然鲜明，无情地反复重播。\n\n然而，你却只存在于这小小的照片之中了。",
       "thumbnail": "torikoro2-4"
     }
   ]

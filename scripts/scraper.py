@@ -18,10 +18,10 @@ BASE_URL = "https://maimai.sega.jp/"
 @dataclass(frozen=True)
 class ScraperConfig:
     base_url: str = BASE_URL
-    raw_data_dir: Path = Path("../raw_data")
-    images_dir: Path = Path("../docs/src/images")
+    raw_data_dir: Path = Path("raw_data")
+    images_dir: Path = Path("docs/src/images")
     concurrency: int = 16
-    area_index_path: Path = Path("../docs/public/area_index.json")
+    area_index_path: Path = Path("docs/public/area_index.json")
     only_new: bool = False
     request_timeout: float = 20.0
     max_retries: int = 3
@@ -376,12 +376,13 @@ class AreaScraper:
         return entries
 
     def fetch_begin_page(self) -> None:
-        url = "https://maimai.sega.jp/area/hapifes/story/"
-        response = httpx.get(url)
-        logging.info("Begin page length: %s", len(response.text))
+        url = "https://maimai.sega.jp/area/"
+        response = httpx.get(url, follow_redirects=True)
+        print(response.text)
+        # logging.info("Begin page length: %s", len(response.text))
 
     async def fetch_data_phase1(self) -> None:
-        version_list = ["", "./prismplus/", "./prism/", "./buddiesplus/", "./buddies/"]
+        version_list = ["", "./circle/", "./prismplus/", "./prism/", "./buddiesplus/", "./buddies/"]
         area_url = urljoin(self.config.base_url, "./area/")
         version_urls = [urljoin(area_url, version) for version in version_list]
         updated_files: list[Path] = []
@@ -490,8 +491,9 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["phase1", "phase2", "images", "begin"],
         help="Which task to run",
     )
-    parser.add_argument("--raw-data-dir", default="../raw_data")
-    parser.add_argument("--images-dir", default="../docs/src/images")
+    parser.add_argument("--raw-data-dir", default="raw_data")
+    parser.add_argument("--images-dir", default="docs/src/images")
+    parser.add_argument("--area-index-path", default="docs/public/area_index.json")
     parser.add_argument("--concurrency", type=int, default=32)
     parser.add_argument("--log-level", default="INFO")
     parser.add_argument("--timeout", type=float, default=20.0)
@@ -509,11 +511,24 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
     logging.basicConfig(level=args.log_level, format="%(levelname)s: %(message)s")
-    logging.getLogger().setLevel(logging.WARNING)
+    repo_root = Path(__file__).resolve().parents[1]
+
+    raw_data_dir = Path(args.raw_data_dir)
+    if not raw_data_dir.is_absolute():
+        raw_data_dir = repo_root / raw_data_dir
+
+    images_dir = Path(args.images_dir)
+    if not images_dir.is_absolute():
+        images_dir = repo_root / images_dir
+
+    area_index_path = Path(args.area_index_path)
+    if not area_index_path.is_absolute():
+        area_index_path = repo_root / area_index_path
 
     config = ScraperConfig(
-        raw_data_dir=Path(args.raw_data_dir),
-        images_dir=Path(args.images_dir),
+        raw_data_dir=raw_data_dir,
+        images_dir=images_dir,
+        area_index_path=area_index_path,
         concurrency=args.concurrency,
         only_new=args.only_new,
         request_timeout=args.timeout,
