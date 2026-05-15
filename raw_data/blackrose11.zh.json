@@ -1,0 +1,91 @@
+{
+  "id": "blackrose11",
+  "name": "BLACK ROSEちほー11",
+  "comment": "Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去何从？",
+  "area": "既是炼金术师也是侦探的Aul。在追查黑蔷薇病的过程中遇到的伙伴们，一同解开各种谜团。这次是关于将世界卷入战火的『福音』的故事。",
+  "youtubeID": "kEaDYTmfRdI",
+  "characters": [
+    {
+      "name": "Sasha",
+      "summary": "全名是Sasha Kovacević。他是Tristan的部下，隶属于国家炼金术协会。喉咙被施了术式等，是个充满秘密的人物。他为了委托调查强加于Tristan的外交部长谋杀嫌疑而造访了事务所。",
+      "title1": "身高",
+      "item1": "170cm ",
+      "title2": "生日",
+      "item2": "6月23日",
+      "title3": "血型",
+      "item3": "A",
+      "serif": "我是带着决心来到这个国家的。这头发就是证明。",
+      "team": "国家炼金术协会 Schrein",
+      "illustrator": "しきみ",
+      "img": "01"
+    },
+    {
+      "name": "Salutis",
+      "summary": "存在的地方，是Gefines教会深处，还是……？拥有看透一切的『天眼』之人的话语，不仅对教团内部，甚至对政治也有着巨大影响力。世界上发生的战乱等，不过是棋盘上的事件。",
+      "title1": "身高",
+      "item1": "127.7cm",
+      "title2": "生日",
+      "item2": "11月22日",
+      "title3": "血型",
+      "item3": "未知",
+      "serif": "我虽然拥有能远眺的眼睛，却没有看人的眼光呢。",
+      "team": "未知",
+      "illustrator": "しきみ",
+      "img": "02"
+    },
+    {
+      "name": "Hanna",
+      "summary": "Tristan家的女仆。态度不好，每当Aul来访时总是一副嫌麻烦的表情迎接，但每次都会用堆积如山的司康饼招待他。似乎私下在练习做笑脸。",
+      "title1": "身高",
+      "item1": "154cm",
+      "title2": "生日",
+      "item2": "9月2日",
+      "title3": "血型",
+      "item3": "O",
+      "serif": "真是乱呢，Aul大人。看来您是一点都没变啊。",
+      "team": "Tristan家",
+      "illustrator": "しきみ",
+      "img": "03"
+    },
+    {
+      "name": "Byron",
+      "summary": "曾是Mistiltein的调酒师，但在Theos岛暴露真身后从Aul等人面前消失。现在似乎潜伏在某处。",
+      "title1": "身高",
+      "item1": "185cm ",
+      "title2": "生日",
+      "item2": "11月28日",
+      "title3": "血型",
+      "item3": "未知",
+      "serif": "能够一笑而过的强大吗……也许是我最轻视他们了。",
+      "team": "Mistiltein？",
+      "illustrator": "しきみ",
+      "img": "04"
+    }
+  ],
+  "songs": [
+    {
+      "songtitle": "All Master",
+      "artist": "大漠波新 feat.ヲタみん",
+      "movie": "ツツミヒデアキ",
+      "illustrator": "しきみ",
+      "songsummary": "由Ralph和Hanna陪同，造访Aul侦探事务所的客人。他的委托是查明强加于Tristan的谋杀嫌疑。以及另一个——关于被称为『福音』的、类似都市传说的传闻。突然变得诡异的世界局势。据说其背后存在着某个引导人们争斗的文章。在追查Tristan的嫌疑过程中，Aul一行人被卷入了巨大事件的漩涡之中。",
+      "thumbnail": "blackrose11-1"
+    },
+    {
+      "songtitle": "STRAY",
+      "artist": "umigame",
+      "movie": "びーすけ",
+      "illustrator": "しきみ",
+      "songsummary": "将孩子作为劳动力拐走，卖掉。在这个时代，也有用这种卑鄙手段赚快钱的人。与母亲走散后在森林中徘徊的Hanna，也被这样的一个恶人抓住了。和陌生少年一起被带到的，是一位以慈善家闻名的夫人的宅邸。不仅墙壁和地板，甚至连装饰美丽的花和食物都被铜锈染绿的『Willow Green House』。在这座宅邸上演的，是一场美丽而又令人作呕的噩梦。",
+      "thumbnail": "blackrose11-2"
+    },
+    {
+      "songtitle": "Chronoidea",
+      "artist": "iDEN LiLY feat.X-Fenriey",
+      "movie": "shuuya",
+      "illustrator": "しきみ",
+      "songsummary": "被逐出天界、因憎恨而憔悴的天使，只是一味地捡拾破碎之枪的碎片。即便那犹如在沙漠中寻找一粒砂金般的行为。这是在地上彷徨了数千年的天使的故事。",
+      "thumbnail": "blackrose11-3"
+    }
+  ]
+}
