@@ -1,5 +1,5 @@
 ---
-title: kaleidx_scope phase2
+title: kaleidx_scope phase3
 editLink: true
 ---
 
@@ -30,7 +30,7 @@ editLink: true
 :::
 
 <div style="text-align: center; margin: 18px 0 28px;">
-  <img src="/src/images/kaleidx_scope/phase3/phase3-bg01.png" alt="Phase 2" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
+  <img src="/src/images/kaleidx_scope/phase3/phase3-bg01.png" alt="Phase 3" style="max-width: min(640px, 90%); border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.12); opacity: 0.95;">
 </div>
 
 ## 所需伙伴：アウル

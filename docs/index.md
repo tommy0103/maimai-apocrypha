@@ -42,8 +42,10 @@ hero:
       <h3 class="home-card__title">万花筒 (kaleidx_scope)</h3>
       <p class="home-card__desc">提供解锁条件与歌曲清单，快速定位需要完成的任务。</p>
       <div class="home-card__actions">
-        <a class="VPButton brand" href="/kaleidx_scope/phase1">Phase 1</a>
-        <a class="VPButton alt" href="/kaleidx_scope/phase2">Phase 2</a>
+        <a class="VPButton brand" href="/kaleidx_scope/phase1">P1</a>
+        <a class="VPButton alt" href="/kaleidx_scope/phase2">P2</a>
+        <a class="VPButton alt" href="/kaleidx_scope/phase3">P3</a>
+        <a class="VPButton alt" href="/kaleidx_scope/phase4">P4</a>
       </div>
     </div>
   </div>

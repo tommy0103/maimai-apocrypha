@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 def translate_json(data):
     # 直接让 LLM 翻译整个 JSON
     response = client.chat.completions.create(
-        model="deepseek-reasoner",
+        model="deepseek-v4-pro",
         # model="kimi-k2-thinking",
         messages=[
         {"role" : "system", "content": """

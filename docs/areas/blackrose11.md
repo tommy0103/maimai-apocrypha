@@ -5,10 +5,12 @@ editLink: true
 
 # BLACK ROSEちほー11（blackrose11 区域）
 ::: info 区域简介
-既是炼金术师也是侦探的Aul。在追查黑蔷薇病的过程中遇到的伙伴们，一同解开各种谜团。这次是关于将世界卷入战火的『福音』的故事。
+既是炼金术师又是侦探的 Owl。
+在与追查黑蔷薇病的过程中结识的伙伴们一起，不断解开种种谜团。
+本次是关于将世界卷入战火的『福音』的故事。
 :::
 ::: tip 一些小信息
-Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去何从？
+Tristan 蒙受的杀人嫌疑。追查此事的 Owl 侦探事务所一行人的去向是？
 :::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
@@ -36,13 +38,13 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Sasha</h3>
-<p><b>「我是带着决心来到这个国家的。这头发就是证明。」</b></p>
+<p><b>「我下定了决心来到这个国家<br>这头发就是证明」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
-<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>170cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>6月23日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血型:</span><b>A</b></span>
+<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>170cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>6月23日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>A</b></span>
 </div>
 
-<p>全名是Sasha Kovacević。他是Tristan的部下，隶属于国家炼金术协会。喉咙被施了术式等，是个充满秘密的人物。他为了委托调查强加于Tristan的外交部长谋杀嫌疑而造访了事务所。</p>    
+<p>全名是 Sasha Kovacevich。她是 Tristan 的部下，隶属于国家炼金术协会。喉咙被施加了术式等，是一位充满秘密的人物。为了委托调查 Tristan 所背负的外交大臣杀人嫌疑而造访了事务所。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -59,13 +61,13 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Salutis</h3>
-<p><b>「我虽然拥有能远眺的眼睛，却没有看人的眼光呢。」</b></p>
+<p><b>「我虽然有看透远方的眼睛<br>却没有看人的眼光呢」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
-<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>127.7cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>11月22日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血型:</span><b>未知</b></span>
+<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>127.7cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>11月22日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>不明</b></span>
 </div>
 
-<p>存在的地方，是Gefines教会深处，还是……？拥有看透一切的『天眼』之人的话语，不仅对教团内部，甚至对政治也有着巨大影响力。世界上发生的战乱等，不过是棋盘上的事件。</p>    
+<p>究竟是存在于 Gefines 教会深处，还是……？拥有能看透一切的『天之眼』之人，其话语不仅在教团内部，对政治也有巨大影响力。世界上发生的战乱，只不过如同棋盘上的事罢了。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -82,13 +84,13 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Hanna</h3>
-<p><b>「真是乱呢，Aul大人。看来您是一点都没变啊。」</b></p>
+<p><b>「您还真是老样子乱糟糟的呢，<br>Owl 大人。看来您一点都没变。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
-<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>154cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>9月2日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血型:</span><b>O</b></span>
+<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>154cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>9月2日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>O</b></span>
 </div>
 
-<p>Tristan家的女仆。态度不好，每当Aul来访时总是一副嫌麻烦的表情迎接，但每次都会用堆积如山的司康饼招待他。似乎私下在练习做笑脸。</p>    
+<p>Tristan 家的女仆。虽然态度冷淡，Owl 来访时总是以一脸麻烦的样子迎接，但每次都会端上堆得满满的司康饼来招待。似乎在背地里练习微笑。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -105,13 +107,13 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Byron</h3>
-<p><b>「能够一笑而过的强大吗……也许是我最轻视他们了。」</b></p>
+<p><b>「能将一切一笑置之的强大啊<br>或许我才是最看不起他们的那个吧」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
-<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>185cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>11月28日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血型:</span><b>未知</b></span>
+<span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>185cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>11月28日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>不明</b></span>
 </div>
 
-<p>曾是Mistiltein的调酒师，但在Theos岛暴露真身后从Aul等人面前消失。现在似乎潜伏在某处。</p>    
+<p>曾是 Mistoltein 的酒保，在 Teos 岛暴露真面目之后从 Owl 等人面前消失了。现在似乎潜伏在某处。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -139,7 +141,7 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-由Ralph和Hanna陪同，造访Aul侦探事务所的客人。他的委托是查明强加于Tristan的谋杀嫌疑。以及另一个——关于被称为『福音』的、类似都市传说的传闻。突然变得诡异的世界局势。据说其背后存在着某个引导人们争斗的文章。在追查Tristan的嫌疑过程中，Aul一行人被卷入了巨大事件的漩涡之中。
+由 Ralf 和 Hanna 陪同，造访 Owl 侦探事务所的客人。<br>他的委托是澄清 Tristan 所背负的杀人嫌疑。<br>还有另一件事。<br>关于被称为『福音』的、都市传说般的流言。<br><br>骤然变得风雨飘摇的世界局势。<br>据说在其背后，有着将人们导向争斗的某篇文章存在。<br><br>在追查 Tristan 嫌疑的过程中，Owl 等人逐渐被卷入重大事件的漩涡。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -166,7 +168,7 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-将孩子作为劳动力拐走，卖掉。在这个时代，也有用这种卑鄙手段赚快钱的人。与母亲走散后在森林中徘徊的Hanna，也被这样的一个恶人抓住了。和陌生少年一起被带到的，是一位以慈善家闻名的夫人的宅邸。不仅墙壁和地板，甚至连装饰美丽的花和食物都被铜锈染绿的『Willow Green House』。在这座宅邸上演的，是一场美丽而又令人作呕的噩梦。
+掳走孩童作为劳动力贩卖。<br>在这个时代，也有用如此恶劣手段赚取日结的家伙混迹于世。<br><br>与母亲走散在森林中徘徊的 Hanna，也被那样的恶徒抓走了。<br><br>她和一名素未谋生的少年一起被带到了一位以慈善家闻名的夫人的宅邸。<br>不仅是墙壁和地板，连装饰美丽的鲜花和食物都染上铜绿的「Willow Green House」<br>在这座宅邸中上演的，是华美而可怖的噩梦。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -193,7 +195,7 @@ Tristan身负谋杀嫌疑。追踪此事的Aul侦探事务所一行人将何去�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-被逐出天界、因憎恨而憔悴的天使，只是一味地捡拾破碎之枪的碎片。即便那犹如在沙漠中寻找一粒砂金般的行为。这是在地上彷徨了数千年的天使的故事。
+被放逐天界，沉浸于憎恨之中的天使<br>只是一昧地捡拾着破碎之枪的碎片。<br>纵然那犹如在沙漠中寻找一粒沙金般的行为。<br><br>这是数千年间在地上徘徊的天使的故事。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

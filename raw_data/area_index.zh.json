@@ -1,0 +1,147 @@
+[
+  {
+    "id": "hapifes2",
+    "text": "Happy Fest 区域2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "blackrose8",
+    "text": "BLACK ROSE 区域8",
+    "version": "festivalplus"
+  },
+  {
+    "id": "skystreet4",
+    "text": "Sky Street 区域4",
+    "version": "festivalplus"
+  },
+  {
+    "id": "dragon2",
+    "text": "Dragon 区域2",
+    "version": "festivalplus"
+  },
+  {
+    "id": "hapifes",
+    "text": "Happy Fest 区域",
+    "version": "festival"
+  },
+  {
+    "id": "blackrose7",
+    "text": "BLACK ROSE 区域7",
+    "version": "festival"
+  },
+  {
+    "id": "metropolis6",
+    "text": "Metropolis 区域6",
+    "version": "festival"
+  },
+  {
+    "id": "skystreet3",
+    "text": "Sky Street 区域3",
+    "version": "festival"
+  },
+  {
+    "id": "heaven6",
+    "text": "天界区域6",
+    "version": "festival"
+  },
+  {
+    "id": "universe2",
+    "text": "Space Station 区域2",
+    "version": "universeplus"
+  },
+  {
+    "id": "blackrose6",
+    "text": "BLACK ROSE 区域6",
+    "version": "universeplus"
+  },
+  {
+    "id": "metropolis5",
+    "text": "Metropolis 区域5",
+    "version": "universeplus"
+  },
+  {
+    "id": "heaven5",
+    "text": "天界区域5",
+    "version": "universeplus"
+  },
+  {
+    "id": "7sref2",
+    "text": "7sRef 区域2",
+    "version": "universeplus"
+  },
+  {
+    "id": "universe",
+    "text": "Space Station 区域",
+    "version": "universe"
+  },
+  {
+    "id": "blackrose5",
+    "text": "BLACK ROSE 区域5",
+    "version": "universe"
+  },
+  {
+    "id": "heaven4",
+    "text": "天界区域4",
+    "version": "universe"
+  },
+  {
+    "id": "metropolis4",
+    "text": "Metropolis 区域4",
+    "version": "universe"
+  },
+  {
+    "id": "7sref",
+    "text": "7sRef 区域",
+    "version": "universe"
+  },
+  {
+    "id": "shuwa-shuwa2",
+    "text": "Shuwashuwa 区域2",
+    "version": "splashplus"
+  },
+  {
+    "id": "blackrose4",
+    "text": "BLACK ROSE 区域4",
+    "version": "splashplus"
+  },
+  {
+    "id": "skystreet2",
+    "text": "Sky Street 区域2",
+    "version": "splashplus"
+  },
+  {
+    "id": "takamagahara",
+    "text": "高天原区域",
+    "version": "splashplus"
+  },
+  {
+    "id": "kawaii",
+    "text": "kawaii 区域",
+    "version": "splashplus"
+  },
+  {
+    "id": "shuwa-shuwa",
+    "text": "Shuwashuwa 区域",
+    "version": "splash"
+  },
+  {
+    "id": "metropolis3",
+    "text": "Metropolis 区域3",
+    "version": "splash"
+  },
+  {
+    "id": "blackrose3",
+    "text": "BLACK ROSE 区域3",
+    "version": "splash"
+  },
+  {
+    "id": "skystreet",
+    "text": "Sky Street 区域",
+    "version": "splash"
+  },
+  {
+    "id": "heaven3",
+    "text": "天界区域3",
+    "version": "splash"
+  }
+]
