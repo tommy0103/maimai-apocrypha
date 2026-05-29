@@ -91,7 +91,7 @@ editLink: true
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>174cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>12月8日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>他出身于古老的祭祀舞蹈世家，却并不拘泥于传统，摸索出属于自己的独特舞姿，成为备受瞩目的舞者。某天，他的手腕上突然浮现出了蝶形印痕，在得知这与街头传闻的网络主宰「Noa」使用的蝶形记号极为相似之后，他展开了调查。</p>    
+<p>他出身于古老的祭祀舞蹈世家，却并不拘泥于传统，摸索出属于自己的独特舞姿，成为备受瞩目的舞者。某天，他的手腕上突然浮现出了蝶形印痕，在得知这与街头传闻的网络主宰「Noah」使用的蝶形记号极为相似之后，他展开了调查。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -114,7 +114,7 @@ editLink: true
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>184cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>11月19日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>17岁</b></span>
 </div>
 
-<p>职业篮球选手。拥有天才般的才能却缺乏团队合作精神。在一场比赛中，他受到了危及职业生涯的重伤，就在他想要时间跳跃回赛前时，遭到了Noa的袭击，被夺走了蝶形印痕。</p>    
+<p>职业篮球选手。拥有天才般的才能却缺乏团队合作精神。在一场比赛中，他受到了危及职业生涯的重伤，就在他想要时间跳跃回赛前时，遭到了Noah的袭击，被夺走了蝶形印痕。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -127,17 +127,17 @@ editLink: true
 
 <div class="story-card story-card--character">
 <div class="story-card__media" style="width: 120px;">
-<img src="/src/images/skystreet/05.png" alt="Noa">
+<img src="/src/images/skystreet/05.png" alt="Noah">
 </div>
 <div class="story-card__body">
-<h3 style="margin-top: 0;">Noa</h3>
+<h3 style="margin-top: 0;">Noah</h3>
 <p><b>「10100101101010111010010110<br>1100111010010111011000」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身高:</span><b>？</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">生日:</span><b>？</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">年龄:</span><b>？</b></span>
 </div>
 
-<p>最近，在天空街的学生之间和网络留言板上，流传着『在网上追逐蝴蝶，愿望就能成真』的传言。而线索则指向一个名为「Noa」的网站管理员运营的黑色页面。若能一路摸索找到那里，便会看见一个蝶形记号。</p>    
+<p>最近，在天空街的学生之间和网络留言板上，流传着『在网上追逐蝴蝶，愿望就能成真』的传言。而线索则指向一个名为「Noah」的网站管理员运营的黑色页面。若能一路摸索找到那里，便会看见一个蝶形记号。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -192,7 +192,7 @@ editLink: true
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-夜幕降临之时，便会有一群身着和服的人骤然现身。<br>当他们起舞时，原本平淡无奇的街道便会瞬间转变，令人陷入仿佛误闯了异世界般的沉醉感。<br>听闻此传闻的人们，为了亲眼目睹这场不知何时何地开始的游击演出，每夜都会涌向天空街。<br>Akatsuki曾率领着这支舞者团体Loto Team，然而某天，他却被卷入了一桩匪夷所思的事件，手腕上刻下了蝶形印痕。<br>为了追查街头传闻中使用相同蝶形记号的网络主宰「Noa」，Akatsuki开始了行动。
+夜幕降临之时，便会有一群身着和服的人骤然现身。<br>当他们起舞时，原本平淡无奇的街道便会瞬间转变，令人陷入仿佛误闯了异世界般的沉醉感。<br>听闻此传闻的人们，为了亲眼目睹这场不知何时何地开始的游击演出，每夜都会涌向天空街。<br>Akatsuki曾率领着这支舞者团体Loto Team，然而某天，他却被卷入了一桩匪夷所思的事件，手腕上刻下了蝶形印痕。<br>为了追查街头传闻中使用相同蝶形记号的网络主宰「Noah」，Akatsuki开始了行动。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
@@ -246,7 +246,7 @@ Nanoha笔下的画作，总能撼动人们的情感。<br>那是些仿佛缺失�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-初高中时期就备受瞩目的篮球希望之星Sou，在17岁便跻身职业球坛的天才得分手。<br>然而正因如此，他不擅长与团队建立默契，只对实力相当的选手感兴趣。<br>渐渐地，就连和队友之间也无法取得配合，终于某日比赛中他受到重伤，陷入了职业生涯危机。<br>这时，被手机中突然收到的「让你回到过去再来一次」的不明消息蛊惑，他发动了时间跳跃，却在途中遭到「Noa」的袭击，精神被投射到小学生时代的身体里，再也无法回到原来的时代。
+初高中时期就备受瞩目的篮球希望之星Sou，在17岁便跻身职业球坛的天才得分手。<br>然而正因如此，他不擅长与团队建立默契，只对实力相当的选手感兴趣。<br>渐渐地，就连和队友之间也无法取得配合，终于某日比赛中他受到重伤，陷入了职业生涯危机。<br>这时，被手机中突然收到的「让你回到过去再来一次」的不明消息蛊惑，他发动了时间跳跃，却在途中遭到「Noah」的袭击，精神被投射到小学生时代的身体里，再也无法回到原来的时代。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">

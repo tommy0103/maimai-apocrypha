@@ -5,12 +5,12 @@ editLink: true
 
 # BLACK ROSEちほー11（blackrose11 区域）
 ::: info 区域简介
-既是炼金术师又是侦探的 Aul。
+既是炼金术师又是侦探的 Owl。
 在与追查黑蔷薇病的过程中结识的伙伴们一起，不断解开种种谜团。
 本次是关于将世界卷入战火的『福音』的故事。
 :::
 ::: tip 一些小信息
-Tristan 蒙受的杀人嫌疑。追查此事的 Aul 侦探事务所一行人的去向是？
+Tristan 蒙受的杀人嫌疑。追查此事的 Owl 侦探事务所一行人的去向是？
 :::
 <details class='raw-text'>
 <summary>查看日语原文 (Original Text)</summary>
@@ -84,13 +84,13 @@ Tristan 蒙受的杀人嫌疑。追查此事的 Aul 侦探事务所一行人的�
 </div>
 <div class="story-card__body">
 <h3 style="margin-top: 0;">Hanna</h3>
-<p><b>「您还真是老样子乱糟糟的呢，<br>Aul 大人。看来您一点都没变。」</b></p>
+<p><b>「您还真是老样子乱糟糟的呢，<br>Owl 大人。看来您一点都没变。」</b></p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.9em; margin: 10px 0; padding: 8px 12px; background: var(--vp-c-bg-alt); border-radius: 6px;">
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>154cm</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>9月2日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>O</b></span>
 </div>
 
-<p>Tristan 家的女仆。虽然态度冷淡，Aul 来访时总是以一脸麻烦的样子迎接，但每次都会端上堆得满满的司康饼来招待。似乎在背地里练习微笑。</p>    
+<p>Tristan 家的女仆。虽然态度冷淡，Owl 来访时总是以一脸麻烦的样子迎接，但每次都会端上堆得满满的司康饼来招待。似乎在背地里练习微笑。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -113,7 +113,7 @@ Tristan 蒙受的杀人嫌疑。追查此事的 Aul 侦探事务所一行人的�
 <span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">身長:</span><b>185cm </b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">誕生日:</span><b>11月28日</b></span><span style="white-space: nowrap;"><span style="opacity: 0.6; margin-right: 4px;">血液型:</span><b>不明</b></span>
 </div>
 
-<p>曾是 Mistoltein 的酒保，在 Teos 岛暴露真面目之后从 Aul 等人面前消失了。现在似乎潜伏在某处。</p>    
+<p>曾是 Mistoltein 的酒保，在 Teos 岛暴露真面目之后从 Owl 等人面前消失了。现在似乎潜伏在某处。</p>    
 <details class="raw-text" style="margin-top: 10px; border: 1px solid var(--vp-c-divider); padding: 8px; border-radius: 4px;">
 <summary style="cursor: pointer; opacity: 0.7;">查看原文数据</summary>
 <div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
@@ -141,7 +141,7 @@ Tristan 蒙受的杀人嫌疑。追查此事的 Aul 侦探事务所一行人的�
 </div>
         
 <div style="opacity: 0.9; line-height: 1.7;">
-由 Ralf 和 Hanna 陪同，造访 Aul 侦探事务所的客人。<br>他的委托是澄清 Tristan 所背负的杀人嫌疑。<br>还有另一件事。<br>关于被称为『福音』的、都市传说般的流言。<br><br>骤然变得风雨飘摇的世界局势。<br>据说在其背后，有着将人们导向争斗的某篇文章存在。<br><br>在追查 Tristan 嫌疑的过程中，Aul 等人逐渐被卷入重大事件的漩涡。
+由 Ralf 和 Hanna 陪同，造访 Owl 侦探事务所的客人。<br>他的委托是澄清 Tristan 所背负的杀人嫌疑。<br>还有另一件事。<br>关于被称为『福音』的、都市传说般的流言。<br><br>骤然变得风雨飘摇的世界局势。<br>据说在其背后，有着将人们导向争斗的某篇文章存在。<br><br>在追查 Tristan 嫌疑的过程中，Owl 等人逐渐被卷入重大事件的漩涡。
 </div>
         
 <details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
