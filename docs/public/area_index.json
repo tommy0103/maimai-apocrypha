@@ -130,6 +130,11 @@
     "version": "circle"
   },
   {
+    "id": "metropolis10",
+    "text": "メトロポリスちほー10",
+    "version": "circleplus"
+  },
+  {
     "id": "metropolis3",
     "text": "メトロポリスちほー3",
     "version": "splash"

@@ -321,3 +321,30 @@ maiぱっど君の口上は、今日も軽快！<br>サークルフェスタに�
 </details>
 </div>
 </div>
+
+
+### 歌え踊れや桃源郷！
+
+<div class="story-card story-card--song">
+<div class="story-card__media">
+<img src="/src/images/torikoro2/torikoro2-5.png" alt="歌え踊れや桃源郷！" style="box-shadow: 0 8px 16px rgba(0,0,0,0.15); aspect-ratio: 1/1;">
+</div>
+    
+<div class="story-card__body">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 12px;">
+<h3 style="margin: 0; border: none; font-size: 1.3em;">歌え踊れや桃源郷！</h3>
+<Badge type="tip" text="karato feat.yuno" style="vertical-align: middle;" />
+</div>
+        
+<div style="opacity: 0.9; line-height: 1.7;">
+サークルフェスタの報酬について知った乙姫。<br>勝利すれば、なんでも願いが叶うというのですから、ワクワクがとまりません。<br>そこに通りかかった、らいむとれもんも報酬の話を一通り聞いて、感心してうなずき合います。<br>「へえ～、願いが叶うなんてすごい！ でも乙姫様の願いって？」<br>「上様ランド建設の夢はまだあきらめておらん！ ……そうじゃ！ 夢はもっと大きく、自分だけの新しいバカンス地を作りたいのう。参考になる良いバカンス地など知らぬか？」<br>「あ！ 良い場所があるよ！ すっごいレアなとこ～」<br>「日本の裏側の～、不思議な観光地に僕たちがご案内するもん～」<br>「何!? 不思議な観光地じゃと？ 早速行こうではないか！<br>それを参考に、すんごいバカンス地を新たに作るのじゃ！ その名も『ザ・乙姫ランド』じゃあ～!!!」<br><br>―――さてさて、乙姫はらいむれもんと、どんな場所を旅して回るのでしょうか？<br><br>※こちらの楽曲は「サークルフェスタ シーズン3」の勝利チームに先行解禁されます。
+</div>
+        
+<details class="raw-text" style="margin-top: 15px; border-top: 1px dashed var(--vp-c-divider); padding-top: 10px;">
+<summary style="cursor: pointer; opacity: 0.6; font-size: 0.85em;">查看日语原文</summary>
+<div style="font-size: 0.9em; margin-top: 8px; color: var(--vp-c-text-2);">
+サークルフェスタの報酬について知った乙姫。<br>勝利すれば、なんでも願いが叶うというのですから、ワクワクがとまりません。<br>そこに通りかかった、らいむとれもんも報酬の話を一通り聞いて、感心してうなずき合います。<br>「へえ～、願いが叶うなんてすごい！ でも乙姫様の願いって？」<br>「上様ランド建設の夢はまだあきらめておらん！ ……そうじゃ！ 夢はもっと大きく、自分だけの新しいバカンス地を作りたいのう。参考になる良いバカンス地など知らぬか？」<br>「あ！ 良い場所があるよ！ すっごいレアなとこ～」<br>「日本の裏側の～、不思議な観光地に僕たちがご案内するもん～」<br>「何!? 不思議な観光地じゃと？ 早速行こうではないか！<br>それを参考に、すんごいバカンス地を新たに作るのじゃ！ その名も『ザ・乙姫ランド』じゃあ～!!!」<br><br>―――さてさて、乙姫はらいむれもんと、どんな場所を旅して回るのでしょうか？<br><br>※こちらの楽曲は「サークルフェスタ シーズン3」の勝利チームに先行解禁されます。
+</div>
+</details>
+</div>
+</div>
